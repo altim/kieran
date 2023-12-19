@@ -1,0 +1,36 @@
+@use "/app/css/layout";
+
+.skills {
+  @extend %grid;
+  padding-top: 70px;
+  background: var(--background-gray);
+}
+
+.skillsInner {
+  grid-column: content;
+
+  h3 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal;
+  }
+}
+
+.skillsContent {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  padding: 30px;
+  max-width: 760px;
+  margin: auto;
+
+  ul {
+    padding: 0 0 0 30px;
+    margin: 0;
+    columns: 2;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    column-gap: 4em;
+  }
+}

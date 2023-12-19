@@ -1,0 +1,40 @@
+@use "/app/css/layout";
+
+.brands {
+  @extend %grid;
+}
+
+.brandsInner {
+  grid-column: content;
+  padding: 90px 0 50px 0;
+
+  h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 60px;
+  }
+}
+
+.brandsList {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  grid-gap: 24px;
+}
+
+.brandItem {
+  border-radius: 6px;
+  background: var(--background-gray);
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  padding: 24px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+
+.actionButton {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: end;
+  margin-top: 60px;
+}

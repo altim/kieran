@@ -1,0 +1,8 @@
+%grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: [full-width-start] 1fr [content-start] minmax(
+      200px,
+      920px
+    ) [content-end] 1fr [full-width-end];
+}

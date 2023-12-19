@@ -1,0 +1,21 @@
+.iconLink {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 52px max-content max-content;
+  align-items: center;
+  justify-items: center;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.4s;
+
+  &:hover {
+    color: var(--blue);
+  }
+}
+
+.title,
+.subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+}

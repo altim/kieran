@@ -1,0 +1,48 @@
+@use "/app/css/layout";
+
+.hero {
+  @extend %grid;
+  background: var(--background-gray);
+}
+
+.blueRibbon {
+  grid-column: full-width;
+  background: var(--blue);
+  height: 230px;
+}
+
+.heroInner {
+  grid-column: content;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.heroImage {
+  margin-top: -149px;
+  border-radius: 7px;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 100px;
+  margin-top: 60px;
+}
+
+.description {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 55px;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}

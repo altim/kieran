@@ -1,0 +1,46 @@
+@use "/app/css/layout";
+
+.portfolioItem {
+  @extend %grid;
+}
+
+.portfolioItemInner {
+  grid-column: content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+  align-items: center;
+}
+
+.image {
+  border-radius: 7px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr max-content;
+  height: 100%;
+
+  h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 1em;
+  }
+}
+
+.actionButton {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: end;
+}
+
+.actionButtonAlignLeft {
+  justify-items: start;
+}

@@ -1,0 +1,57 @@
+@use "/app/css/layout";
+
+.footer {
+  @extend %grid;
+}
+
+.footerInner {
+  grid-column: content;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-column-gap: 20px;
+  align-items: center;
+  padding: 20px 0 20px 0;
+
+  p,
+  a {
+    font-size: 24px;
+    color: #000;
+    line-height: 34px;
+    text-underline-offset: 4px;
+  }
+
+  a {
+    transition: all 0.4s;
+    &:hover {
+      color: var(--blue);
+    }
+  }
+}
+
+.backToTop {
+  cursor: pointer;
+  transition: all 0.4s;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.footerLeft {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.copyright {
+  grid-column: full-width;
+  height: 60px;
+  background: #000;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  p {
+    color: #938e8e;
+    font-size: 10px;
+  }
+}

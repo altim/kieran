@@ -1,0 +1,55 @@
+@use "/app/css/layout";
+
+.navigation {
+  @extend %grid;
+  border-bottom: 1px solid var(--separator-gray);
+  background: var(--background-gray);
+}
+
+.navigationInner {
+  grid-column: content;
+  display: grid;
+  grid-template-columns: auto max-content;
+  height: 80px;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.4s;
+
+    &:hover {
+      color: var(--blue);
+    }
+  }
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.menu {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-column-gap: 20px;
+
+  a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.4s;
+    color: #000;
+
+    &:hover {
+      color: var(--blue);
+    }
+  }
+}
+
+.navigationBottom {
+  grid-column: full-width;
+  height: 60px;
+  background: var(--background-gray);
+}
