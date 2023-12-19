@@ -17,7 +17,7 @@ export default function Hero() {
         <h1 className={styles.title}>
           Kieran
           <br />
-          Hurley2
+          Hurley
         </h1>
         <p className={styles.description}>
           I am an multi-disciplined art director and design project leader,
