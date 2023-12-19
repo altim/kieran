@@ -3,10 +3,6 @@ import Image from "next/image";
 import IconLink from "@/app/(home)/components/icon-link/IconLink";
 
 export default function Hero() {
-  const basePath =
-    process.env.NODE_ENV === "production"
-      ? "https://www.altimcode.com/projects/kieran/"
-      : "";
   return (
     <div className={styles.hero}>
       <div className={styles.blueRibbon} />
