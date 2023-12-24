@@ -1,3 +1,5 @@
+@use "/app/css/layout";
+
 .relatedProject {
   display: grid;
   grid-template-columns: 1fr;
@@ -14,6 +16,8 @@
   object-fit: cover;
   object-position: center center;
   max-width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
 }
 
 .overlay {
@@ -30,4 +34,8 @@
   font-size: 40px;
   font-weight: 400;
   color: #fff;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 26px;
+  }
 }

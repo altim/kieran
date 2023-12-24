@@ -25,8 +25,6 @@ export default function PortfolioItem({
     (item) => portfolioItem?.relatedProjects.includes(item.slug),
   );
 
-  console.log("relatedProjects:", relatedProjects);
-
   if (!portfolioItem) {
     notFound();
   }

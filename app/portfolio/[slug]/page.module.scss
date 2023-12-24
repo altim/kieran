@@ -2,7 +2,11 @@
 
 .portfolioItemTitle {
   @extend %grid;
-  padding: 50px;
+  padding: 50px 0;
+
+  @media (max-width: layout.$tabletWidth) {
+    padding: 24px 0;
+  }
 }
 
 .portfolioItemTitleInner {
@@ -12,7 +16,11 @@
   h2 {
     font-size: 40px;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 1.25;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 26px;
+    }
   }
 }
 
@@ -29,12 +37,22 @@
   grid-template-columns: 1fr;
   grid-row-gap: 60px;
   padding-bottom: 60px;
+
+  @media (max-width: layout.$tabletWidth) {
+    grid-row-gap: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .paragraph {
   display: grid;
   grid-template-columns: max-content 1fr;
   grid-column-gap: 90px;
+
+  @media (max-width: layout.$tabletWidth) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 1em;
+  }
 
   h4 {
     font-size: 22px;
@@ -54,8 +72,14 @@
   grid-gap: 24px;
   padding-bottom: 90px;
 
+  @media (max-width: layout.$tabletWidth) {
+    padding-bottom: 50px;
+  }
+
   img {
     border-radius: 7px;
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -63,8 +87,13 @@
   h3 {
     font-size: 40px;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 1.25;
     margin-bottom: 50px;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 26px;
+      margin-bottom: 24px;
+    }
   }
 }
 
@@ -73,6 +102,10 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 24px;
   padding-bottom: 50px;
+
+  @media (max-width: layout.$mobileWidth) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .imgFullWidth {
