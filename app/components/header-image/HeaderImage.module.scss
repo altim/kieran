@@ -1,6 +1,6 @@
 @use "/app/css/layout";
 
-.headerImage {
+.headerImageWrapper {
   @extend %grid;
 }
 
@@ -13,6 +13,10 @@
   background: var(--blue);
   height: 320px;
   width: 100%;
+
+  @media (max-width: layout.$tabletWidth) {
+    height: 200px;
+  }
 }
 
 .headerImage {
@@ -20,8 +24,14 @@
   grid-row: 1/3;
 
   img {
+    max-width: 100%;
+    height: auto;
     margin-top: 60px;
     border-radius: 7px;
+
+    @media (max-width: layout.$tabletWidth) {
+      margin-top: 30px;
+    }
   }
 }
 

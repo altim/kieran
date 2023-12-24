@@ -18,7 +18,7 @@ export default function HeaderImage({
 }: HeaderImageProps) {
   return (
     <div
-      className={classNames(styles.headerImage, {
+      className={classNames(styles.headerImageWrapper, {
         [styles.whiteBgd]: backgroundColor === "white",
         [styles.grayBgd]: backgroundColor === "gray",
       })}

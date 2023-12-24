@@ -18,6 +18,7 @@
   font-family: inherit;
   cursor: pointer;
   transition: all 0.4s;
+  direction: ltr;
 
   @media (max-width: layout.$tabletWidth) {
     font-size: 16px;

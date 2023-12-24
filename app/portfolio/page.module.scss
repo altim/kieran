@@ -14,6 +14,11 @@
     line-height: 100px;
     text-align: center;
     margin: 50px 0 20px 0;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 46px;
+      margin: 10px 0 10px 0;
+    }
   }
 }
 

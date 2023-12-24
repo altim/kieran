@@ -24,39 +24,27 @@ export default function PorfolioItem({
 }: PortfolioItemProps) {
   return (
     <div className={styles.portfolioItem}>
-      <div className={styles.portfolioItemInner}>
-        {!reverse && (
-          <div>
-            <Image
-              src={imageSrc}
-              alt={imageAlt}
-              width={imageWidth}
-              height={imageHeight}
-              className={styles.image}
-            />
-          </div>
-        )}
+      <div
+        className={classNames(styles.portfolioItemInner, {
+          [styles.reverse]: reverse,
+        })}
+      >
+        <div>
+          <Image
+            src={imageSrc}
+            alt={imageAlt}
+            width={imageWidth}
+            height={imageHeight}
+            className={styles.image}
+          />
+        </div>
+
         <div className={styles.content}>
           <div>{children}</div>
-          <div
-            className={classNames(styles.actionButton, {
-              [styles.actionButtonAlignLeft]: reverse,
-            })}
-          >
+          <div className={classNames(styles.actionButton)}>
             <Button name={"View Project"} href={link} />
           </div>
         </div>
-        {reverse && (
-          <div>
-            <Image
-              src={imageSrc}
-              alt={imageAlt}
-              width={imageWidth}
-              height={imageHeight}
-              className={styles.image}
-            />
-          </div>
-        )}
       </div>
     </div>
   );
