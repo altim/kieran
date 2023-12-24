@@ -4,7 +4,7 @@ import { portfolioItems, PortfolioItemsType } from "./data";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import classNames from "classnames";
-import RelatedProject from "@/app/portfolio/[slug]/components/related-project/RelatedProject";
+import ProjectItem from "@/app/(home)/components/projects/components/project-item/ProjectItem.tsx";
 
 export async function generateStaticParams() {
   return portfolioItems.map((item) => ({
@@ -78,7 +78,7 @@ export default function PortfolioItem({
             <h3>Related Projects</h3>
             <div className={styles.relatedProjectsList}>
               {relatedProjects.map((item, index) => (
-                <RelatedProject
+                <ProjectItem
                   key={`related-project-${index}`}
                   title={item.title}
                   imageSrc={item.featuredImage.src}

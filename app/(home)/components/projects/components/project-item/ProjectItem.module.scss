@@ -1,25 +1,52 @@
 @use "/app/css/layout";
 
-.projectItem {
-  width: 100%;
-  aspect-ratio: 1/1;
-  background: #656261;
+.project {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
   justify-items: center;
-  border-radius: 6px;
-  font-size: 40px;
-  line-height: 1.4;
-  color: #fff;
+  border-radius: 7px;
   text-decoration: none;
-  padding: 70px;
-  box-sizing: border-box;
-  text-align: center;
+  overflow: hidden;
+  z-index: 0;
+  transition: all 0.4s;
+
+  &:hover {
+    .image {
+      scale: 1.1;
+    }
+  }
+}
+
+.image {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  object-fit: cover;
+  object-position: center center;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  transition: all 0.4s;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.title {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 40px;
   font-weight: 400;
+  color: #fff;
+  z-index: 2;
 
   @media (max-width: layout.$tabletWidth) {
-    padding: 24px;
     font-size: 26px;
   }
 }
