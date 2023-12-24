@@ -1,3 +1,5 @@
+@use "/app/css/layout";
+
 .projectItem {
   width: 100%;
   aspect-ratio: 1/1;
@@ -15,4 +17,9 @@
   box-sizing: border-box;
   text-align: center;
   font-weight: 400;
+
+  @media (max-width: layout.$tabletWidth) {
+    padding: 24px;
+    font-size: 26px;
+  }
 }

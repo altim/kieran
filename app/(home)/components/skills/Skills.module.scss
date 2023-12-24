@@ -11,8 +11,12 @@
 
   h3 {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 1;
     font-weight: normal;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 26px;
+    }
   }
 }
 
@@ -30,7 +34,12 @@
     columns: 2;
     font-size: 18px;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 2.2;
     column-gap: 4em;
+
+    @media (max-width: layout.$tabletWidth) {
+      columns: 1;
+      font-size:16px;
+    }
   }
 }

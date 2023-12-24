@@ -35,6 +35,10 @@
   grid-auto-columns: max-content;
   grid-column-gap: 20px;
 
+  @media (max-width: layout.$tabletWidth) {
+    display: none;
+  }
+
   a {
     font-size: 14px;
     font-weight: 400;

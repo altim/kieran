@@ -21,21 +21,33 @@
 .heroImage {
   margin-top: -149px;
   border-radius: 7px;
+  max-width: 100%;
+  height: auto;
 }
 
 .title {
   font-size: 100px;
   font-weight: 900;
-  line-height: 100px;
+  line-height: 1;
   margin-top: 60px;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 60px;
+    margin-top: 30px;
+  }
 }
 
 .description {
   font-size: 40px;
   font-weight: 500;
-  line-height: 55px;
+  line-height: 1.25;
   margin-top: 90px;
   text-align: center;
+
+  @media (max-width: layout.$tabletWidth) {
+    font-size: 26px;
+    margin-top: 40px;
+  }
 }
 
 .links {
@@ -45,4 +57,15 @@
   align-items: center;
   margin-top: 50px;
   width: 100%;
+  grid-gap: 24px;
+
+  @media (max-width: layout.$tabletWidth) {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+  }
+
+  @media (max-width: layout.$mobileWidth) {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
 }

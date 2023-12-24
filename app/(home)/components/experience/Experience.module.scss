@@ -4,16 +4,28 @@
   @extend %grid;
   padding-top: 70px;
   background: var(--background-gray);
+
+  @media (max-width: layout.$tabletWidth) {
+    padding-top: 30px;
+  }
 }
 
 .experienceInner {
   grid-column: content;
   padding-bottom: 90px;
 
+  @media (max-width: layout.$tabletWidth) {
+    padding-bottom: 50px;
+  }
+
   h3 {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 1;
     font-weight: normal;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 26px;
+    }
   }
 }
 
@@ -29,6 +41,10 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 16px;
+    }
   }
 
   p {

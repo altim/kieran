@@ -12,12 +12,21 @@
   align-items: center;
   padding: 20px 0 20px 0;
 
+  @media (max-width: layout.$tabletWidth) {
+    grid-template-columns: 1fr;
+    grid-gap: 24px;
+  }
+
   p,
   a {
     font-size: 24px;
     color: #000;
-    line-height: 34px;
+    line-height: 1.4;
     text-underline-offset: 4px;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 20px;
+    }
   }
 
   a {
@@ -31,6 +40,15 @@
 .backToTop {
   cursor: pointer;
   transition: all 0.4s;
+
+  @media (max-width: layout.$tabletWidth) {
+    justify-self: end;
+
+    img {
+      max-width: 40px;
+      height: auto;
+    }
+  }
 
   &:hover {
     transform: translateY(-10px);
