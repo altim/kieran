@@ -1,7 +1,6 @@
 import styles from "./Projects.module.scss";
 import ProjectItem from "@/app/(home)/components/projects/components/project-item/ProjectItem";
 import Button from "@/app/components/button/Button";
-import RelatedProject from "@/app/portfolio/[slug]/components/related-project/RelatedProject.tsx";
 import {
   portfolioItems,
   PortfolioItemsType,
