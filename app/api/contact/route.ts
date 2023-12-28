@@ -38,18 +38,17 @@ async function sendMail(subject: any, otpText: any) {
     text: otpText,
   };
 
-  transporter?.sendMail(
-    mailOptions,
-    function (error: string | undefined, info: any) {
-      if (error) {
-        console.error("error");
-        throw new Error(error);
+  await new Promise((resolve, reject) => {
+    transporter.sendMail(mailOptions, (err: any, info: unknown) => {
+      if (err) {
+        console.error(err);
+        reject(err);
       } else {
-        console.log("Email Sent");
-        return true;
+        console.log(info);
+        resolve(info);
       }
-    },
-  );
+    });
+  });
 }
 export async function POST(request: NextRequest) {
   const formData = await request.json();
