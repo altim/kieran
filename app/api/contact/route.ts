@@ -42,6 +42,7 @@ async function sendMail(subject: any, otpText: any) {
     mailOptions,
     function (error: string | undefined, info: any) {
       if (error) {
+        console.error("error");
         throw new Error(error);
       } else {
         console.log("Email Sent");
