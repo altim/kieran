@@ -56,6 +56,14 @@
   grid-row-gap: 30px;
 }
 
+.formField {
+  p {
+    color: #fff;
+    margin-top: 4px;
+    font-size: 12px;
+  }
+}
+
 .formAction {
   display: grid;
   grid-template-columns: 1fr;
