@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 import Navigation from "@/app/components/navigation/Navigation";
 import Footer from "@/app/components/footer/Footer";
 
