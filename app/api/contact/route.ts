@@ -17,6 +17,19 @@ async function sendMail(subject: any, otpText: any) {
     secure: true,
   });
 
+  await new Promise((resolve, reject) => {
+    // verify connection configuration
+    transporter.verify(function (error: any, success: unknown) {
+      if (error) {
+        console.log(error);
+        reject(error);
+      } else {
+        console.log("Server is ready to take our messages");
+        resolve(success);
+      }
+    });
+  });
+
   const mailOptions = {
     from: ACCOUNT,
     to: ACCOUNT,
