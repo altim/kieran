@@ -5,6 +5,7 @@ import Button from "@/app/components/button/Button.tsx";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import { useState } from "react";
 
 type ContactFormType = {
   name: string;
@@ -27,14 +28,15 @@ export default function Contact() {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isValid, isSubmitting },
+    reset,
   } = useForm<ContactFormType>({
     resolver: yupResolver(schema),
   });
 
-  const onSubmit: SubmitHandler<ContactFormType> = (data) => {
-    console.log(data);
-    fetch("/api/contact", { method: "POST", body: JSON.stringify(data) });
+  const onSubmit: SubmitHandler<ContactFormType> = async (data) => {
+    await fetch("/api/contact", { method: "POST", body: JSON.stringify(data) });
+    reset();
   };
 
   return (
@@ -76,7 +78,7 @@ export default function Contact() {
               {errors?.message && <p>{errors?.message?.message}</p>}
             </div>
             <div className={styles.formAction}>
-              <Button name={"SUBMIT"} />
+              <Button name={isSubmitting ? "SUBMITTING..." : "SUBMIT"} />
             </div>
           </form>
         </div>

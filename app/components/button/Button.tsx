@@ -18,6 +18,7 @@ export default function Button({
   href,
   target = "_self",
   className,
+  ...restProps
 }: ButtonProps) {
   return href ? (
     <Link
@@ -25,7 +26,7 @@ export default function Button({
       target={target}
       className={classNames(styles.link, className)}
     >
-      <button onClick={onClick} className={styles.button}>
+      <button onClick={onClick} className={styles.button} {...restProps}>
         {name}
         <Image src={ArrowRight} alt={"arrow"} />
       </button>
