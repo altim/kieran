@@ -1,10 +1,12 @@
-require("dotenv").config();
+import { NextRequest, NextResponse } from "next/server";
 
-async function sendMail(subject: any, toEmail: any, otpText: any) {
-  const PASSWORD = process.env["NODEMAILER_PW "];
-  const ACCOUNT = process.env["NODEMAILER_EMAIL "];
+async function sendMail(subject: any, otpText: any) {
+  require("dotenv").config();
+  const nodemailer = require("nodemailer");
 
-  let nodemailer = require("nodemailer");
+  const PASSWORD = process.env["NODEMAILER_PW"];
+  const ACCOUNT = process.env["NODEMAILER_EMAIL"];
+
   const transporter = nodemailer.createTransport({
     port: 465,
     host: "smtp.gmail.com",
@@ -16,13 +18,14 @@ async function sendMail(subject: any, toEmail: any, otpText: any) {
   });
 
   const mailOptions = {
-    from: "aleksandartimic@gmail.com",
-    to: toEmail,
+    from: ACCOUNT,
+    to: "ACCOUNT",
+    // to: "kieranhurley@me.com",
     subject: subject,
     text: otpText,
   };
 
-  transporter.sendMail(
+  transporter?.sendMail(
     mailOptions,
     function (error: string | undefined, info: any) {
       if (error) {
@@ -34,29 +37,17 @@ async function sendMail(subject: any, toEmail: any, otpText: any) {
     },
   );
 }
-export default async function (req: { body: any }, res: any) {
+export async function POST(request: NextRequest) {
+  const formData = await request.json();
+
   try {
-    // @ts-ignore
-    const { method } = req;
-    switch (method) {
-      case "POST": {
-        await sendMail(
-          "TEST",
-          "aleksandartimic@gmail.com",
-          "THI IS A TEST FOR MY MEDIUM USERS",
-        );
-        res.status(200).send("Success");
-        break;
-      }
-      default:
-        res.setHeader("Allow", ["POST", "GET", "PUT", "DELETE"]);
-        res.status(405).end(`Method ${method} Not Allowed`);
-        break;
-    }
+    await sendMail(
+      `Contact form - personal website`,
+      `Name: ${formData?.name}\nEmail: ${formData?.email}\n\n${formData?.message}`,
+    );
+
+    return NextResponse.json({ message: "OK" }, { status: 200 });
   } catch (err) {
-    res.status(400).json({
-      error_code: "api_one",
-      message: err.message,
-    });
+    return NextResponse.json({ message: "ERROR" }, { status: 500 });
   }
 }

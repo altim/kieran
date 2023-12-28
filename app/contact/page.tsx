@@ -34,6 +34,7 @@ export default function Contact() {
 
   const onSubmit: SubmitHandler<ContactFormType> = (data) => {
     console.log(data);
+    fetch("/api/contact", { method: "POST", body: JSON.stringify(data) });
   };
 
   return (
