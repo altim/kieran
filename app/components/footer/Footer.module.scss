@@ -6,11 +6,6 @@
 
 .footerInner {
   grid-column: content;
-  display: grid;
-  grid-template-columns: 1fr max-content;
-  grid-column-gap: 20px;
-  align-items: center;
-  padding: 20px 0 20px 0;
 
   @media (max-width: layout.$tabletWidth) {
     grid-template-columns: 1fr;
@@ -35,6 +30,14 @@
       color: var(--blue);
     }
   }
+}
+
+.footerTop {
+  padding: 20px 0 20px 0;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  grid-column-gap: 20px;
+  align-items: center;
 }
 
 .backToTop {
