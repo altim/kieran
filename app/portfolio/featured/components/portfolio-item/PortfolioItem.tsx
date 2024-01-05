@@ -13,7 +13,7 @@ type PortfolioItemProps = {
   link: string;
   children: ReactNode;
 };
-export default function PorfolioItem({
+export default function PortfolioItem({
   reverse = false,
   imageSrc,
   imageAlt,

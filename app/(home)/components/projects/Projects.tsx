@@ -1,13 +1,10 @@
 import styles from "./Projects.module.scss";
 import ProjectItem from "@/app/(home)/components/projects/components/project-item/ProjectItem";
 import Button from "@/app/components/button/Button";
-import {
-  portfolioItems,
-  PortfolioItemsType,
-} from "@/app/portfolio/[slug]/data.ts";
+import { projects } from "@/data/data.ts";
 import { notFound } from "next/navigation";
 export default function Projects() {
-  const recentProjects = portfolioItems.slice(0, 4);
+  const recentProjects = projects.slice(0, 4);
 
   if (!recentProjects) {
     notFound();
@@ -27,7 +24,7 @@ export default function Projects() {
               imageAlt={item.featuredImage.alt}
               imageWidth={item.featuredImage.width}
               imageHeight={item.featuredImage.height}
-              link={`/portfolio/${item.slug}`}
+              link={`/portfolio/${item.category}/${item.slug}`}
             />
           ))}
         </div>

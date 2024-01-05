@@ -1,13 +1,14 @@
 import HeaderImage from "@/app/components/header-image/HeaderImage";
 import styles from "./page.module.scss";
-import { portfolioItems, PortfolioItemsType } from "./data";
+import { projects } from "@/data/data.ts";
+import { ProjectType } from "@/data/data.types.ts";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import classNames from "classnames";
 import ProjectItem from "@/app/(home)/components/projects/components/project-item/ProjectItem.tsx";
 
 export async function generateStaticParams() {
-  return portfolioItems.map((item) => ({
+  return projects.map((item) => ({
     slug: item.slug,
   }));
 }
@@ -17,38 +18,38 @@ export default function PortfolioItem({
 }: {
   params: { slug: string };
 }) {
-  const portfolioItem = portfolioItems.find(
-    (item: PortfolioItemsType) => item.slug === params.slug,
+  const project = projects.find(
+    (item: ProjectType) => item.slug === params.slug,
   );
 
-  const relatedProjects = portfolioItems.filter(
-    (item) => portfolioItem?.relatedProjects.includes(item.slug),
+  const relatedProjects = projects.filter(
+    (item) => project?.relatedProjects.includes(item.slug),
   );
 
-  if (!portfolioItem) {
+  if (!project) {
     notFound();
   }
 
   return (
     <>
       <HeaderImage
-        src={portfolioItem.featuredImage.src}
-        alt={portfolioItem.featuredImage.alt}
-        width={portfolioItem.featuredImage.width}
-        height={portfolioItem.featuredImage.height}
+        src={project.featuredImage.src}
+        alt={project.featuredImage.alt}
+        width={project.featuredImage.width}
+        height={project.featuredImage.height}
         backgroundColor={"white"}
       />
-      <div className={styles.portfolioItemTitle}>
-        <div className={styles.portfolioItemTitleInner}>
-          <h1>{portfolioItem.title}</h1>
-          <h2>{portfolioItem.subtitle}</h2>
+      <div className={styles.projectTitle}>
+        <div className={styles.projectTitleInner}>
+          <h1>{project.title}</h1>
+          <h2>{project.subtitle}</h2>
         </div>
       </div>
 
       <div className={styles.main}>
         <div className={styles.mainInner}>
           <div className={styles.paragraphsList}>
-            {portfolioItem.paragraphs.map((item, index) => (
+            {project.paragraphs.map((item, index) => (
               <div className={styles.paragraph} key={`paragraph-${index}`}>
                 <h4>{item.title}</h4>
                 <p>{item.text}</p>
@@ -57,7 +58,7 @@ export default function PortfolioItem({
           </div>
 
           <div className={styles.imageList}>
-            {portfolioItem.images.map((item, index) => (
+            {project.images.map((item, index) => (
               <div
                 key={`image-${index}`}
                 className={classNames({

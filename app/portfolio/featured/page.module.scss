@@ -1,0 +1,30 @@
+@use "/app/css/layout";
+
+.featuredWorkTitle {
+  @extend %grid;
+  background: var(--background-gray);
+}
+
+.featuredTitleInner {
+  grid-column: content;
+
+  h1 {
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center;
+    margin: 50px 0 20px 0;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 46px;
+      margin: 10px 0 10px 0;
+    }
+  }
+}
+
+.portfolioItemsList {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 90px;
+  padding: 50px 0;
+}

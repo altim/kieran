@@ -1,32 +1,6 @@
-export type PortfolioItemsType = {
-  slug: string;
-  featuredImage: {
-    src: string;
-    alt: string;
-    width: number;
-    height: number;
-  };
-  title: string;
-  subtitle: string;
-  paragraphs: ParagraphType[];
-  images: ImageType[];
-  relatedProjects: string[];
-};
+import { ProjectType } from "@/data/data.types.ts";
 
-type ParagraphType = {
-  title: string;
-  text: string;
-};
-
-type ImageType = {
-  src: string;
-  alt: string;
-  width: number;
-  height: number;
-  size: "normal" | "fullWidth";
-};
-
-export const portfolioItems: PortfolioItemsType[] = [
+export const projects: ProjectType[] = [
   {
     slug: "gopro",
     featuredImage: {
@@ -38,6 +12,7 @@ export const portfolioItems: PortfolioItemsType[] = [
 
     title: "GoPro",
     subtitle: "OOH / Experiential",
+    category: "featured",
     paragraphs: [
       {
         title: "Problem",
@@ -89,6 +64,7 @@ export const portfolioItems: PortfolioItemsType[] = [
 
     title: "GoPro 2",
     subtitle: "OOH / Experiential",
+    category: "featured",
     paragraphs: [
       {
         title: "Problem",
@@ -140,6 +116,7 @@ export const portfolioItems: PortfolioItemsType[] = [
 
     title: "GoPro 3",
     subtitle: "OOH / Experiential",
+    category: "featured",
     paragraphs: [
       {
         title: "Problem",
@@ -191,6 +168,7 @@ export const portfolioItems: PortfolioItemsType[] = [
 
     title: "GoPro 4",
     subtitle: "OOH / Experiential",
+    category: "featured",
     paragraphs: [
       {
         title: "Problem",

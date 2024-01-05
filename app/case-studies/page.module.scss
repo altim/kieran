@@ -1,9 +1,9 @@
 @use "/app/css/layout";
 
-.portfolioHub {
+.caseStudiesHub {
   @extend %grid;
 }
 
-.portfolioHubInner {
+.caseStudiesHubInner {
   grid-column: content;
 }
