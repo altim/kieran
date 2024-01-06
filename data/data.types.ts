@@ -8,7 +8,10 @@ export type ProjectType = {
   };
   title: string;
   subtitle: string;
-  category: string;
+  category: {
+    name: string;
+    slug: string;
+  };
   paragraphs: ParagraphType[];
   images: ImageType[];
   relatedProjects: string[];

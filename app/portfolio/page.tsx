@@ -11,7 +11,7 @@ export default function PortfolioHub() {
       <div className={styles.portfolioHubInner}>
         {categories.map((cat) => (
           <>
-            <Link href={`/portfolio/${cat}`}>{cat}</Link>
+            <Link href={`/portfolio/${cat.slug}`}>{cat.name}</Link>
             <br />
           </>
         ))}

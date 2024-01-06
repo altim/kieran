@@ -12,7 +12,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro",
     subtitle: "OOH / Experiential",
-    category: "featured",
+    category: { name: "Featured Work", slug: "featured" },
     paragraphs: [
       {
         title: "Problem",
@@ -64,7 +64,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 2",
     subtitle: "OOH / Experiential",
-    category: "featured",
+    category: { name: "Featured Work", slug: "featured" },
     paragraphs: [
       {
         title: "Problem",
@@ -116,7 +116,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 3",
     subtitle: "OOH / Experiential",
-    category: "featured",
+    category: { name: "Featured Work", slug: "featured" },
     paragraphs: [
       {
         title: "Problem",
@@ -168,7 +168,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 4",
     subtitle: "OOH / Experiential",
-    category: "cat1",
+    category: { name: "Category 1", slug: "cat1" },
     paragraphs: [
       {
         title: "Problem",
@@ -220,7 +220,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 5",
     subtitle: "OOH / Experiential",
-    category: "cat2",
+    category: { name: "Category 2", slug: "cat2" },
     paragraphs: [
       {
         title: "Problem",
@@ -272,7 +272,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 6",
     subtitle: "OOH / Experiential",
-    category: "cat3",
+    category: { name: "Category 3", slug: "cat3" },
     paragraphs: [
       {
         title: "Problem",
