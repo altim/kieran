@@ -51,6 +51,7 @@ export default function PortfolioCategory({
             imageHeight={project.excerpt.image.height}
             link={`/portfolio/${currentCategory.slug}/${project.slug}`}
             reverse={index % 2 === 1}
+            key={`portfolio-item-${index}`}
           >
             <h3>{project.excerpt.title}</h3>
             <h3>{project.excerpt.subtitle}</h3>
