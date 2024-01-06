@@ -27,7 +27,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured-1.jpg",
+      src: "/assets/portfolio/portfolio-item/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -90,7 +90,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro2",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured-1.jpg",
+      src: "/assets/portfolio/portfolio-item/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -153,7 +153,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro3",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured-1.jpg",
+      src: "/assets/portfolio/portfolio-item/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -216,7 +216,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro4",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured-1.jpg",
+      src: "/assets/portfolio/portfolio-item/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -279,7 +279,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro5",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured-1.jpg",
+      src: "/assets/portfolio/portfolio-item/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -342,7 +342,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro6",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured-1.jpg",
+      src: "/assets/portfolio/portfolio-item/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
