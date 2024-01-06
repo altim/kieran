@@ -2,9 +2,7 @@ import styles from "./page.module.scss";
 import HeaderImage from "@/app/components/header-image/HeaderImage";
 import PortfolioItem from "@/app/portfolio/[category]/components/portfolio-item/PortfolioItem";
 import { projects } from "@/data/data.ts";
-import { ProjectType } from "@/data/data.types.ts";
 import Link from "next/link";
-import Button from "@/app/components/button/Button.tsx";
 
 export default function PortfolioCategory({
   params,
