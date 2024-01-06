@@ -27,7 +27,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured.jpg",
+      src: "/assets/portfolio/project1/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -52,21 +52,21 @@ export const projects: ProjectType[] = [
     ],
     images: [
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image2.jpg",
+        src: "/assets/portfolio/project1/project1-image2.jpg",
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
@@ -79,7 +79,7 @@ export const projects: ProjectType[] = [
       subtitle: "Milan, Italy",
       text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
       image: {
-        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        src: "/assets/portfolio/project1/excerpt.jpg",
         alt: "GoPro",
         width: 448,
         height: 448,
@@ -90,7 +90,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro2",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured.jpg",
+      src: "/assets/portfolio/project1/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -115,21 +115,21 @@ export const projects: ProjectType[] = [
     ],
     images: [
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image2.jpg",
+        src: "/assets/portfolio/project1/project1-image2.jpg",
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
@@ -142,7 +142,7 @@ export const projects: ProjectType[] = [
       subtitle: "Milan, Italy",
       text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
       image: {
-        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        src: "/assets/portfolio/project1/excerpt.jpg",
         alt: "GoPro",
         width: 448,
         height: 448,
@@ -153,7 +153,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro3",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured.jpg",
+      src: "/assets/portfolio/project1/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -178,21 +178,21 @@ export const projects: ProjectType[] = [
     ],
     images: [
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image2.jpg",
+        src: "/assets/portfolio/project1/project1-image2.jpg",
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
@@ -205,7 +205,7 @@ export const projects: ProjectType[] = [
       subtitle: "Milan, Italy",
       text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
       image: {
-        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        src: "/assets/portfolio/project1/excerpt.jpg",
         alt: "GoPro",
         width: 448,
         height: 448,
@@ -216,7 +216,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro4",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured.jpg",
+      src: "/assets/portfolio/project1/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -241,21 +241,21 @@ export const projects: ProjectType[] = [
     ],
     images: [
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image2.jpg",
+        src: "/assets/portfolio/project1/project1-image2.jpg",
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
@@ -268,7 +268,7 @@ export const projects: ProjectType[] = [
       subtitle: "Milan, Italy",
       text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
       image: {
-        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        src: "/assets/portfolio/project1/excerpt.jpg",
         alt: "GoPro",
         width: 448,
         height: 448,
@@ -279,7 +279,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro5",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured.jpg",
+      src: "/assets/portfolio/project1/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -304,21 +304,21 @@ export const projects: ProjectType[] = [
     ],
     images: [
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image2.jpg",
+        src: "/assets/portfolio/project1/project1-image2.jpg",
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
@@ -331,7 +331,7 @@ export const projects: ProjectType[] = [
       subtitle: "Milan, Italy",
       text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
       image: {
-        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        src: "/assets/portfolio/project1/excerpt.jpg",
         alt: "GoPro",
         width: 448,
         height: 448,
@@ -342,7 +342,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro6",
     featuredImage: {
-      src: "/assets/portfolio/portfolio-item/featured.jpg",
+      src: "/assets/portfolio/project1/featured.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,
@@ -367,21 +367,21 @@ export const projects: ProjectType[] = [
     ],
     images: [
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image1.jpg",
+        src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/portfolio-item/portfolio-item-image2.jpg",
+        src: "/assets/portfolio/project1/project1-image2.jpg",
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
@@ -394,7 +394,7 @@ export const projects: ProjectType[] = [
       subtitle: "Milan, Italy",
       text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
       image: {
-        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        src: "/assets/portfolio/project1/excerpt.jpg",
         alt: "GoPro",
         width: 448,
         height: 448,
