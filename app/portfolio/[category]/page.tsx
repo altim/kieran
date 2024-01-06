@@ -43,13 +43,14 @@ export default function PortfolioCategory({
         </div>
       </div>
       <div className={styles.portfolioItemsList}>
-        {categoryProjects.map((project) => (
+        {categoryProjects.map((project, index) => (
           <PortfolioItem
             imageSrc={project.excerpt.image.src}
             imageAlt={project.excerpt.image.alt}
             imageWidth={project.excerpt.image.width}
             imageHeight={project.excerpt.image.height}
             link={`/portfolio/${currentCategory.slug}/${project.slug}`}
+            reverse={index % 2 === 1}
           >
             <h3>{project.excerpt.title}</h3>
             <h3>{project.excerpt.subtitle}</h3>
