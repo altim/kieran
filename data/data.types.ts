@@ -8,10 +8,7 @@ export type ProjectType = {
   };
   title: string;
   subtitle: string;
-  category: {
-    name: string;
-    slug: string;
-  };
+  category: Category["slug"];
   paragraphs: ParagraphType[];
   images: ImageType[];
   relatedProjects: string[];
@@ -28,4 +25,10 @@ export type ImageType = {
   width: number;
   height: number;
   size: "normal" | "fullWidth";
+};
+
+export type Category = {
+  name: string;
+  slug: string;
+  featuredImage: string;
 };

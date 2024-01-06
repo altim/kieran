@@ -11,9 +11,8 @@ export default function PortfolioCategory({
 }: {
   params: { category: string };
 }) {
-  console.log("CATEGORY:", params.category);
   const categoryProjects = projects.filter(
-    (item) => item.category.slug === params.category,
+    (item) => item.category === params.category,
   );
 
   if (!categoryProjects.length) {

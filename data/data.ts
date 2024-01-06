@@ -1,4 +1,27 @@
-import { ProjectType } from "@/data/data.types.ts";
+import { Category, ProjectType } from "@/data/data.types.ts";
+
+export const categories: Category[] = [
+  {
+    slug: "featured",
+    name: "Featured Work",
+    featuredImage: "/assets/categories/featuredWork.jpg",
+  },
+  {
+    slug: "cat1",
+    name: "Category1",
+    featuredImage: "/assets/categories/category1.jpg",
+  },
+  {
+    slug: "cat2",
+    name: "Category2",
+    featuredImage: "/assets/categories/category2.jpg",
+  },
+  {
+    slug: "cat3",
+    name: "Category3",
+    featuredImage: "/assets/categories/category3.jpg",
+  },
+];
 
 export const projects: ProjectType[] = [
   {
@@ -12,7 +35,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro",
     subtitle: "OOH / Experiential",
-    category: { name: "Featured Work", slug: "featured" },
+    category: "featured",
     paragraphs: [
       {
         title: "Problem",
@@ -64,7 +87,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 2",
     subtitle: "OOH / Experiential",
-    category: { name: "Featured Work", slug: "featured" },
+    category: "featured",
     paragraphs: [
       {
         title: "Problem",
@@ -116,7 +139,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 3",
     subtitle: "OOH / Experiential",
-    category: { name: "Featured Work", slug: "featured" },
+    category: "featured",
     paragraphs: [
       {
         title: "Problem",
@@ -168,7 +191,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 4",
     subtitle: "OOH / Experiential",
-    category: { name: "Category 1", slug: "cat1" },
+    category: "cat1",
     paragraphs: [
       {
         title: "Problem",
@@ -220,7 +243,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 5",
     subtitle: "OOH / Experiential",
-    category: { name: "Category 2", slug: "cat2" },
+    category: "cat2",
     paragraphs: [
       {
         title: "Problem",
@@ -272,7 +295,7 @@ export const projects: ProjectType[] = [
 
     title: "GoPro 6",
     subtitle: "OOH / Experiential",
-    category: { name: "Category 3", slug: "cat3" },
+    category: "cat3",
     paragraphs: [
       {
         title: "Problem",
