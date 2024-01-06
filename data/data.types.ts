@@ -12,6 +12,12 @@ export type ProjectType = {
   paragraphs: ParagraphType[];
   images: ImageType[];
   relatedProjects: string[];
+  excerpt: {
+    title: string;
+    subtitle: string;
+    text: string;
+    image: Omit<ImageType, "size">;
+  };
 };
 
 export type ParagraphType = {

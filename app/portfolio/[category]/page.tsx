@@ -3,6 +3,7 @@ import HeaderImage from "@/app/components/header-image/HeaderImage";
 import PortfolioItem from "@/app/portfolio/[category]/components/portfolio-item/PortfolioItem";
 import { projects } from "@/data/data.ts";
 import Link from "next/link";
+import { getCategoryBySlug } from "@/app/helpers/categoryHelpers.ts";
 
 export default function PortfolioCategory({
   params,
@@ -13,7 +14,9 @@ export default function PortfolioCategory({
     (item) => item.category === params.category,
   );
 
-  if (!categoryProjects.length) {
+  const currentCategory = getCategoryBySlug(params.category);
+
+  if (!categoryProjects.length || !currentCategory) {
     return (
       <div className={styles.category404}>
         <div className={styles.category404Inner}>
@@ -23,11 +26,12 @@ export default function PortfolioCategory({
       </div>
     );
   }
+
   return (
     <>
       <HeaderImage
-        src={"/assets/portfolio/portfolio-page-header-image.jpg"}
-        alt={"Project"}
+        src={currentCategory.featuredImage}
+        alt={currentCategory.name}
         width={920}
         height={448}
         backgroundColor={"gray"}
@@ -35,65 +39,23 @@ export default function PortfolioCategory({
 
       <div className={styles.featuredWorkTitle}>
         <div className={styles.featuredTitleInner}>
-          <h1>Featured Work</h1>
+          <h1>{currentCategory.name}</h1>
         </div>
       </div>
       <div className={styles.portfolioItemsList}>
-        <PortfolioItem
-          imageSrc={"/assets/portfolio/portfolio-item.jpg"}
-          imageAlt={"Portfolio Item"}
-          imageWidth={448}
-          imageHeight={448}
-          link={"/portfolio/featured/gopro"}
-        >
-          <h3>GoPro HERO8 Black</h3>
-          <h3>Milan, Italy</h3>
-          <p>
-            Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and
-            GoPro HERO8. As yellow was the primary colour for the GoPro HERO8
-            campaign, it made sense to run the Tram on Milan’s historic Yellow
-            Line and feature GoPro ‘s most followed athlete and icon of Italian
-            sport Valentino Rossi #valeyellow46.
-          </p>
-          <p>Installation by IGP Decaux.</p>
-        </PortfolioItem>
-        <PortfolioItem
-          imageSrc={"/assets/portfolio/portfolio-item.jpg"}
-          imageAlt={"Portfolio Item"}
-          imageWidth={448}
-          imageHeight={448}
-          link={"/portfolio/featured/gopro2"}
-          reverse
-        >
-          <h3>GoPro HERO8 Black</h3>
-          <h3>Milan, Italy</h3>
-          <p>
-            Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and
-            GoPro HERO8. As yellow was the primary colour for the GoPro HERO8
-            campaign, it made sense to run the Tram on Milan’s historic Yellow
-            Line and feature GoPro ‘s most followed athlete and icon of Italian
-            sport Valentino Rossi #valeyellow46.
-          </p>
-          <p>Installation by IGP Decaux.</p>
-        </PortfolioItem>
-        <PortfolioItem
-          imageSrc={"/assets/portfolio/portfolio-item.jpg"}
-          imageAlt={"Portfolio Item"}
-          imageWidth={448}
-          imageHeight={448}
-          link={"/portfolio/featured/gopro3"}
-        >
-          <h3>GoPro HERO8 Black</h3>
-          <h3>Milan, Italy</h3>
-          <p>
-            Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and
-            GoPro HERO8. As yellow was the primary colour for the GoPro HERO8
-            campaign, it made sense to run the Tram on Milan’s historic Yellow
-            Line and feature GoPro ‘s most followed athlete and icon of Italian
-            sport Valentino Rossi #valeyellow46.
-          </p>
-          <p>Installation by IGP Decaux.</p>
-        </PortfolioItem>
+        {categoryProjects.map((project) => (
+          <PortfolioItem
+            imageSrc={project.excerpt.image.src}
+            imageAlt={project.excerpt.image.alt}
+            imageWidth={project.excerpt.image.width}
+            imageHeight={project.excerpt.image.height}
+            link={`/portfolio/${currentCategory.slug}/${project.slug}`}
+          >
+            <h3>{project.excerpt.title}</h3>
+            <h3>{project.excerpt.subtitle}</h3>
+            <p>{project.excerpt.text}</p>
+          </PortfolioItem>
+        ))}
       </div>
     </>
   );

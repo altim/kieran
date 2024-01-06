@@ -74,6 +74,17 @@ export const projects: ProjectType[] = [
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
+    excerpt: {
+      title: "GoPro HERO8 Black",
+      subtitle: "Milan, Italy",
+      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
+      image: {
+        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        alt: "GoPro",
+        width: 448,
+        height: 448,
+      },
+    },
   },
 
   {
@@ -126,6 +137,17 @@ export const projects: ProjectType[] = [
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
+    excerpt: {
+      title: "GoPro HERO8 Black",
+      subtitle: "Milan, Italy",
+      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
+      image: {
+        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        alt: "GoPro",
+        width: 448,
+        height: 448,
+      },
+    },
   },
 
   {
@@ -178,6 +200,17 @@ export const projects: ProjectType[] = [
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
+    excerpt: {
+      title: "GoPro HERO8 Black",
+      subtitle: "Milan, Italy",
+      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
+      image: {
+        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        alt: "GoPro",
+        width: 448,
+        height: 448,
+      },
+    },
   },
 
   {
@@ -230,6 +263,17 @@ export const projects: ProjectType[] = [
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
+    excerpt: {
+      title: "GoPro HERO8 Black",
+      subtitle: "Milan, Italy",
+      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
+      image: {
+        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        alt: "GoPro",
+        width: 448,
+        height: 448,
+      },
+    },
   },
 
   {
@@ -282,6 +326,17 @@ export const projects: ProjectType[] = [
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
+    excerpt: {
+      title: "GoPro HERO8 Black",
+      subtitle: "Milan, Italy",
+      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
+      image: {
+        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        alt: "GoPro",
+        width: 448,
+        height: 448,
+      },
+    },
   },
 
   {
@@ -334,5 +389,16 @@ export const projects: ProjectType[] = [
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
+    excerpt: {
+      title: "GoPro HERO8 Black",
+      subtitle: "Milan, Italy",
+      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
+      image: {
+        src: "/assets/portfolio/portfolio-item/excerpt.jpg",
+        alt: "GoPro",
+        width: 448,
+        height: 448,
+      },
+    },
   },
 ];
