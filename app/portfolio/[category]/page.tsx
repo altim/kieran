@@ -1,8 +1,31 @@
 import styles from "./page.module.scss";
 import HeaderImage from "@/app/components/header-image/HeaderImage";
-import PortfolioItem from "@/app/portfolio/featured/components/portfolio-item/PortfolioItem";
+import PortfolioItem from "@/app/portfolio/[category]/components/portfolio-item/PortfolioItem";
+import { projects } from "@/data/data.ts";
+import { ProjectType } from "@/data/data.types.ts";
+import Link from "next/link";
+import Button from "@/app/components/button/Button.tsx";
 
-export default function Portfolio() {
+export default function PortfolioCategory({
+  params,
+}: {
+  params: { category: string };
+}) {
+  console.log("CATEGORY:", params.category);
+  const categoryProjects = projects.filter(
+    (item) => item.category.slug === params.category,
+  );
+
+  if (!categoryProjects.length) {
+    return (
+      <div className={styles.category404}>
+        <div className={styles.category404Inner}>
+          <h2>There are no projects in this category.</h2>
+          <Link href={"/portfolio"}>Go back</Link>
+        </div>
+      </div>
+    );
+  }
   return (
     <>
       <HeaderImage
