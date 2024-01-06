@@ -16,10 +16,10 @@ export async function generateStaticParams() {
 export default function PortfolioItem({
   params,
 }: {
-  params: { slug: string };
+  params: { project: string };
 }) {
   const project = projects.find(
-    (item: ProjectType) => item.slug === params.slug,
+    (item: ProjectType) => item.slug === params.project,
   );
 
   const relatedProjects = projects.filter(
@@ -86,7 +86,7 @@ export default function PortfolioItem({
                   imageAlt={item.featuredImage.alt}
                   imageWidth={item.featuredImage.width}
                   imageHeight={item.featuredImage.height}
-                  link={`/portfolio/${item.slug}`}
+                  link={`/portfolio/${item.category}/${item.slug}`}
                 />
               ))}
             </div>

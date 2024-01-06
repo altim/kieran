@@ -1,6 +1,6 @@
 @use "/app/css/layout";
 
-.portfolioItemTitle {
+.projectTitle {
   @extend %grid;
   padding: 50px 0;
 
@@ -9,7 +9,7 @@
   }
 }
 
-.portfolioItemTitleInner {
+.projectTitleInner {
   grid-column: content;
 
   h1,
