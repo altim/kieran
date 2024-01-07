@@ -62,7 +62,8 @@ export default function PortfolioItem({
               <div
                 key={`image-${index}`}
                 className={classNames({
-                  [styles.imgFullWidth]: item.size === "fullWidth",
+                  [styles.imgWide]: item.size === "wide",
+                  [styles.imgDouble]: item.size === "double",
                 })}
               >
                 <Image
