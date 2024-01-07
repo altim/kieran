@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import classNames from "classnames";
 import ProjectItem from "@/app/(home)/components/projects/components/project-item/ProjectItem.tsx";
+import { getCategoryBySlug } from "@/helpers/categoryHelpers.ts";
 
 export async function generateStaticParams() {
   return projects.map((item) => ({
@@ -37,32 +38,24 @@ export default function PortfolioItem({
         alt={project.featuredImage.alt}
         width={project.featuredImage.width}
         height={project.featuredImage.height}
-        backgroundColor={"white"}
+        backgroundColor={"gray"}
       />
+
       <div className={styles.projectTitle}>
         <div className={styles.projectTitleInner}>
           <h1>{project.title}</h1>
-          <h2>{project.subtitle}</h2>
         </div>
       </div>
 
       <div className={styles.main}>
         <div className={styles.mainInner}>
-          <div className={styles.paragraphsList}>
-            {project.paragraphs.map((item, index) => (
-              <div className={styles.paragraph} key={`paragraph-${index}`}>
-                <h4>{item.title}</h4>
-                <p>{item.text}</p>
-              </div>
-            ))}
-          </div>
-
           <div className={styles.imageList}>
             {project.images.map((item, index) => (
               <div
                 key={`image-${index}`}
                 className={classNames({
-                  [styles.imgFullWidth]: item.size === "fullWidth",
+                  [styles.imgWide]: item.size === "wide",
+                  [styles.imgDouble]: item.size === "double",
                 })}
               >
                 <Image
@@ -73,6 +66,23 @@ export default function PortfolioItem({
                 />
               </div>
             ))}
+          </div>
+
+          <div className={styles.content}>
+            <div className={styles.column}>
+              <h4>{project.title}</h4>
+              <p>{project.paragraphs[0].text}</p>
+            </div>
+            <div className={styles.column}>
+              <h4>Details</h4>
+              <p>Date: {project.details?.date}</p>
+              <p>Location: {project.details?.location}</p>
+              <p>Other: {project.details?.other}</p>
+            </div>
+            <div className={styles.column}>
+              <h4>Category</h4>
+              <p>{getCategoryBySlug(project.category)?.name}</p>
+            </div>
           </div>
 
           <div className={styles.relatedProjects}>

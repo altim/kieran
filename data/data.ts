@@ -73,27 +73,39 @@ export const projects: ProjectType[] = [
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
       },
     ],
+    details: {
+      date: "01-01-2024",
+      location: "Munich",
+      other: "Lorem ipsum",
+    },
     images: [
       {
         src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/project1/project1-image2.jpg",
+        alt: "Portfolio Item Image",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/project1/project1-image1.jpg",
+        alt: "Portfolio Item Image",
+        width: 212,
+        height: 212,
         size: "normal",
       },
       {
         src: "/assets/portfolio/project1/project1-image1.jpg",
         alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
+        width: 212,
+        height: 212,
         size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
-        alt: "Portfolio Item Image",
-        width: 920,
-        height: 448,
-        size: "fullWidth",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -136,6 +148,11 @@ export const projects: ProjectType[] = [
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
       },
     ],
+    details: {
+      date: "01-01-2024",
+      location: "Munich",
+      other: "Lorem ipsum",
+    },
     images: [
       {
         src: "/assets/portfolio/project1/project1-image1.jpg",
@@ -156,7 +173,7 @@ export const projects: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -199,6 +216,11 @@ export const projects: ProjectType[] = [
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
       },
     ],
+    details: {
+      date: "01-01-2024",
+      location: "Munich",
+      other: "Lorem ipsum",
+    },
     images: [
       {
         src: "/assets/portfolio/project1/project1-image1.jpg",
@@ -212,14 +234,14 @@ export const projects: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
-        size: "normal",
+        size: "wide",
       },
       {
         src: "/assets/portfolio/project1/project1-image2.jpg",
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -262,6 +284,11 @@ export const projects: ProjectType[] = [
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
       },
     ],
+    details: {
+      date: "01-01-2024",
+      location: "Munich",
+      other: "Lorem ipsum",
+    },
     images: [
       {
         src: "/assets/portfolio/project1/project1-image1.jpg",
@@ -282,7 +309,7 @@ export const projects: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -325,6 +352,11 @@ export const projects: ProjectType[] = [
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
       },
     ],
+    details: {
+      date: "01-01-2024",
+      location: "Munich",
+      other: "Lorem ipsum",
+    },
     images: [
       {
         src: "/assets/portfolio/project1/project1-image1.jpg",
@@ -345,7 +377,7 @@ export const projects: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -388,6 +420,11 @@ export const projects: ProjectType[] = [
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
       },
     ],
+    details: {
+      date: "01-01-2024",
+      location: "Munich",
+      other: "Lorem ipsum",
+    },
     images: [
       {
         src: "/assets/portfolio/project1/project1-image1.jpg",
@@ -408,7 +445,7 @@ export const projects: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -425,6 +462,8 @@ export const projects: ProjectType[] = [
     },
   },
 ];
+
+// ------------------------------------------------------------ CASE STUDIES -----------------------------------------------------------
 
 export const caseStudies: ProjectType[] = [
   {
@@ -473,7 +512,7 @@ export const caseStudies: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -536,7 +575,7 @@ export const caseStudies: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -599,7 +638,7 @@ export const caseStudies: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -662,7 +701,7 @@ export const caseStudies: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -725,7 +764,7 @@ export const caseStudies: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],
@@ -788,7 +827,7 @@ export const caseStudies: ProjectType[] = [
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
-        size: "fullWidth",
+        size: "wide",
       },
     ],
     relatedProjects: ["gopro", "gopro2"],

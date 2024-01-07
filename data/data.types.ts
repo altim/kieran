@@ -10,6 +10,11 @@ export type ProjectType = {
   subtitle: string;
   category: Category["slug"];
   paragraphs: ParagraphType[];
+  details?: {
+    date: string;
+    location: string;
+    other: string;
+  };
   images: ImageType[];
   relatedProjects: string[];
   excerpt: {
@@ -30,7 +35,7 @@ export type ImageType = {
   alt: string;
   width: number;
   height: number;
-  size: "normal" | "fullWidth";
+  size: "normal" | "wide" | "double";
 };
 
 export type Category = {
