@@ -8,8 +8,6 @@ export default function CaseStudyHub() {
     .map((item) => item.category)
     .filter((item2, i, cats) => cats.indexOf(item2) === i);
 
-  console.log("caseStudies:", caseStudies);
-
   return (
     <div className={styles.caseStudyHub}>
       <div className={styles.caseStudyHubInner}>
