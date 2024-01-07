@@ -4,7 +4,7 @@ import Link from "next/link";
 import {
   getCategoryBySlug,
   getCSCategoryBySlug,
-} from "@/app/helpers/categoryHelpers.ts";
+} from "@/helpers/categoryHelpers.ts";
 
 type CategoryLinkType = {
   category: string;

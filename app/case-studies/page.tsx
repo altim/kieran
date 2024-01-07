@@ -1,6 +1,6 @@
 import styles from "./page.module.scss";
 import { caseStudies } from "@/data/data.ts";
-import CategoryLink from "@/app/components/category-link/CategoryLink.tsx";
+import CategoryLink from "@/components/category-link/CategoryLink.tsx";
 
 export default function CaseStudyHub() {
   const categories = caseStudies

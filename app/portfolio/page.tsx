@@ -1,6 +1,6 @@
 import styles from "./page.module.scss";
 import { projects } from "@/data/data.ts";
-import CategoryLink from "@/app/components/category-link/CategoryLink.tsx";
+import CategoryLink from "@/components/category-link/CategoryLink.tsx";
 
 export default function PortfolioHub() {
   const categories = projects

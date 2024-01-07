@@ -2,7 +2,7 @@
 import brands, { BrandType } from "./brands.ts";
 import styles from "./Brands.module.scss";
 import Image from "next/image";
-import Button from "../../../components/button/Button";
+import Button from "@/components/button/Button.tsx";
 
 export default function Brands() {
   return (

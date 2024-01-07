@@ -1,6 +1,6 @@
 import styles from "./Projects.module.scss";
 import ProjectItem from "@/app/(home)/components/projects/components/project-item/ProjectItem";
-import Button from "@/app/components/button/Button";
+import Button from "@/components/button/Button";
 import { projects } from "@/data/data.ts";
 import { notFound } from "next/navigation";
 export default function Projects() {

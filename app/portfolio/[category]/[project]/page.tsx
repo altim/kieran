@@ -1,4 +1,4 @@
-import HeaderImage from "@/app/components/header-image/HeaderImage";
+import HeaderImage from "@/components/header-image/HeaderImage";
 import styles from "./page.module.scss";
 import { projects } from "@/data/data.ts";
 import { ProjectType } from "@/data/data.types.ts";

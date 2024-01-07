@@ -1,6 +1,6 @@
 import styles from "./CategoryItem.module.scss";
 import Image from "next/image";
-import Button from "@/app/components/button/Button";
+import Button from "@/components/button/Button";
 import classNames from "classnames";
 import { ReactNode } from "react";
 

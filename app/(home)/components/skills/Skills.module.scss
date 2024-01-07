@@ -1,4 +1,4 @@
-@use "/app/css/layout";
+@use "/css/layout";
 
 .skills {
   @extend %grid;
@@ -39,7 +39,7 @@
 
     @media (max-width: layout.$tabletWidth) {
       columns: 1;
-      font-size:16px;
+      font-size: 16px;
     }
   }
 }

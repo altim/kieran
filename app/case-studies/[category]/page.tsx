@@ -1,9 +1,9 @@
 import styles from "./page.module.scss";
-import HeaderImage from "@/app/components/header-image/HeaderImage";
+import HeaderImage from "@/components/header-image/HeaderImage";
 import { caseStudies } from "@/data/data.ts";
 import Link from "next/link";
-import { getCSCategoryBySlug } from "@/app/helpers/categoryHelpers.ts";
-import CategoryItem from "@/app/components/category-item/CategoryItem.tsx";
+import { getCSCategoryBySlug } from "@/helpers/categoryHelpers.ts";
+import CategoryItem from "@/components/category-item/CategoryItem.tsx";
 
 export default function PortfolioCategory({
   params,

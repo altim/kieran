@@ -1,7 +1,7 @@
 "use client";
 
 import styles from "./page.module.scss";
-import Button from "@/app/components/button/Button.tsx";
+import Button from "@/components/button/Button.tsx";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";

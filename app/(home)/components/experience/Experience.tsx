@@ -1,6 +1,6 @@
 import styles from "./Experience.module.scss";
 import { ReactNode } from "react";
-import Button from "@/app/components/button/Button";
+import Button from "@/components/button/Button";
 
 type ExperienceProps = {
   children: ReactNode;
