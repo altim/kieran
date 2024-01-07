@@ -1,20 +1,20 @@
 import styles from "./page.module.scss";
 import HeaderImage from "@/app/components/header-image/HeaderImage";
-import PortfolioItem from "@/app/portfolio/[category]/components/portfolio-item/PortfolioItem";
-import { projects } from "@/data/data.ts";
+import { caseStudies } from "@/data/data.ts";
 import Link from "next/link";
-import { getCategoryBySlug } from "@/app/helpers/categoryHelpers.ts";
+import { getCSCategoryBySlug } from "@/app/helpers/categoryHelpers.ts";
+import CategoryItem from "@/app/(home)/components/category-item/CategoryItem.tsx";
 
 export default function PortfolioCategory({
   params,
 }: {
   params: { category: string };
 }) {
-  const categoryProjects = projects.filter(
+  const categoryProjects = caseStudies.filter(
     (item) => item.category === params.category,
   );
 
-  const currentCategory = getCategoryBySlug(params.category);
+  const currentCategory = getCSCategoryBySlug(params.category);
 
   if (!categoryProjects.length || !currentCategory) {
     return (
@@ -44,19 +44,19 @@ export default function PortfolioCategory({
       </div>
       <div className={styles.portfolioItemsList}>
         {categoryProjects.map((project, index) => (
-          <PortfolioItem
+          <CategoryItem
             imageSrc={project.excerpt.image.src}
             imageAlt={project.excerpt.image.alt}
             imageWidth={project.excerpt.image.width}
             imageHeight={project.excerpt.image.height}
-            link={`/portfolio/${currentCategory.slug}/${project.slug}`}
+            link={`/case-studies/${currentCategory.slug}/${project.slug}`}
             reverse={index % 2 === 1}
             key={`portfolio-item-${index}`}
           >
             <h3>{project.excerpt.title}</h3>
             <h3>{project.excerpt.subtitle}</h3>
             <p>{project.excerpt.text}</p>
-          </PortfolioItem>
+          </CategoryItem>
         ))}
       </div>
     </>

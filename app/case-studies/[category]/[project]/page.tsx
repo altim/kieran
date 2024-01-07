@@ -1,6 +1,6 @@
 import HeaderImage from "@/app/components/header-image/HeaderImage";
 import styles from "./page.module.scss";
-import { projects } from "@/data/data.ts";
+import { caseStudies, projects } from "@/data/data.ts";
 import { ProjectType } from "@/data/data.types.ts";
 import { notFound } from "next/navigation";
 import Image from "next/image";
@@ -18,11 +18,11 @@ export default function PortfolioItem({
 }: {
   params: { project: string };
 }) {
-  const project = projects.find(
+  const project = caseStudies.find(
     (item: ProjectType) => item.slug === params.project,
   );
 
-  const relatedProjects = projects.filter(
+  const relatedProjects = caseStudies.filter(
     (item) => project?.relatedProjects.includes(item.slug),
   );
 
@@ -86,7 +86,7 @@ export default function PortfolioItem({
                   imageAlt={item.featuredImage.alt}
                   imageWidth={item.featuredImage.width}
                   imageHeight={item.featuredImage.height}
-                  link={`/portfolio/${item.category}/${item.slug}`}
+                  link={`/case-studies/${item.category}/${item.slug}`}
                 />
               ))}
             </div>

@@ -1,10 +1,10 @@
-import styles from "./PortfolioItem.module.scss";
+import styles from "./CategoryItem.module.scss";
 import Image from "next/image";
 import Button from "@/app/components/button/Button";
 import classNames from "classnames";
 import { ReactNode } from "react";
 
-type PortfolioItemProps = {
+type CategoryItemProps = {
   reverse?: boolean;
   imageSrc: string;
   imageAlt: string;
@@ -13,7 +13,7 @@ type PortfolioItemProps = {
   link: string;
   children: ReactNode;
 };
-export default function PortfolioItem({
+export default function CategoryItem({
   reverse = false,
   imageSrc,
   imageAlt,
@@ -21,11 +21,11 @@ export default function PortfolioItem({
   imageHeight,
   link,
   children,
-}: PortfolioItemProps) {
+}: CategoryItemProps) {
   return (
-    <div className={styles.portfolioItem}>
+    <div className={styles.categoryItem}>
       <div
-        className={classNames(styles.portfolioItemInner, {
+        className={classNames(styles.categoryItemInner, {
           [styles.reverse]: reverse,
         })}
       >
