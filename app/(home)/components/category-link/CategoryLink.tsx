@@ -22,7 +22,7 @@ export default function CategoryLink({
   if (!currentCategory) return null;
 
   const categoryLink =
-    categoryType === "caseStudy"
+    categoryType === "project"
       ? `/portfolio/${currentCategory.slug}`
       : `/case-studies/${currentCategory.slug}`;
 

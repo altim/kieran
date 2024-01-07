@@ -1,7 +1,6 @@
-import Link from "next/link";
 import styles from "./page.module.scss";
 import { caseStudies } from "@/data/data.ts";
-import { getCSCategoryBySlug } from "@/app/helpers/categoryHelpers.ts";
+import CategoryLink from "@/app/(home)/components/category-link/CategoryLink.tsx";
 
 export default function CaseStudyHub() {
   const categories = caseStudies
@@ -12,12 +11,7 @@ export default function CaseStudyHub() {
     <div className={styles.caseStudyHub}>
       <div className={styles.caseStudyHubInner}>
         {categories.map((cat, index) => (
-          <div key={index}>
-            <Link href={`/case-studies/${cat}`}>
-              {getCSCategoryBySlug(cat)?.name}
-            </Link>
-            <br />
-          </div>
+          <CategoryLink category={cat} categoryType={"caseStudy"} key={index} />
         ))}
       </div>
     </div>
