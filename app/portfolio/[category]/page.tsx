@@ -3,7 +3,7 @@ import HeaderImage from "@/app/components/header-image/HeaderImage";
 import { projects } from "@/data/data.ts";
 import Link from "next/link";
 import { getCategoryBySlug } from "@/app/helpers/categoryHelpers.ts";
-import CategoryItem from "@/app/(home)/components/category-item/CategoryItem.tsx";
+import CategoryItem from "@/app/components/category-item/CategoryItem.tsx";
 
 export default function PortfolioCategory({
   params,
