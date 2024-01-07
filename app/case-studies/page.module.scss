@@ -1,9 +1,15 @@
 @use "/app/css/layout";
 
-.caseStudiesHub {
+.caseStudyHub {
   @extend %grid;
 }
 
-.caseStudiesHubInner {
+.caseStudyHubInner {
   grid-column: content;
+  min-height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: max-content;
+  grid-row-gap: 20px;
+  padding: 40px 0;
 }
