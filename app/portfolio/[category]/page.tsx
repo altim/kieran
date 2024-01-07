@@ -37,8 +37,8 @@ export default function PortfolioCategory({
         backgroundColor={"gray"}
       />
 
-      <div className={styles.featuredWorkTitle}>
-        <div className={styles.featuredTitleInner}>
+      <div className={styles.categoryTitle}>
+        <div className={styles.categoryTitleInner}>
           <h1>{currentCategory.name}</h1>
         </div>
       </div>

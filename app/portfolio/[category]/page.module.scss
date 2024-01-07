@@ -1,11 +1,11 @@
 @use "/app/css/layout";
 
-.featuredWorkTitle {
+.categoryTitle {
   @extend %grid;
   background: var(--background-gray);
 }
 
-.featuredTitleInner {
+.categoryTitleInner {
   grid-column: content;
 
   h1 {
