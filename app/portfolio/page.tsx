@@ -1,7 +1,6 @@
-import Link from "next/link";
 import styles from "./page.module.scss";
 import { projects } from "@/data/data.ts";
-import { getCategoryBySlug } from "@/app/helpers/categoryHelpers.ts";
+import CategoryLink from "@/app/(home)/components/category-link/CategoryLink.tsx";
 
 export default function PortfolioHub() {
   const categories = projects
@@ -12,12 +11,7 @@ export default function PortfolioHub() {
     <div className={styles.portfolioHub}>
       <div className={styles.portfolioHubInner}>
         {categories.map((cat, index) => (
-          <div key={index}>
-            <Link href={`/portfolio/${cat}`}>
-              {getCategoryBySlug(cat)?.name}
-            </Link>
-            <br />
-          </div>
+          <CategoryLink category={cat} categoryType={"project"} key={index} />
         ))}
       </div>
     </div>
