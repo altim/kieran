@@ -1,5 +1,5 @@
 import styles from "./page.module.scss";
-import { projects } from "@/data/data.ts";
+import { projects } from "@/data/data-projects.ts";
 import CategoryLink from "@/components/category-link/CategoryLink.tsx";
 import HeaderImage from "@/components/header-image/HeaderImage.tsx";
 

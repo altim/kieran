@@ -1,6 +1,6 @@
 import styles from "./page.module.scss";
 import HeaderImage from "@/components/header-image/HeaderImage";
-import { projects } from "@/data/data.ts";
+import { projects } from "@/data/data-projects.ts";
 import Link from "next/link";
 import { getCategoryBySlug } from "@/helpers/categoryHelpers.ts";
 import CategoryItem from "@/components/category-item/CategoryItem.tsx";

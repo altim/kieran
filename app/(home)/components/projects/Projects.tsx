@@ -1,7 +1,7 @@
 import styles from "./Projects.module.scss";
 import ProjectItem from "@/app/(home)/components/projects/components/project-item/ProjectItem";
 import Button from "@/components/button/Button";
-import { projects } from "@/data/data.ts";
+import { projects } from "@/data/data-projects.ts";
 import { notFound } from "next/navigation";
 export default function Projects() {
   const recentProjects = projects.slice(0, 4);

@@ -1,6 +1,6 @@
 import HeaderImage from "@/components/header-image/HeaderImage";
 import styles from "./page.module.scss";
-import { projects } from "@/data/data.ts";
+import { projects } from "@/data/data-projects.ts";
 import { ProjectType } from "@/data/data.types.ts";
 import { notFound } from "next/navigation";
 import Image from "next/image";

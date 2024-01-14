@@ -1,9 +1,9 @@
 import styles from "./page.module.scss";
 import HeaderImage from "@/components/header-image/HeaderImage";
-import { caseStudies } from "@/data/data.ts";
-import CategoryItem from "@/components/category-item/CategoryItem.tsx";
+import { caseStudies } from "@/data/data-case-studies.ts";
+import CaseStudyItem from "@/components/case-study-item/CaseStudyItem.tsx";
 
-export default function PortfolioCategory() {
+export default function CaseStudies() {
   return (
     <>
       <HeaderImage
@@ -20,20 +20,14 @@ export default function PortfolioCategory() {
         </div>
       </div>
       <div className={styles.portfolioItemsList}>
-        {caseStudies.map((project, index) => (
-          <CategoryItem
-            imageSrc={project.excerpt.image.src}
-            imageAlt={project.excerpt.image.alt}
-            imageWidth={project.excerpt.image.width}
-            imageHeight={project.excerpt.image.height}
-            link={`/case-studies/${project.slug}`}
-            reverse={index % 2 === 1}
-            key={`portfolio-item-${index}`}
-          >
-            <h3>{project.excerpt.title}</h3>
-            <h3>{project.excerpt.subtitle}</h3>
-            <p>{project.excerpt.text}</p>
-          </CategoryItem>
+        {caseStudies.map((caseStudy, index) => (
+          <CaseStudyItem
+            title={caseStudy.title}
+            category={caseStudy.category}
+            text={caseStudy.excerpt.text}
+            slug={caseStudy.slug}
+            image={caseStudy.featuredImage}
+          />
         ))}
       </div>
     </>

@@ -25,6 +25,31 @@ export type ProjectType = {
   };
 };
 
+export type CaseStudyType = {
+  slug: string;
+  featuredImage: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  };
+  title: string;
+  subtitle: string;
+  category: Category["slug"];
+  paragraphs: ParagraphType[];
+  details?: {
+    date: string;
+    location: string;
+    other: string;
+  };
+  images: ImageType[];
+  relatedProjects: string[];
+  excerpt: {
+    title: string;
+    text: string;
+  };
+};
+
 export type ParagraphType = {
   title: string;
   text: string;
