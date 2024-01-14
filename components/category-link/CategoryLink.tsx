@@ -29,7 +29,7 @@ export default function CategoryLink({
   return (
     <Link href={categoryLink} className={styles.categoryLink}>
       <Image
-        src={currentCategory.featuredImage}
+        src={currentCategory.featuredImageSmall}
         alt={currentCategory.name}
         width={920}
         height={448}

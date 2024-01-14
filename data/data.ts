@@ -4,22 +4,26 @@ export const categories: Category[] = [
   {
     slug: "featured",
     name: "Featured Work",
-    featuredImage: "/assets/categories/featuredWork.jpg",
+    featuredImage: "/assets/categories/featured-work.jpg",
+    featuredImageSmall: "/assets/categories/featured-work-small.jpg",
   },
   {
     slug: "cat1",
     name: "Category1",
     featuredImage: "/assets/categories/category1.jpg",
+    featuredImageSmall: "/assets/categories/category1-small.jpg",
   },
   {
     slug: "cat2",
     name: "Category2",
     featuredImage: "/assets/categories/category2.jpg",
+    featuredImageSmall: "/assets/categories/category1-small.jpg",
   },
   {
     slug: "cat3",
     name: "Category3",
     featuredImage: "/assets/categories/category3.jpg",
+    featuredImageSmall: "/assets/categories/category1-small.jpg",
   },
 ];
 
@@ -28,21 +32,25 @@ export const caseStudyCategories: Category[] = [
     slug: "case1",
     name: "Case1",
     featuredImage: "/assets/categories-case-study/case1.jpg",
+    featuredImageSmall: "/assets/categories-case-study/case1.jpg",
   },
   {
     slug: "case2",
     name: "Case2",
     featuredImage: "/assets/categories-case-study/case2.jpg",
+    featuredImageSmall: "/assets/categories-case-study/case1.jpg",
   },
   {
     slug: "case3",
     name: "Case3",
     featuredImage: "/assets/categories-case-study/case3.jpg",
+    featuredImageSmall: "/assets/categories-case-study/case1.jpg",
   },
   {
     slug: "case4",
     name: "Case4",
     featuredImage: "/assets/categories-case-study/case4.jpg",
+    featuredImageSmall: "/assets/categories-case-study/case1.jpg",
   },
 ];
 

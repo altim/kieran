@@ -42,4 +42,5 @@ export type Category = {
   name: string;
   slug: string;
   featuredImage: string;
+  featuredImageSmall: string;
 };
