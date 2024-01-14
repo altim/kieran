@@ -65,7 +65,7 @@ export const caseStudies: CaseStudyType[] = [
 
     slug: "scandinavian-way",
     featuredImage: {
-      src: "/assets/case-studies/scandinavian-way.jpg",
+      src: "/assets/case-studies/scandinavian-way/scandinavian-way.jpg",
       alt: "Featured Image",
       width: 920,
       height: 448,

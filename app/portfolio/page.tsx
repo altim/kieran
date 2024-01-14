@@ -26,7 +26,7 @@ export default function PortfolioHub() {
       <div className={styles.portfolioHub}>
         <div className={styles.portfolioHubInner}>
           {categories.map((cat, index) => (
-            <CategoryLink category={cat} categoryType={"project"} key={index} />
+            <CategoryLink category={cat} key={index} />
           ))}
         </div>
       </div>

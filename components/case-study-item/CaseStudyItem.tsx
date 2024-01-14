@@ -1,3 +1,6 @@
+import styles from "./CaseStudyItem.module.scss";
+import Link from "next/link";
+
 type CaseStudyItemProps = {
   title: string;
   category: string;
@@ -17,5 +20,30 @@ export default function CaseStudyItem({
   slug,
   image,
 }: CaseStudyItemProps) {
-  return <h1>Case Study Item</h1>;
+  return (
+    <div className={styles.caseStudyItem}>
+      <div className={styles.caseStudyItemInner}>
+        <div className={styles.imageWrapper}>
+          <img
+            src={image.src}
+            alt={image.src}
+            width={image.width}
+            height={image.height}
+            className={styles.image}
+          />
+        </div>
+        <div className={styles.leftSide}>
+          <p className={styles.category}>{category}</p>
+          <h2 className={styles.caseStudyTitle}>A Case Study_</h2>
+          <h2 className={styles.title}>{title}</h2>
+        </div>
+        <div className={styles.rightSide}>
+          <p className={styles.text}>{text}</p>
+          <Link href={`/case-studies/${slug}`} className={styles.link}>
+            View more
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
 }

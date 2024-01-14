@@ -1,30 +1,17 @@
 import styles from "./CategoryLink.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  getCategoryBySlug,
-  getCSCategoryBySlug,
-} from "@/helpers/categoryHelpers.ts";
+import { getCategoryBySlug } from "@/helpers/categoryHelpers.ts";
 
 type CategoryLinkType = {
   category: string;
-  categoryType: "project" | "caseStudy";
 };
-export default function CategoryLink({
-  category,
-  categoryType,
-}: CategoryLinkType) {
-  const currentCategory =
-    categoryType === "project"
-      ? getCategoryBySlug(category)
-      : getCSCategoryBySlug(category);
+export default function CategoryLink({ category }: CategoryLinkType) {
+  const currentCategory = getCategoryBySlug(category);
 
   if (!currentCategory) return null;
 
-  const categoryLink =
-    categoryType === "project"
-      ? `/portfolio/${currentCategory.slug}`
-      : `/case-studies/${currentCategory.slug}`;
+  const categoryLink = `/portfolio/${currentCategory.slug}`;
 
   return (
     <Link href={categoryLink} className={styles.categoryLink}>

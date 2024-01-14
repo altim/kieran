@@ -19,16 +19,20 @@ export default function CaseStudies() {
           <h1>Case Studies</h1>
         </div>
       </div>
-      <div className={styles.portfolioItemsList}>
-        {caseStudies.map((caseStudy, index) => (
-          <CaseStudyItem
-            title={caseStudy.title}
-            category={caseStudy.category}
-            text={caseStudy.excerpt.text}
-            slug={caseStudy.slug}
-            image={caseStudy.featuredImage}
-          />
-        ))}
+      <div className={styles.main}>
+        <div className={styles.mainInner}>
+          <div className={styles.caseStudiesList}>
+            {caseStudies.map((caseStudy, index) => (
+              <CaseStudyItem
+                title={caseStudy.title}
+                category={caseStudy.category}
+                text={caseStudy.excerpt.text}
+                slug={caseStudy.slug}
+                image={caseStudy.featuredImage}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </>
   );
