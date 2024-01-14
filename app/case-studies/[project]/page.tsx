@@ -88,7 +88,7 @@ export default function PortfolioItem({
                   imageAlt={item.featuredImage.alt}
                   imageWidth={item.featuredImage.width}
                   imageHeight={item.featuredImage.height}
-                  link={`/case-studies/${item.category}/${item.slug}`}
+                  link={`/case-studies/${item.slug}`}
                 />
               ))}
             </div>
