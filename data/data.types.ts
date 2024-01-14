@@ -9,7 +9,7 @@ export type ProjectType = {
   title: string;
   subtitle: string;
   category: Category["slug"];
-  paragraphs: ParagraphType[];
+  paragraph: string;
   details?: {
     date: string;
     location: string;

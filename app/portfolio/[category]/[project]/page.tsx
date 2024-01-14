@@ -71,7 +71,7 @@ export default function PortfolioItem({
           <div className={styles.content}>
             <div className={styles.column}>
               <h4>{project.title}</h4>
-              <p>{project.paragraphs[0].text}</p>
+              <p>{project.paragraph}</p>
             </div>
             <div className={styles.column}>
               <h4>Details</h4>
