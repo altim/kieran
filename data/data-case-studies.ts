@@ -168,7 +168,7 @@ export const caseStudies: CaseStudyType[] = [
     relatedProjects: ["rossi-milan", "scandinavian-way"],
     excerpt: {
       title: "Inspired by the Silver Spoon",
-      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
     },
   },
 
@@ -225,7 +225,7 @@ export const caseStudies: CaseStudyType[] = [
     relatedProjects: ["rossi-milan", "scandinavian-way"],
     excerpt: {
       title: "Inspired by the Silver Spoon 2",
-      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
     },
   },
 ];
