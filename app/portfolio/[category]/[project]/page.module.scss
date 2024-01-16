@@ -37,6 +37,7 @@
   grid-gap: 48px;
   padding-bottom: 90px;
   @media (max-width: layout.$tabletWidth) {
+    grid-template-columns: 1fr;
     grid-row-gap: 30px;
     padding-bottom: 30px;
   }
