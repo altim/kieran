@@ -2,6 +2,9 @@
 
 .caseStudyItem {
   width: 100%;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .caseStudyItemInner {
@@ -19,7 +22,8 @@
   z-index: 1;
 
   @media (max-width: layout.$tabletWidth) {
-    padding: 10px 5px 10px 10px;
+    padding: 12px;
+    grid-column: 1/3;
   }
 }
 
@@ -30,7 +34,7 @@
   z-index: 1;
 
   @media (max-width: layout.$tabletWidth) {
-    padding: 10px 10px 10px 5px;
+    display: none;
   }
 }
 
@@ -106,16 +110,5 @@
     font-size: 12px;
     margin: 0;
     line-height: 1.2;
-  }
-}
-
-.link {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #fff;
-
-  @media (max-width: layout.$tabletWidth) {
-    font-size: 12px;
-    margin: 0;
   }
 }
