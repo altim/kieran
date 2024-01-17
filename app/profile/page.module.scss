@@ -31,8 +31,8 @@
   z-index: -1;
 
   @media (max-width: layout.$tabletWidth) {
-    left: 50px;
-    top: 360px;
+    left: -20px;
+    top: calc(50% + 100px);
   }
 }
 
@@ -89,6 +89,10 @@
   grid-row-gap: 15px;
   justify-items: end;
   align-items: start;
+
+  @media (max-width: layout.$tabletWidth) {
+    justify-items: center;
+  }
 }
 
 .profileImage {
@@ -105,7 +109,7 @@
   margin-top: 140px;
 
   @media (max-width: layout.$tabletWidth) {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 24px;
   }
 }

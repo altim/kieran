@@ -4,6 +4,10 @@
   @extend %grid;
   border-bottom: 1px solid var(--separator-gray);
   background: var(--background-gray);
+
+  @media (max-width: layout.$tabletWidth) {
+    border-bottom: none;
+  }
 }
 
 .navigationInner {
