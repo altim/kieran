@@ -44,6 +44,7 @@ export default function Navigation() {
           <div className={styles.menu}>
             {menu.map((item) => (
               <a
+                key={item.name}
                 href={item.url}
                 className={classNames({
                   [styles.selectedMenuItem]: item.url === pathname,
@@ -62,9 +63,9 @@ export default function Navigation() {
                   fill="none"
                   height="24"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   viewBox="0 0 24 24"
                   width="24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -109,6 +110,7 @@ export default function Navigation() {
           </h3>
           {menu.map((item) => (
             <a
+              key={item.name}
               href={item.url}
               className={classNames({
                 [styles.selectedMobileMenuItem]: item.url === pathname,
