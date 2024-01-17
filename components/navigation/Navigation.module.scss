@@ -60,6 +60,10 @@
   grid-column: full-width;
   height: 60px;
   background: var(--background-gray);
+
+  @media (max-width: layout.$tabletWidth) {
+    height: 0;
+  }
 }
 
 .mobileMenuBtn {
