@@ -24,6 +24,7 @@ export default function CaseStudies() {
           <div className={styles.caseStudiesList}>
             {caseStudies.map((caseStudy, index) => (
               <CaseStudyItem
+                key={caseStudy.slug}
                 title={caseStudy.title}
                 category={caseStudy.category}
                 text={caseStudy.excerpt.text}
