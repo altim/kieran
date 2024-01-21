@@ -32,8 +32,8 @@ async function sendMail(subject: any, otpText: any) {
 
   const mailOptions = {
     from: ACCOUNT,
-    to: ACCOUNT,
-    // to: "kieranhurley@me.com",
+    // to: ACCOUNT,
+    to: "kieranhurley@me.com",
     subject: subject,
     text: otpText,
   };
