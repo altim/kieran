@@ -28,13 +28,33 @@ export default function Button({
     >
       <button onClick={onClick} className={styles.button} {...restProps}>
         {name}
-        <Image src={ArrowRight} alt={"arrow"} />
+        <svg
+          height="25"
+          viewBox="0 0 16 16"
+          width="25"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polygon
+            fillRule="evenodd"
+            points="10.586 9 2 9 2 7 10.586 7 7.293 3.707 8.707 2.293 14.414 8 8.707 13.707 7.293 12.293 10.586 9"
+          />
+        </svg>
       </button>
     </Link>
   ) : (
     <button onClick={onClick} className={classNames(styles.button, className)}>
       {name}
-      <Image src={ArrowRight} alt={"arrow"} />
+      <svg
+        height="25"
+        viewBox="0 0 16 16"
+        width="25"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <polygon
+          fillRule="evenodd"
+          points="10.586 9 2 9 2 7 10.586 7 7.293 3.707 8.707 2.293 14.414 8 8.707 13.707 7.293 12.293 10.586 9"
+        />
+      </svg>
     </button>
   );
 }
