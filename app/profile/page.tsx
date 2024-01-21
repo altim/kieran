@@ -26,7 +26,11 @@ export default function About() {
               height={298}
               className={styles.profileImage}
             />
-            <Link href={"#"} target={"_blank"} className={styles.socialIcon}>
+            <Link
+              href={"https://www.linkedin.com/in/kieran-hurley-44919b5a/"}
+              target={"_blank"}
+              className={styles.socialIcon}
+            >
               <Image
                 src={"/assets/profile/linkedin.png"}
                 alt={"LinkedIn"}
