@@ -1,5 +1,5 @@
 "use client";
-import brands, { BrandType } from "./brands.ts";
+import dataBrands, { BrandType } from "../../../../data/data-brands.ts";
 import styles from "./Brands.module.scss";
 import Image from "next/image";
 import Button from "@/components/button/Button.tsx";
@@ -10,7 +10,7 @@ export default function Brands() {
       <div className={styles.brandsInner}>
         <h2>Some of the brands I have worked with.</h2>
         <div className={styles.brandsList}>
-          {brands.map((item: BrandType) => (
+          {dataBrands.map((item: BrandType) => (
             <div className={styles.brandItem} key={item.id}>
               <Image
                 alt={item.name}
