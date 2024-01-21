@@ -32,10 +32,6 @@
   @media (max-width: layout.$tabletWidth) {
     grid-template-columns: repeat(2, minmax(100px, 1fr));
   }
-
-  @media (max-width: layout.$mobileWidth) {
-    grid-template-columns: 1fr;
-  }
 }
 
 .brandItem {
@@ -48,8 +44,13 @@
   aspect-ratio: 1/1;
 
   img {
+    width: 100%;
     max-width: 100%;
     height: auto;
+  }
+
+  @media (max-width: layout.$tabletWidth) {
+    padding: 6px;
   }
 }
 
