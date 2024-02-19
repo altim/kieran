@@ -2,26 +2,38 @@ import { CaseStudyType, Category, ProjectType } from "@/data/data.types.ts";
 
 export const categories: Category[] = [
   {
-    slug: "featured",
-    name: "Featured Work",
+    slug: "branding",
+    name: "Branding",
     featuredImage: "/assets/categories/featured-work.jpg",
     featuredImageSmall: "/assets/categories/featured-work-small.jpg",
   },
   {
-    slug: "cat1",
-    name: "Category1",
+    slug: "advertising-and-marketing",
+    name: "Advertising & Marketing",
     featuredImage: "/assets/categories/category1.jpg",
     featuredImageSmall: "/assets/categories/category1-small.jpg",
   },
   {
-    slug: "cat2",
-    name: "Category2",
+    slug: "Digital",
+    name: "Digital",
     featuredImage: "/assets/categories/category2.jpg",
     featuredImageSmall: "/assets/categories/category1-small.jpg",
   },
   {
-    slug: "cat3",
-    name: "Category3",
+    slug: "exhibition-spaces-and-display",
+    name: "Exhibition Spaces & Display",
+    featuredImage: "/assets/categories/category3.jpg",
+    featuredImageSmall: "/assets/categories/category1-small.jpg",
+  },
+  {
+    slug: "events",
+    name: "Events",
+    featuredImage: "/assets/categories/category3.jpg",
+    featuredImageSmall: "/assets/categories/category1-small.jpg",
+  },
+  {
+    slug: "packaging-and-merchandise",
+    name: "Packaging & Merchandise",
     featuredImage: "/assets/categories/category3.jpg",
     featuredImageSmall: "/assets/categories/category1-small.jpg",
   },
@@ -29,342 +41,62 @@ export const categories: Category[] = [
 
 export const projects: ProjectType[] = [
   {
-    slug: "gopro",
+    slug: "campo-libre",
     featuredImage: {
-      src: "/assets/portfolio/project1/featured.jpg",
-      alt: "Featured Image",
+      src: "/assets/portfolio/campo-libre/campo-libre-2.jpg",
+      alt: "Campo Libre",
       width: 920,
       height: 448,
     },
 
-    title: "GoPro",
-    subtitle: "OOH / Experiential",
-    category: "featured",
+    title: "Campo Libre",
+    subtitle: "Munich, Germany",
+    category: "branding",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+      "“They’re on a mission to make better camping products”. Having immersed themselves in the Van Life movement for years, the founders of Campo Libre grew increasingly dissatisfied with the offerings in the camping market. The challenge was to create a camping brand target to a young adult  market with the mindset more akin to that of a skate, surf brand.",
     details: {
-      date: "01-01-2024",
-      location: "Munich",
-      other: "Lorem ipsum",
+      date: "",
+      location: "Munich, Germany",
+      other: "",
     },
     images: [
       {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/portfolio/campo-libre/campo-libre-3.jpg",
+        alt: "Campo Libre",
         width: 448,
         height: 448,
         size: "double",
       },
       {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/portfolio/campo-libre/campo-libre-4.jpg",
+        alt: "Campo Libre",
         width: 448,
         height: 212,
         size: "wide",
       },
       {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/portfolio/campo-libre/campo-libre-5.jpg",
+        alt: "Campo Libre",
         width: 212,
         height: 212,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/portfolio/campo-libre/campo-libre-6.jpg",
+        alt: "Campo Libre",
         width: 212,
         height: 212,
         size: "normal",
       },
     ],
-    relatedProjects: ["gopro", "gopro2"],
+    relatedProjects: [],
     excerpt: {
-      title: "GoPro HERO8 Black",
-      subtitle: "Milan, Italy",
-      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
+      title: "Campo Libre",
+      subtitle: "Munich Germany",
+      text: "“They’re on a mission to make better camping products”. Having immersed themselves in the Van Life movement for years, the founders of Campo Libre grew increasingly dissatisfied with the offerings in the camping market. The challenge was to create a camping brand target to a young adult  market with the mindset more akin to that of a skate, surf brand.",
       image: {
-        src: "/assets/portfolio/project1/excerpt.jpg",
-        alt: "GoPro",
-        width: 448,
-        height: 448,
-      },
-    },
-  },
-
-  {
-    slug: "gopro2",
-    featuredImage: {
-      src: "/assets/portfolio/project1/featured.jpg",
-      alt: "Featured Image",
-      width: 920,
-      height: 448,
-    },
-
-    title: "GoPro 2",
-    subtitle: "OOH / Experiential",
-    category: "featured",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
-    details: {
-      date: "01-01-2024",
-      location: "Munich",
-      other: "Lorem ipsum",
-    },
-    images: [
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
-        alt: "Portfolio Item Image",
-        width: 920,
-        height: 448,
-        size: "wide",
-      },
-    ],
-    relatedProjects: ["gopro", "gopro2"],
-    excerpt: {
-      title: "GoPro HERO8 Black",
-      subtitle: "Milan, Italy",
-      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
-      image: {
-        src: "/assets/portfolio/project1/excerpt.jpg",
-        alt: "GoPro",
-        width: 448,
-        height: 448,
-      },
-    },
-  },
-
-  {
-    slug: "gopro3",
-    featuredImage: {
-      src: "/assets/portfolio/project1/featured.jpg",
-      alt: "Featured Image",
-      width: 920,
-      height: 448,
-    },
-
-    title: "GoPro 3",
-    subtitle: "OOH / Experiential",
-    category: "featured",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
-    details: {
-      date: "01-01-2024",
-      location: "Munich",
-      other: "Lorem ipsum",
-    },
-    images: [
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "wide",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
-        alt: "Portfolio Item Image",
-        width: 920,
-        height: 448,
-        size: "wide",
-      },
-    ],
-    relatedProjects: ["gopro", "gopro2"],
-    excerpt: {
-      title: "GoPro HERO8 Black",
-      subtitle: "Milan, Italy",
-      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
-      image: {
-        src: "/assets/portfolio/project1/excerpt.jpg",
-        alt: "GoPro",
-        width: 448,
-        height: 448,
-      },
-    },
-  },
-
-  {
-    slug: "gopro4",
-    featuredImage: {
-      src: "/assets/portfolio/project1/featured.jpg",
-      alt: "Featured Image",
-      width: 920,
-      height: 448,
-    },
-
-    title: "GoPro 4",
-    subtitle: "OOH / Experiential",
-    category: "cat1",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
-    details: {
-      date: "01-01-2024",
-      location: "Munich",
-      other: "Lorem ipsum",
-    },
-    images: [
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
-        alt: "Portfolio Item Image",
-        width: 920,
-        height: 448,
-        size: "wide",
-      },
-    ],
-    relatedProjects: ["gopro", "gopro2"],
-    excerpt: {
-      title: "GoPro HERO8 Black",
-      subtitle: "Milan, Italy",
-      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
-      image: {
-        src: "/assets/portfolio/project1/excerpt.jpg",
-        alt: "GoPro",
-        width: 448,
-        height: 448,
-      },
-    },
-  },
-
-  {
-    slug: "gopro5",
-    featuredImage: {
-      src: "/assets/portfolio/project1/featured.jpg",
-      alt: "Featured Image",
-      width: 920,
-      height: 448,
-    },
-
-    title: "GoPro 5",
-    subtitle: "OOH / Experiential",
-    category: "cat2",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
-    details: {
-      date: "01-01-2024",
-      location: "Munich",
-      other: "Lorem ipsum",
-    },
-    images: [
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
-        alt: "Portfolio Item Image",
-        width: 920,
-        height: 448,
-        size: "wide",
-      },
-    ],
-    relatedProjects: ["gopro", "gopro2"],
-    excerpt: {
-      title: "GoPro HERO8 Black",
-      subtitle: "Milan, Italy",
-      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
-      image: {
-        src: "/assets/portfolio/project1/excerpt.jpg",
-        alt: "GoPro",
-        width: 448,
-        height: 448,
-      },
-    },
-  },
-
-  {
-    slug: "gopro6",
-    featuredImage: {
-      src: "/assets/portfolio/project1/featured.jpg",
-      alt: "Featured Image",
-      width: 920,
-      height: 448,
-    },
-
-    title: "GoPro 6",
-    subtitle: "OOH / Experiential",
-    category: "cat3",
-    paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
-    details: {
-      date: "01-01-2024",
-      location: "Munich",
-      other: "Lorem ipsum",
-    },
-    images: [
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
-        alt: "Portfolio Item Image",
-        width: 920,
-        height: 448,
-        size: "wide",
-      },
-    ],
-    relatedProjects: ["gopro", "gopro2"],
-    excerpt: {
-      title: "GoPro HERO8 Black",
-      subtitle: "Milan, Italy",
-      text: "Full Tram wrap featuring Italian MotoGP legend Valentino Rossi and GoPro HERO8. As yellow was the primary colour for the GoPro HERO8 campaign, it made sense to run the Tram on Milan’s historic Yellow Line and feature GoPro‘s most followed athlete and icon of Italian sport Valentino Rossi #valeyellow46.",
-      image: {
-        src: "/assets/portfolio/project1/excerpt.jpg",
-        alt: "GoPro",
+        src: "/assets/portfolio/campo-libre/campo-libre-1.jpg",
+        alt: "Campo Libre",
         width: 448,
         height: 448,
       },

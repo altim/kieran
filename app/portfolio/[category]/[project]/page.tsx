@@ -75,9 +75,11 @@ export default function PortfolioItem({
             </div>
             <div className={styles.column}>
               <h4>Details</h4>
-              <p>Date: {project.details?.date}</p>
-              <p>Location: {project.details?.location}</p>
-              <p>Other: {project.details?.other}</p>
+              {project.details?.date && <p>Date: {project.details?.date}</p>}
+              {project.details?.location && (
+                <p>Location: {project.details?.location}</p>
+              )}
+              {project.details?.other && <p>Other: {project.details?.other}</p>}
             </div>
             <div className={styles.column}>
               <h4>Category</h4>
@@ -85,22 +87,24 @@ export default function PortfolioItem({
             </div>
           </div>
 
-          <div className={styles.relatedProjects}>
-            <h3>Related Projects</h3>
-            <div className={styles.relatedProjectsList}>
-              {relatedProjects.map((item, index) => (
-                <ProjectItem
-                  key={`related-project-${index}`}
-                  title={item.title}
-                  imageSrc={item.featuredImage.src}
-                  imageAlt={item.featuredImage.alt}
-                  imageWidth={item.featuredImage.width}
-                  imageHeight={item.featuredImage.height}
-                  link={`/portfolio/${item.category}/${item.slug}`}
-                />
-              ))}
+          {relatedProjects.length > 0 && (
+            <div className={styles.relatedProjects}>
+              <h3>Related Projects</h3>
+              <div className={styles.relatedProjectsList}>
+                {relatedProjects.map((item, index) => (
+                  <ProjectItem
+                    key={`related-project-${index}`}
+                    title={item.title}
+                    imageSrc={item.featuredImage.src}
+                    imageAlt={item.featuredImage.alt}
+                    imageWidth={item.featuredImage.width}
+                    imageHeight={item.featuredImage.height}
+                    link={`/portfolio/${item.category}/${item.slug}`}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </div>
     </>
