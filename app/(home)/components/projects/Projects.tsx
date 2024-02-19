@@ -20,10 +20,10 @@ export default function Projects() {
             <ProjectItem
               key={`related-project-${index}`}
               title={item.title}
-              imageSrc={item.featuredImage.src}
-              imageAlt={item.featuredImage.alt}
-              imageWidth={item.featuredImage.width}
-              imageHeight={item.featuredImage.height}
+              imageSrc={item.excerpt.image.src}
+              imageAlt={item.excerpt.image.alt}
+              imageWidth={item.excerpt.image.width}
+              imageHeight={item.excerpt.image.height}
               link={`/portfolio/${item.category}/${item.slug}`}
             />
           ))}

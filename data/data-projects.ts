@@ -1,4 +1,4 @@
-import { CaseStudyType, Category, ProjectType } from "@/data/data.types.ts";
+import { Category, ProjectType } from "@/data/data.types.ts";
 
 export const categories: Category[] = [
   {
