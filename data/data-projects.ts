@@ -1299,4 +1299,256 @@ export const projects: ProjectType[] = [
       },
     },
   },
+
+  {
+    slug: "gopro-3d-printed-trophy",
+    featuredImage: {
+      src: "/assets/portfolio/gp-3d-trophy/gp-3d-trophy-1.jpg",
+      alt: "GoPro 3-D Printed Trophy",
+      width: 920,
+      height: 448,
+    },
+
+    title: "GoPro 3-D Printed Trophy",
+    subtitle: "Munich, Germany",
+    category: "packaging-and-merchandise",
+    paragraph:
+      "The challenge lay in crafting a memorable trophy to symbolize a prestigious award. After thorough research, the decision was made to immortalize the iconic GoPro Hero camera through a meticulously crafted metal 3D print. While this innovative and relatively new technology presented its obstacles, the team adeptly navigated through them, resulting in a stunning trophy that was enthusiastically received.",
+    details: {
+      date: "",
+      location: "Munich, Germany",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/gp-3d-trophy/gp-3d-trophy-3.jpg",
+        alt: "GoPro 3-D Printed Trophy",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/gp-3d-trophy/gp-3d-trophy-4.jpg",
+        alt: "GoPro 3-D Printed Trophy",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/gp-3d-trophy/gp-3d-trophy-5.jpg",
+        alt: "GoPro 3-D Printed Trophy",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/gp-3d-trophy/gp-3d-trophy-6.jpg",
+        alt: "GoPro 3-D Printed Trophy",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "GoPro 3-D Printed Trophy",
+      subtitle: "Munich, Germany",
+      text: "The challenge lay in crafting a memorable trophy to symbolize a prestigious award. After thorough research, the decision was made to immortalize the iconic GoPro Hero camera through a meticulously crafted metal 3D print. While this innovative and relatively new technology presented its obstacles, the team adeptly navigated through them, resulting in a stunning trophy that was enthusiastically received.",
+      image: {
+        src: "/assets/portfolio/gp-3d-trophy/gp-3d-trophy-2.jpg",
+        alt: "GoPro 3-D Printed Trophy",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "apparel",
+    featuredImage: {
+      src: "/assets/portfolio/apparel/apparel-1.jpg",
+      alt: "GoPro Apparel",
+      width: 920,
+      height: 448,
+    },
+
+    title: "GoPro Apparel",
+    subtitle: "Munich, Germany",
+    category: "packaging-and-merchandise",
+    paragraph:
+      "Delivering branded apparel solutions demands expertise in navigating the complexities of materials, suppliers, and budget constraints.",
+    details: {
+      date: "",
+      location: "Munich, Germany",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/apparel/apparel-3.jpg",
+        alt: "GoPro Apparel",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/apparel/apparel-4.jpg",
+        alt: "GoPro Apparel",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/apparel/apparel-5.jpg",
+        alt: "GoPro Apparel",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/apparel/apparel-6.jpg",
+        alt: "GoPro Apparel",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "GoPro Apparel",
+      subtitle: "Munich, Germany",
+      text: "Delivering branded apparel solutions demands expertise in navigating the complexities of materials, suppliers, and budget constraints.",
+      image: {
+        src: "/assets/portfolio/apparel/apparel-2.jpg",
+        alt: "GoPro Apparel",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "mcd-award",
+    featuredImage: {
+      src: "/assets/portfolio/mcd-award/mcd-award-1.jpg",
+      alt: "GoPro EMEA Distributors Summit",
+      width: 920,
+      height: 448,
+    },
+
+    title: "GoPro EMEA Distributors Summit",
+    subtitle: "Dubrovnik, Croatia",
+    category: "packaging-and-merchandise",
+    paragraph:
+      "The GoPro Million Dollar Challenge draws participants from across the globe to submit their captivating videos or photos. Winners are rewarded with a portion of the Million Dollar Prize pool. Additionally, to honor their outstanding contributions, winners are presented with a trophy commemorating their achievement.",
+    details: {
+      date: "",
+      location: "Dubrovnik, Croatia",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/mcd-award/mcd-award-3.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/mcd-award/mcd-award-4.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/mcd-award/mcd-award-5.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/mcd-award/mcd-award-6.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "GoPro EMEA Distributors Summit",
+      subtitle: "Dubrovnik, Croatia",
+      text: "The GoPro Million Dollar Challenge draws participants from across the globe to submit their captivating videos or photos. Winners are rewarded with a portion of the Million Dollar Prize pool. Additionally, to honor their outstanding contributions, winners are presented with a trophy commemorating their achievement.",
+      image: {
+        src: "/assets/portfolio/mcd-award/mcd-award-2.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "bayer-project",
+    featuredImage: {
+      src: "/assets/portfolio/bayer-project/bayer-1.jpg",
+      alt: "Bayer Animal Health",
+      width: 920,
+      height: 448,
+    },
+
+    title: "Bayer Animal Health",
+    subtitle: "Sydney, Australia",
+    category: "packaging-and-merchandise",
+    paragraph:
+      "As the design lead for a comprehensive project, I spearheaded the rebranding of over 100 products for the Bayer Animal Health group across Australia and New Zealand. Throughout the project, I cultivated robust relationships with clients, production specialists, printers, and various vendors. These connections were instrumental in ensuring the successful execution of the project and maintaining the highest standards of quality and consistency across all branded materials.",
+    details: {
+      date: "",
+      location: "Sydney, Australia",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/bayer-project/bayer-3.jpg",
+        alt: "Bayer Animal Health",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/bayer-project/bayer-4.jpg",
+        alt: "Bayer Animal Health",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/bayer-project/bayer-5.jpg",
+        alt: "Bayer Animal Health",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/bayer-project/bayer-6.jpg",
+        alt: "Bayer Animal Health",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "Bayer Animal Health",
+      subtitle: "Sydney, Australia",
+      text: "As the design lead for a comprehensive project, I spearheaded the rebranding of over 100 products for the Bayer Animal Health group across Australia and New Zealand. Throughout the project, I cultivated robust relationships with clients, production specialists, printers, and various vendors. These connections were instrumental in ensuring the successful execution of the project and maintaining the highest standards of quality and consistency across all branded materials.",
+      image: {
+        src: "/assets/portfolio/bayer-project/bayer-2.jpg",
+        alt: "Bayer Animal Health",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
 ];
