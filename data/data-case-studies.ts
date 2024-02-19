@@ -1,4 +1,4 @@
-import { CaseStudyType, Category, ProjectType } from "@/data/data.types.ts";
+import { CaseStudyType } from "@/data/data.types.ts";
 
 export const caseStudies: CaseStudyType[] = [
   {
@@ -58,7 +58,7 @@ export const caseStudies: CaseStudyType[] = [
         size: "wide",
       },
     ],
-    relatedProjects: ["cre8tors"],
+    relatedProjects: ["cre8tors", "hero8"],
     excerpt: {
       title: "GoPro British MotoGP",
       text: "GoPro has enjoyed a longstanding partnership with the MotoGP circuit, culminating in its role as the Title Sponsor for the British MotoGP at Silverstone. This prestigious event not only showcased thrilling races but also served as a prime occasion for GoPro to engage with EMEA distribution partners, brand athletes, and advocates track-side.",
@@ -122,7 +122,7 @@ export const caseStudies: CaseStudyType[] = [
         size: "wide",
       },
     ],
-    relatedProjects: ["motogp"],
+    relatedProjects: ["motogp", "hero8"],
     excerpt: {
       title: "GoPro CRE8ORS",
       text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day.",
@@ -130,116 +130,130 @@ export const caseStudies: CaseStudyType[] = [
   },
 
   {
-    title: "Inspired by The Silver Spoon",
-    subtitle: "Subtitle",
-    category: "Exhibition & Events",
+    title: "GoPro HERO8",
+    subtitle: "Milan Italy",
+    category: "Branding",
 
-    slug: "silver-spoon",
+    slug: "hero8",
     featuredImage: {
-      src: "/assets/case-studies/silver-spoon/silver-spoon.jpg",
-      alt: "Silver Spoon",
+      src: "/assets/case-studies/rossi-milan/rossi-milan-1.jpg",
+      alt: "Rossi Milan",
       width: 920,
       height: 448,
     },
 
     paragraphs: [
       {
-        title: "Problem",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+        title: "Brief",
+        text: "I was given opportunity to provide a public transport vehicle wrap in Milan promoting the GoPro HERO8 camera featuring Hypersmooth.",
       },
       {
         title: "Solution",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+        text: 'It was all yellow. Serendipitously, the tram booked for the campaign, travelled the Yellow line of Milan\'s Metro Network. Given the dominant presence of yellow in the GoPro HERO8 color palette, this alignment felt entirely natural. Moreover, the decision to enlist one of Italy\'s most renowned athletes, Valentino Rossi, #valeyellow46, further solidified this synergy. With our assets in place, our focus shifted to aligning the text to highlight the key feature: Hypersmooth. The tagline "Pronto per una corsa fluida," supplied by GoPro\'s Italian agency and translating to "Ready for a smooth ride" in English, was approved by #valeyellow46 himself, adding an authentic touch to our promotional efforts.',
       },
       {
         title: "My Role",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+        text: "In my capacity as the Art Director and Design Lead for the EMEA region, I assumed the crucial responsibility of ensuring the prompt delivery of assets to IGPDecaux, the company tasked with installing the wrap. At the core of my role was providing creative direction and vision, focusing specifically on creating a wrap that aligned seamlessly with GoPro's Global HERO8 campaign while also being tailored to resonate with the Italian target market. Additionally, I supervised the work of junior graphic designers and fostered close collaboration with both IGPDecaux and GoPro creatives in the US. This comprehensive approach facilitated a cohesive execution, ensuring the successful realization of our design objectives.",
       },
     ],
     images: [
       {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/case-studies/rossi-milan/rossi-milan-1.jpg",
+        alt: "Rossi Milan",
+        width: 920,
+        height: 448,
+        size: "wide",
+      },
+      {
+        src: "/assets/case-studies/rossi-milan/rossi-milan-2.jpg",
+        alt: "Rossi Milan",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/case-studies/rossi-milan/rossi-milan-4.jpg",
+        alt: "Rossi Milan",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/case-studies/rossi-milan/rossi-milan-3.jpg",
+        alt: "Rossi Milan",
         width: 920,
         height: 448,
         size: "wide",
       },
     ],
-    relatedProjects: ["rossi-milan", "scandinavian-way"],
+    relatedProjects: ["motogp", "cre8tors"],
     excerpt: {
-      title: "Inspired by the Silver Spoon",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+      title: "GoPro HERO8",
+      text: "I was given opportunity to provide a public transport vehicle wrap in Milan promoting the GoPro HERO8 camera featuring Hypersmooth.",
     },
   },
 
   {
-    title: "Inspired by The Silver Spoon 2",
-    subtitle: "Subtitle",
+    title: "GoPro Creator Summit",
+    subtitle: "Interlaken Switzerland",
     category: "Exhibition & Events",
 
-    slug: "silver-spoon-2",
+    slug: "suiss-creator",
     featuredImage: {
-      src: "/assets/case-studies/silver-spoon-2/silver-spoon.jpg",
-      alt: "Silver Spoon 2",
+      src: "/assets/case-studies/suiss-creator/suiss-creator-1.jpg",
+      alt: "Suiss Creator",
       width: 920,
       height: 448,
     },
 
     paragraphs: [
       {
-        title: "Problem",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+        title: "Brief",
+        text: "Every year, GoPro extends invitations to a select group of athletes and advocates from around the world to convene in a unique setting for a week of product training and adrenaline-pumping activities. The Interlaken summit was particularly significant as it coincided with the launch of the HERO11. My task was to create event branding and assets that not only captured the essence of the location but also remained true to the unmistakable GoPro style.",
       },
       {
         title: "Solution",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+        text: "The event logo paid homage to vintage travel posters that once beckoned travelers to the Swiss Alps. Embracing the classic Swiss poster style, the event poster and banners featured typography reminiscent of this iconic aesthetic. Additionally, the typography served as a tribute to the late Adrien Frutiger, a renowned type designer with roots in Interlaken. The outcome was a cohesive and compelling event brand that participants proudly showcased across various social media channels as they shared their experiences and work.",
       },
       {
         title: "My Role",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+        text: "Working exclusively solo on this project, I conceived and developed my design concept before presenting it to both the GoPro teams in EMEA and the US. Subsequently, I liaised with vendors to ensure seamless execution, providing finished artwork for production and installation at the event venues in Interlaken.",
       },
     ],
     images: [
       {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/case-studies/suiss-creator/suiss-creator-1.jpg",
+        alt: "Suiss Creator",
+        width: 920,
+        height: 448,
+        size: "wide",
+      },
+      {
+        src: "/assets/case-studies/suiss-creator/suiss-creator-2.jpg",
+        alt: "Suiss Creator",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/case-studies/suiss-creator/suiss-creator-4.jpg",
+        alt: "Suiss Creator",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
-        alt: "Portfolio Item Image",
+        src: "/assets/case-studies/suiss-creator/suiss-creator-3.jpg",
+        alt: "Suiss Creator",
         width: 920,
         height: 448,
         size: "wide",
       },
     ],
-    relatedProjects: ["rossi-milan", "scandinavian-way"],
+    relatedProjects: ["cre8tors", "hero8"],
     excerpt: {
-      title: "Inspired by the Silver Spoon 2",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+      title: "GoPro Creator Summit",
+      text: "Every year, GoPro extends invitations to a select group of athletes and advocates from around the world to convene in a unique setting for a week of product training and adrenaline-pumping activities. The Interlaken summit was particularly significant as it coincided with the launch of the HERO11.",
     },
   },
 ];
