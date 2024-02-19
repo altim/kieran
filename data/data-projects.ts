@@ -14,7 +14,7 @@ export const categories: Category[] = [
     featuredImageSmall: "/assets/categories/category1-small.jpg",
   },
   {
-    slug: "Digital",
+    slug: "digital",
     name: "Digital",
     featuredImage: "/assets/categories/category2.jpg",
     featuredImageSmall: "/assets/categories/category1-small.jpg",
@@ -538,6 +538,510 @@ export const projects: ProjectType[] = [
       image: {
         src: "/assets/portfolio/out-of-home/out-of-home-2.jpg",
         alt: "Out Of Home Advertising",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "fsp",
+    featuredImage: {
+      src: "/assets/portfolio/fsp/fsp-1.jpg",
+      alt: "Fire Systems Products",
+      width: 920,
+      height: 448,
+    },
+
+    title: "Fire Systems Products",
+    subtitle: "Australia",
+    category: "digital",
+    paragraph:
+      "Having spearheaded the creation of the Fire System Products brand and meticulously crafted its style guide, I was subsequently entrusted with the task of conceptualizing and executing their digital marketing communication strategy. This encompassed the design and development of an informative product website as well as the seamless execution of regular MailChimp campaigns aimed at engaging our target audience effectively.",
+    details: {
+      date: "",
+      location: "Australia",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/fsp/fsp-3.jpg",
+        alt: "Fire Systems Products",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/fsp/fsp-4.jpg",
+        alt: "Fire Systems Products",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/fsp/fsp-5.jpg",
+        alt: "Fire Systems Products",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/fsp/fsp-6.jpg",
+        alt: "Fire Systems Products",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "Fire Systems Products",
+      subtitle: "",
+      text: "Having spearheaded the creation of the Fire System Products brand and meticulously crafted its style guide, I was subsequently entrusted with the task of conceptualizing and executing their digital marketing communication strategy. This encompassed the design and development of an informative product website as well as the seamless execution of regular MailChimp campaigns aimed at engaging our target audience effectively.",
+      image: {
+        src: "/assets/portfolio/fsp/fsp-2.jpg",
+        alt: "Fire Systems Products",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "omni-bar",
+    featuredImage: {
+      src: "/assets/portfolio/omni-bar/omni-bar-1.jpg",
+      alt: "Omni Bar",
+      width: 920,
+      height: 448,
+    },
+
+    title: "OMNI BAR",
+    subtitle: "Hausham, Germany",
+    category: "digital",
+    paragraph:
+      "The founders of OMNI Bar are resolute in their mission to challenge the status quo and revolutionise  the snacking habits of young people. With a commitment to offering organic, vegan, and low-sugar pocket food done right, they entrusted me with leveraging my expertise in health and lifestyle brands to enhance the OMNI Bar campaign. I diligently crafted compelling narratives and visuals that underscored OMNI Bar's profound connection with the lifestyles and values of their target demographic.",
+    details: {
+      date: "",
+      location: "Hausham, Germany",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/omni-bar/omni-bar-3.jpg",
+        alt: "Fire Systems Products",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/omni-bar/omni-bar-4.jpg",
+        alt: "Fire Systems Products",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/omni-bar/omni-bar-5.jpg",
+        alt: "Fire Systems Products",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/omni-bar/omni-bar-6.jpg",
+        alt: "Fire Systems Products",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "OMNI BAR",
+      subtitle: "Hausham, Germany",
+      text: "The founders of OMNI Bar are resolute in their mission to challenge the status quo and revolutionise  the snacking habits of young people. With a commitment to offering organic, vegan, and low-sugar pocket food done right, they entrusted me with leveraging my expertise in health and lifestyle brands to enhance the OMNI Bar campaign. I diligently crafted compelling narratives and visuals that underscored OMNI Bar's profound connection with the lifestyles and values of their target demographic.",
+      image: {
+        src: "/assets/portfolio/omni-bar/omni-bar-2.jpg",
+        alt: "Fire Systems Products",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "rugby",
+    featuredImage: {
+      src: "/assets/portfolio/rugby/rugby-1.jpg",
+      alt: "OKTOBERFEST7s",
+      width: 920,
+      height: 448,
+    },
+
+    title: "OKTOBERFEST7s",
+    subtitle: "Munich, Germany",
+    category: "digital",
+    paragraph:
+      "In addition to offering creative services across various channels, I was specifically assigned to develop social media content for Germany's inaugural world-class Rugby Tournament, OKTOBERFEST7s. From the months leading up to the event to the weeks preceding it, I meticulously crafted engaging posts, and provided live match day updates to captivate audiences and enhance the tournament experience.",
+    details: {
+      date: "",
+      location: "Munich, Germany",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/rugby/rugby-3.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/rugby/rugby-4.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/rugby/rugby-5.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/rugby/rugby-6.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "OKTOBERFEST7s",
+      subtitle: "Munich, Germany",
+      text: "In addition to offering creative services across various channels, I was specifically assigned to develop social media content for Germany's inaugural world-class Rugby Tournament, OKTOBERFEST7s. From the months leading up to the event to the weeks preceding it, I meticulously crafted engaging posts, and provided live match day updates to captivate audiences and enhance the tournament experience.",
+      image: {
+        src: "/assets/portfolio/rugby/rugby-2.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "torvac",
+    featuredImage: {
+      src: "/assets/portfolio/torvac/torvac-1.jpg",
+      alt: "Torvac Solutions",
+      width: 920,
+      height: 448,
+    },
+
+    title: "Torvac Solutions",
+    subtitle: "Australia",
+    category: "digital",
+    paragraph:
+      "Torvac Solutions is a boutique fire protection company dedicated to safeguarding some of Australia's most cherished assets with state-of-the-art protection systems. I have been entrusted with the responsibility of designing and maintaining their corporate website, as well as orchestrating regular MailChimp campaigns and crafting engaging social media posts.",
+    details: {
+      date: "",
+      location: "Australia",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/torvac/torvac-3.jpg",
+        alt: "Torvac Solutions",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/torvac/torvac-4.jpg",
+        alt: "Torvac Solutions",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/torvac/torvac-5.jpg",
+        alt: "Torvac Solutions",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/torvac/torvac-6.jpg",
+        alt: "Torvac Solutions",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "Torvac Solutions",
+      subtitle: "Australia",
+      text: "Torvac Solutions is a boutique fire protection company dedicated to safeguarding some of Australia's most cherished assets with state-of-the-art protection systems. I have been entrusted with the responsibility of designing and maintaining their corporate website, as well as orchestrating regular MailChimp campaigns and crafting engaging social media posts.",
+      image: {
+        src: "/assets/portfolio/torvac/torvac-2.jpg",
+        alt: "Torvac Solutions",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "laax",
+    featuredImage: {
+      src: "/assets/portfolio/laax/laax-1.jpg",
+      alt: "Flims Laax Falera Resort",
+      width: 920,
+      height: 448,
+    },
+
+    title: "Flims Laax Falera Resort",
+    subtitle: "Switzerland",
+    category: "exhibition-spaces-and-display",
+    paragraph:
+      "Bolstered by visionary management and exceptional facilities, Flims Laax Falera has solidified its position as a premier destination for snowboarders and skiers across Europe. Suitably, GoPro has proudly served as Laax's official camera partner for over a decade. GoPro maintains a strong visual presence throughout the resort via Gondola wrapping, billboard advertising, large format displays, print ads, and digital advertising.",
+    details: {
+      date: "",
+      location: "Switzerland",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/laax/laax-3.jpg",
+        alt: "Flims Laax Falera Resort",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/laax/laax-4.jpg",
+        alt: "Flims Laax Falera Resort",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/laax/laax-5.jpg",
+        alt: "Flims Laax Falera Resort",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/laax/laax-6.jpg",
+        alt: "Flims Laax Falera Resort",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "Flims Laax Falera Resort",
+      subtitle: "Switzerland",
+      text: "Bolstered by visionary management and exceptional facilities, Flims Laax Falera has solidified its position as a premier destination for snowboarders and skiers across Europe. Suitably, GoPro has proudly served as Laax's official camera partner for over a decade. GoPro maintains a strong visual presence throughout the resort via Gondola wrapping, billboard advertising, large format displays, print ads, and digital advertising.",
+      image: {
+        src: "/assets/portfolio/laax/laax-2.jpg",
+        alt: "Flims Laax Falera Resort",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "leogang",
+    featuredImage: {
+      src: "/assets/portfolio/leogang/leogang-1.jpg",
+      alt: "Saalfelden Leogang",
+      width: 920,
+      height: 448,
+    },
+
+    title: "Saalfelden Leogang",
+    subtitle: "Austria",
+    category: "exhibition-spaces-and-display",
+    paragraph:
+      "GoPro has forged a lasting partnership with Austria's premier sports hub, Saalfelden Leogang. This collaboration includes a permanent container display strategically positioned to bolster brand awareness and offer educational resources. Whether it's the adrenaline-pumping UCI mountain biking events in summer or the exhilarating skiing and snowboarding activities in winter, the GoPro brand shines prominently across the resort. From Gondolas to billboards and digital displays, visitors encounter the GoPro brand at every turn.",
+    details: {
+      date: "",
+      location: "Austria",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/leogang/leogang-3.jpg",
+        alt: "Saalfelden Leogang",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/leogang/leogang-4.jpg",
+        alt: "Saalfelden Leogang",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/leogang/leogang-5.jpg",
+        alt: "Saalfelden Leogang",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/leogang/leogang-6.jpg",
+        alt: "Saalfelden Leogang",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "Saalfelden Leogang",
+      subtitle: "Austria",
+      text: "GoPro has forged a lasting partnership with Austria's premier sports hub, Saalfelden Leogang. This collaboration includes a permanent container display strategically positioned to bolster brand awareness and offer educational resources. Whether it's the adrenaline-pumping UCI mountain biking events in summer or the exhilarating skiing and snowboarding activities in winter, the GoPro brand shines prominently across the resort. From Gondolas to billboards and digital displays, visitors encounter the GoPro brand at every turn.",
+      image: {
+        src: "/assets/portfolio/leogang/leogang-2.jpg",
+        alt: "Saalfelden Leogang",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "gopro-x-yamaha",
+    featuredImage: {
+      src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-1.jpg",
+      alt: "GoPro X YAMAHA",
+      width: 920,
+      height: 448,
+    },
+
+    title: "GoPro X YAMAHA",
+    subtitle: "Switzerland and Italy",
+    category: "exhibition-spaces-and-display",
+    paragraph:
+      'GoPro was extended an exclusive opportunity to curate a captivating "shop in a shop" experience within Yamaha showrooms across Switzerland and select regions of Italy. The primary objective was to showcase GoPro\'s diverse camera range alongside specialized accessories tailored for motorcycle enthusiasts. The visual aesthetics of the displays were carefully crafted, featuring dynamic imagery of MotoGP legend Valentino Rossi, to underscore the synergy between the two iconic brands and resonate with the passionate motorcycle community.',
+    details: {
+      date: "",
+      location: "Switzerland and Italy",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-3.jpg",
+        alt: "GoPro X YAMAHA",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-4.jpg",
+        alt: "GoPro X YAMAHA",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-5.jpg",
+        alt: "GoPro X YAMAHA",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-6.jpg",
+        alt: "GoPro X YAMAHA",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "GoPro X YAMAHA",
+      subtitle: "Switzerland and Italy",
+      text: 'GoPro was extended an exclusive opportunity to curate a captivating "shop in a shop" experience within Yamaha showrooms across Switzerland and select regions of Italy. The primary objective was to showcase GoPro\'s diverse camera range alongside specialized accessories tailored for motorcycle enthusiasts. The visual aesthetics of the displays were carefully crafted, featuring dynamic imagery of MotoGP legend Valentino Rossi, to underscore the synergy between the two iconic brands and resonate with the passionate motorcycle community.',
+      image: {
+        src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-2.jpg",
+        alt: "GoPro X YAMAHA",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "zurich-airport",
+    featuredImage: {
+      src: "/assets/portfolio/zurich-airport/zurich-airport-1.jpg",
+      alt: "GoPro California Zurich Airport",
+      width: 920,
+      height: 448,
+    },
+
+    title: "GoPro California Zurich Airport",
+    subtitle: "Zurich, Switzerland",
+    category: "exhibition-spaces-and-display",
+    paragraph:
+      'GoPro was extended an exclusive opportunity to curate a captivating "shop in a shop" experience within Yamaha showrooms across Switzerland and select regions of Italy. The primary objective was to showcase GoPro\'s diverse camera range alongside specialized accessories tailored for motorcycle enthusiasts. The visual aesthetics of the displays were carefully crafted, featuring dynamic imagery of MotoGP legend Valentino Rossi, to underscore the synergy between the two iconic brands and resonate with the passionate motorcycle community.',
+    details: {
+      date: "",
+      location: "Zurich, Switzerland",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/zurich-airport/zurich-airport-3.jpg",
+        alt: "GoPro California Zurich Airport",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/zurich-airport/zurich-airport-4.jpg",
+        alt: "GoPro California Zurich Airport",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/zurich-airport/zurich-airport-5.jpg",
+        alt: "GoPro California Zurich Airport",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/zurich-airport/zurich-airport-6.jpg",
+        alt: "GoPro California Zurich Airport",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "GoPro California Zurich Airport",
+      subtitle: "Zurich, Switzerland",
+      text: "GoPro received the prestigious invitation to showcase California's essence through a display at Zurich Airport. As a lifestyle company rooted in California's vibrant culture, GoPro was uniquely positioned to undertake this endeavor. The exhibit featured captivating images of California's iconic beach culture, all captured on GoPro cameras, alongside the showcased cameras and accessories utilized to create these stunning visuals. This presentation effectively encapsulated the spirit of California and highlighted GoPro's role in capturing and celebrating life's exhilarating moments.",
+      image: {
+        src: "/assets/portfolio/zurich-airport/zurich-airport-2.jpg",
+        alt: "GoPro California Zurich Airport",
         width: 448,
         height: 448,
       },
