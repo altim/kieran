@@ -47,6 +47,7 @@ export type CaseStudyType = {
   excerpt: {
     title: string;
     text: string;
+    image: Omit<ImageType, "size">;
   };
 };
 

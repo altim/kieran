@@ -62,6 +62,12 @@ export const caseStudies: CaseStudyType[] = [
     excerpt: {
       title: "GoPro British MotoGP",
       text: "GoPro has enjoyed a longstanding partnership with the MotoGP circuit, culminating in its role as the Title Sponsor for the British MotoGP at Silverstone. This prestigious event not only showcased thrilling races but also served as a prime occasion for GoPro to engage with EMEA distribution partners, brand athletes, and advocates track-side.",
+      image: {
+        src: "/assets/case-studies/motogp/motogp-2.jpg",
+        alt: "MotoGP",
+        width: 448,
+        height: 448,
+      },
     },
   },
 
@@ -126,6 +132,12 @@ export const caseStudies: CaseStudyType[] = [
     excerpt: {
       title: "GoPro CRE8ORS",
       text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day.",
+      image: {
+        src: "/assets/case-studies/cre8ors/cre8ors-2.jpg",
+        alt: "Portfolio Item Image",
+        width: 448,
+        height: 448,
+      },
     },
   },
 
@@ -190,6 +202,12 @@ export const caseStudies: CaseStudyType[] = [
     excerpt: {
       title: "GoPro HERO8",
       text: "I was given opportunity to provide a public transport vehicle wrap in Milan promoting the GoPro HERO8 camera featuring Hypersmooth.",
+      image: {
+        src: "/assets/case-studies/rossi-milan/rossi-milan-2.jpg",
+        alt: "Rossi Milan",
+        width: 448,
+        height: 448,
+      },
     },
   },
 
@@ -254,6 +272,12 @@ export const caseStudies: CaseStudyType[] = [
     excerpt: {
       title: "GoPro Creator Summit",
       text: "Every year, GoPro extends invitations to a select group of athletes and advocates from around the world to convene in a unique setting for a week of product training and adrenaline-pumping activities. The Interlaken summit was particularly significant as it coincided with the launch of the HERO11.",
+      image: {
+        src: "/assets/case-studies/suiss-creator/suiss-creator-2.jpg",
+        alt: "Suiss Creator",
+        width: 448,
+        height: 448,
+      },
     },
   },
 ];
