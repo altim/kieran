@@ -102,6 +102,7 @@ export const projects: ProjectType[] = [
       },
     },
   },
+
   {
     slug: "gopro-creator-summit",
     featuredImage: {
@@ -164,6 +165,7 @@ export const projects: ProjectType[] = [
       },
     },
   },
+
   {
     slug: "simscale",
     featuredImage: {
@@ -220,6 +222,69 @@ export const projects: ProjectType[] = [
       text: "SimScale, established in Munich in 2012, is a pioneering engineering software startup. Its cloud-based platform revolutionizes the capabilities of engineers and designers globally by enabling robust Computational Fluid Dynamics (CFD), Finite Element Analysis (FEA), and thermal analysis. This groundbreaking technology dismantles numerous barriers that engineering firms encounter in realising their projects.",
       image: {
         src: "/assets/portfolio/simscale/simscale-2.jpg",
+        alt: "SimScale",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "quince",
+    featuredImage: {
+      src: "/assets/portfolio/quince/quince-1.jpg",
+      alt: "Quince",
+      width: 920,
+      height: 448,
+    },
+
+    title: "Quince",
+    subtitle: "Sydney, Australia",
+    category: "branding",
+    paragraph:
+      "Quince Café has opened its doors in two of Sydney's premier shopping destinations, Westfield Bondi Junction and Eastgardens. I was entrusted  to craft a brand that exudes simplicity and elegance, embodying the essence of superior quality produce and service within a relaxed and inviting atmosphere.",
+    details: {
+      date: "",
+      location: "Sydney, Australia",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/quince/quince-3.jpg",
+        alt: "SimScale",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/quince/quince-4.jpg",
+        alt: "SimScale",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/quince/quince-5.jpg",
+        alt: "SimScale",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/quince/quince-6.jpg",
+        alt: "SimScale",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "Quince",
+      subtitle: "Sydney, Australia",
+      text: "Quince Café has opened its doors in two of Sydney's premier shopping destinations, Westfield Bondi Junction and Eastgardens. I was entrusted  to craft a brand that exudes simplicity and elegance, embodying the essence of superior quality produce and service within a relaxed and inviting atmosphere.",
+      image: {
+        src: "/assets/portfolio/quince/quince-2.jpg",
         alt: "SimScale",
         width: 448,
         height: 448,
