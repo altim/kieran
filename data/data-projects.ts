@@ -1047,4 +1047,256 @@ export const projects: ProjectType[] = [
       },
     },
   },
+
+  {
+    slug: "cre8tors",
+    featuredImage: {
+      src: "/assets/portfolio/cre8tors/cre8tors-1.jpg",
+      alt: "GoPro CRE8ORS",
+      width: 920,
+      height: 448,
+    },
+
+    title: "GoPro CRE8ORS",
+    subtitle: "Innsbruck, Austria",
+    category: "events",
+    paragraph:
+      "GoPro invented 6 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, 8-day race culminating in Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck, where participants and attendees celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.",
+    details: {
+      date: "",
+      location: "Innsbruck, Austria",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/cre8tors/cre8tors-3.jpg",
+        alt: "GoPro CRE8ORS",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/cre8tors/cre8tors-4.jpg",
+        alt: "GoPro CRE8ORS",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/cre8tors/cre8tors-5.jpg",
+        alt: "GoPro CRE8ORS",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/cre8tors/cre8tors-6.jpg",
+        alt: "GoPro CRE8ORS",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "GoPro CRE8ORS",
+      subtitle: "Innsbruck, Austria",
+      text: "GoPro invented 6 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, 8-day race culminating in Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck, where participants and attendees celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.",
+      image: {
+        src: "/assets/portfolio/cre8tors/cre8tors-2.jpg",
+        alt: "GoPro CRE8ORS",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "motogp",
+    featuredImage: {
+      src: "/assets/portfolio/motogp/motogp-1.jpg",
+      alt: "GoPro British MotoGP",
+      width: 920,
+      height: 448,
+    },
+
+    title: "GoPro British MotoGP",
+    subtitle: "Silverstone, UK",
+    category: "events",
+    paragraph:
+      "As a partner of the MotoGP Championship, GoPro took pride in its role as the title sponsor of the British MotoGP event. This significant sponsorship ensured that GoPro's branding was prominently displayed both on the course and trackside, capturing the attention of enthusiasts and spectators alike. Furthermore, GoPro curated a luxurious VIP Lounge within the MotoGP Village, where I was entrusted with the responsibility of designing the visual assets for the space, including hospitality and activity branding.",
+    details: {
+      date: "",
+      location: "Silverstone, UK",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/motogp/motogp-3.jpg",
+        alt: "GoPro British MotoGP",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/motogp/motogp-4.jpg",
+        alt: "GoPro British MotoGP",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/motogp/motogp-5.jpg",
+        alt: "GoPro British MotoGP",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/motogp/motogp-6.jpg",
+        alt: "GoPro British MotoGP",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "GoPro British MotoGP",
+      subtitle: "Silverstone, UK",
+      text: "As a partner of the MotoGP Championship, GoPro took pride in its role as the title sponsor of the British MotoGP event. This significant sponsorship ensured that GoPro's branding was prominently displayed both on the course and trackside, capturing the attention of enthusiasts and spectators alike. Furthermore, GoPro curated a luxurious VIP Lounge within the MotoGP Village, where I was entrusted with the responsibility of designing the visual assets for the space, including hospitality and activity branding.",
+      image: {
+        src: "/assets/portfolio/motogp/motogp-2.jpg",
+        alt: "GoPro British MotoGP",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "gp-distributors-summit",
+    featuredImage: {
+      src: "/assets/portfolio/gp-distributors-summit/gp-distributors-summit-1.jpg",
+      alt: "GoPro EMEA Distributors Summit",
+      width: 920,
+      height: 448,
+    },
+
+    title: "GoPro EMEA Distributors Summit",
+    subtitle: "Dubrovnik, Croatia",
+    category: "events",
+    paragraph:
+      "The Annual Distributor Summit serves as a pivotal gathering, uniting GoPro's department heads and esteemed distribution partners from the EMEA region each year. Carefully selected destinations are chosen to accommodate not only GoPro's activities but also to offer significant cultural experiences. As part of my role, I am entrusted with branding the event, aligning activities, apparel, and providing captivating visual assets that seamlessly integrate with the venue, ensuring a memorable and cohesive experience for all attendees.",
+    details: {
+      date: "",
+      location: "Dubrovnik, Croatia",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/gp-distributors-summit/gp-distributors-summit-3.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/gp-distributors-summit/gp-distributors-summit-4.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/gp-distributors-summit/gp-distributors-summit-5.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/gp-distributors-summit/gp-distributors-summit-6.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "GoPro EMEA Distributors Summit",
+      subtitle: "Dubrovnik, Croatia",
+      text: "The Annual Distributor Summit serves as a pivotal gathering, uniting GoPro's department heads and esteemed distribution partners from the EMEA region each year. Carefully selected destinations are chosen to accommodate not only GoPro's activities but also to offer significant cultural experiences. As part of my role, I am entrusted with branding the event, aligning activities, apparel, and providing captivating visual assets that seamlessly integrate with the venue, ensuring a memorable and cohesive experience for all attendees.",
+      image: {
+        src: "/assets/portfolio/gp-distributors-summit/gp-distributors-summit-2.jpg",
+        alt: "GoPro EMEA Distributors Summit",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "oktoberfest7s",
+    featuredImage: {
+      src: "/assets/portfolio/oktoberfest7s/oktoberfest7s-1.jpg",
+      alt: "OKTOBERFEST7s",
+      width: 920,
+      height: 448,
+    },
+
+    title: "OKTOBERFEST7s",
+    subtitle: "Munich, Germany",
+    category: "events",
+    paragraph:
+      "OKTOBERFEST7s marked Germany's inaugural world-class rugby tournament, setting a new standard in the sport. As a member of a dynamic team of marketing and media professionals, I played a pivotal role in providing essential marketing and media assets for the event. Staged in the iconic Olympiastadion, our team was further entrusted with the responsibility of branding the stadium and ensuring the prominent visibility of the OKTOBERFEST7s identity.",
+    details: {
+      date: "",
+      location: "Munich, Germany",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/oktoberfest7s/oktoberfest7s-3.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/oktoberfest7s/oktoberfest7s-4.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/oktoberfest7s/oktoberfest7s-5.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/oktoberfest7s/oktoberfest7s-6.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "OKTOBERFEST7s",
+      subtitle: "Munich, Germany",
+      text: "OKTOBERFEST7s marked Germany's inaugural world-class rugby tournament, setting a new standard in the sport. As a member of a dynamic team of marketing and media professionals, I played a pivotal role in providing essential marketing and media assets for the event. Staged in the iconic Olympiastadion, our team was further entrusted with the responsibility of branding the stadium and ensuring the prominent visibility of the OKTOBERFEST7s identity.",
+      image: {
+        src: "/assets/portfolio/oktoberfest7s/oktoberfest7s-2.jpg",
+        alt: "OKTOBERFEST7s",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
 ];
