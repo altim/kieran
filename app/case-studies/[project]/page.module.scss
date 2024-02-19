@@ -46,7 +46,7 @@
 
 .paragraph {
   display: grid;
-  grid-template-columns: max-content 1fr;
+  grid-template-columns: 100px 1fr;
   grid-column-gap: 90px;
 
   @media (max-width: layout.$tabletWidth) {

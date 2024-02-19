@@ -25,7 +25,7 @@ export default function CaseStudies() {
             {caseStudies.map((caseStudy, index) => (
               <CaseStudyItem
                 key={caseStudy.slug}
-                title={caseStudy.title}
+                title={caseStudy.excerpt.title}
                 category={caseStudy.category}
                 text={caseStudy.excerpt.text}
                 slug={caseStudy.slug}

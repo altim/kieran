@@ -58,67 +58,74 @@ export const caseStudies: CaseStudyType[] = [
         size: "wide",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["cre8tors"],
     excerpt: {
-      title: "GoPro British MotoGP, Silverstone",
-      text: "GoPro has enjoyed a longstanding partnership with the MotoGP circuit, culminating in its role as the Title Sponsor for the British MotoGP at Silverstone.",
+      title: "GoPro British MotoGP",
+      text: "GoPro has enjoyed a longstanding partnership with the MotoGP circuit, culminating in its role as the Title Sponsor for the British MotoGP at Silverstone. This prestigious event not only showcased thrilling races but also served as a prime occasion for GoPro to engage with EMEA distribution partners, brand athletes, and advocates track-side.",
     },
   },
 
   {
-    title: "The Scandinavian Way",
-    subtitle: "Subtitle",
+    title: "GoPro CRE8ORS",
+    subtitle: "Innsbruck Austria",
     category: "Branding",
 
-    slug: "scandinavian-way",
+    slug: "cre8tors",
     featuredImage: {
-      src: "/assets/case-studies/scandinavian-way/scandinavian-way.jpg",
-      alt: "Featured Image",
+      src: "/assets/case-studies/cre8ors/cre8ors-1.jpg",
+      alt: "Portfolio Item Image",
       width: 920,
       height: 448,
     },
 
     paragraphs: [
       {
-        title: "Problem",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+        title: "Brief",
+        text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day. Ensuring the success of the event required cohesive branding, with all associated assets and materials aligning seamlessly. One of the key challenges was integrating the new event logo with the established HERO8 brand assets. Additionally, the event space needed to be transformed to showcase GoPro CRE8ORS and HERO8 elements effectively. The chosen venue, an Upcycling Studio/Gallery, played a pivotal role in reinforcing the gala night's theme of recycling and waste reduction, providing a fitting backdrop for the occasion.",
       },
       {
         title: "Solution",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+        text: "An event logo was meticulously crafted to serve as the focal point of all aspects, spanning from the initial invitation to all participant correspondence and event kits. Additionally, a secondary logo was exclusively reserved for the Gala night, reserved for invited GoPro guests and partners. This secondary emblem adorned posters and stainless steel event cups, which were distributed to all attendees of the gala to underscore our commitment to minimizing waste. Furthermore wheat-paste poster displays were printed on recycled paper and strategically placed throughout the venue, serving as both decor and a reminder of our sustainability efforts. These posters were promptly removed at the conclusion of the event.",
       },
       {
         title: "My Role",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat faucibus hendrerit. Quisque a tellus sollicitudin quam congue volutpat a non nulla. Aenean sollicitudin malesuada lacus, sit amet vestibulum ipsum condimentum vel. Curabitur vitae nunc accumsan, euismod justo vel, ornare dolor. Cras nec orci sapien. Ut ornare et est et aliquam. Nulla at hendrerit velit. Donec sed interdum augue. Suspendisse turpis orci, pretium vel porta quis, vehicula ac erat. Etiam feugiat ac sem eget fermentum. Mauris eget augue at enim condimentum pellentesque. Integer luctus, lectus id dignissim lobortis, risus quam sodales ex, vel cursus ante massa quis massa. Vestibulum ultricies aliquet purus, nec rutrum arcu scelerisque nec. Phasellus vestibulum est a consequat rhoncus.",
+        text: "In my role as the Art Director and Design Lead for the EMEA region, I bore the responsibility of ensuring the timely delivery of assets to the event team. Central to my duties was providing creative direction and vision, with a specific focus on logo creation and wheat-paste graphics. Furthermore, I oversaw the work of junior graphic designers, collaborated closely with vendors, and played an active role in the approval process. This multifaceted approach allowed for cohesive execution and successful realization of our design objectives.",
       },
     ],
     images: [
       {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
+        src: "/assets/case-studies/cre8ors/cre8ors-1.jpg",
+        alt: "Portfolio Item Image",
+        width: 920,
+        height: 448,
+        size: "wide",
+      },
+      {
+        src: "/assets/case-studies/cre8ors/cre8ors-2.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/project1/project1-image1.jpg",
+        src: "/assets/case-studies/cre8ors/cre8ors-4.jpg",
         alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/portfolio/project1/project1-image2.jpg",
+        src: "/assets/case-studies/cre8ors/cre8ors-3.jpg",
         alt: "Portfolio Item Image",
         width: 920,
         height: 448,
         size: "wide",
       },
     ],
-    relatedProjects: ["rossi-milan", "scandinavian-way"],
+    relatedProjects: ["motogp"],
     excerpt: {
-      title: "The Scandinavian Way",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+      title: "GoPro CRE8ORS",
+      text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day.",
     },
   },
 
