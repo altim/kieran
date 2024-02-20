@@ -11,7 +11,7 @@ export default function PortfolioHub() {
   return (
     <>
       <HeaderImage
-        src={"/assets/case-studies/header.jpg"}
+        src={"/assets/portfolio/header.jpg"}
         alt={"Case Studies"}
         width={920}
         height={448}
