@@ -25,6 +25,7 @@ export default function About() {
               width={298}
               height={298}
               className={styles.profileImage}
+              loading="eager"
             />
             <Link
               href={"https://www.linkedin.com/in/kieran-hurley-44919b5a/"}

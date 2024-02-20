@@ -27,7 +27,13 @@ export default function HeaderImage({
         <div className={styles.blueRectangle} />
       </div>
       <div className={styles.headerImage}>
-        <Image src={src} alt={alt} width={width} height={height} />
+        <Image
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          loading={"eager"}
+        />
       </div>
     </div>
   );
