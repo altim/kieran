@@ -13,6 +13,7 @@ export default function Hero() {
           width={298}
           height={298}
           className={styles.heroImage}
+          loading={"eager"}
         />
         <h1 className={styles.title}>
           Kieran

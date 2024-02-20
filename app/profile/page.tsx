@@ -42,6 +42,7 @@ export default function About() {
               name={"CV/Resume"}
               href={"/cv"}
               className={styles.actionButton}
+              ariaLabel={"Download resume"}
             />
           </div>
         </div>

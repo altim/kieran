@@ -10,6 +10,7 @@ type ButtonProps = {
   href?: string;
   target?: string;
   className?: string;
+  ariaLabel?: string;
 };
 
 export default function Button({
@@ -18,6 +19,7 @@ export default function Button({
   href,
   target = "_self",
   className,
+  ariaLabel = name,
   ...restProps
 }: ButtonProps) {
   return href ? (
@@ -26,7 +28,12 @@ export default function Button({
       target={target}
       className={classNames(styles.link, className)}
     >
-      <button onClick={onClick} className={styles.button} {...restProps}>
+      <button
+        onClick={onClick}
+        className={styles.button}
+        aria-label={ariaLabel}
+        {...restProps}
+      >
         {name}
         <svg
           height="25"
