@@ -55,7 +55,11 @@ export default function Navigation() {
 
           <div className={styles.mobileMenuBtn}>
             {!showMobileMenu && (
-              <button onClick={toggleMobileMenu} id={"mobile-menu-toggle"}>
+              <button
+                onClick={toggleMobileMenu}
+                id={"mobile-menu-toggle"}
+                aria-label={"mobile-menu-toggle"}
+              >
                 <svg
                   className="feather feather-menu"
                   fill="none"
