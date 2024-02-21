@@ -6,6 +6,7 @@ import classNames from "classnames";
 
 type ButtonProps = {
   onClick?: () => void;
+  id: string;
   name: string;
   href?: string;
   target?: string;

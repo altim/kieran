@@ -29,7 +29,11 @@ export default function Projects() {
           ))}
         </div>
         <div className={styles.actionButton}>
-          <Button name={"View portfolio"} href={"/portfolio"} />
+          <Button
+            name={"View portfolio"}
+            href={"/portfolio"}
+            id={"portfolio-link"}
+          />
         </div>
       </div>
     </div>

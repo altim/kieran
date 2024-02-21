@@ -41,6 +41,7 @@ export default function About() {
             </Link>
             <Button
               name={"CV/Resume"}
+              id={"cv-download"}
               href={"/cv"}
               className={styles.actionButton}
               ariaLabel={"Download resume"}

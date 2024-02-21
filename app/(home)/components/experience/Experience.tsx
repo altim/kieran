@@ -12,7 +12,12 @@ export default function Experience({ children }: ExperienceProps) {
         <h3>Experience</h3>
         <div className={styles.experienceContent}>{children}</div>
         <div className={styles.actionButton}>
-          <Button name={"CV/Resume"} href={"google.com"} target={"_blank"} />
+          <Button
+            name={"CV/Resume"}
+            href={"google.com"}
+            target={"_blank"}
+            id={"cv-download"}
+          />
         </div>
       </div>
     </div>

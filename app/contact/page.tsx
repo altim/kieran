@@ -78,7 +78,10 @@ export default function Contact() {
               {errors?.message && <p>{errors?.message?.message}</p>}
             </div>
             <div className={styles.formAction}>
-              <Button name={isSubmitting ? "SUBMITTING..." : "SUBMIT"} />
+              <Button
+                name={isSubmitting ? "SUBMITTING..." : "SUBMIT"}
+                id={"submit"}
+              />
             </div>
           </form>
         </div>

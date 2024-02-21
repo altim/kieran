@@ -45,6 +45,7 @@ export default function PortfolioCategory({
       <div className={styles.portfolioItemsList}>
         {categoryProjects.map((project, index) => (
           <CategoryItem
+            projectSlug={project.slug}
             imageSrc={project.excerpt.image.src}
             imageAlt={project.excerpt.image.alt}
             imageWidth={project.excerpt.image.width}

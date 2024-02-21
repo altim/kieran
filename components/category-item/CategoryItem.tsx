@@ -5,6 +5,7 @@ import classNames from "classnames";
 import { ReactNode } from "react";
 
 type CategoryItemProps = {
+  projectSlug: string;
   reverse?: boolean;
   imageSrc: string;
   imageAlt: string;
@@ -14,6 +15,7 @@ type CategoryItemProps = {
   children: ReactNode;
 };
 export default function CategoryItem({
+  projectSlug,
   reverse = false,
   imageSrc,
   imageAlt,
@@ -42,7 +44,11 @@ export default function CategoryItem({
         <div className={styles.content}>
           <div>{children}</div>
           <div className={classNames(styles.actionButton)}>
-            <Button name={"View Project"} href={link} />
+            <Button
+              name={"View Project"}
+              href={link}
+              id={`link-to-${projectSlug}`}
+            />
           </div>
         </div>
       </div>
