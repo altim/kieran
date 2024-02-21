@@ -57,7 +57,7 @@ export default function Navigation() {
 
           <div className={styles.mobileMenuBtn}>
             {!showMobileMenu && (
-              <button onClick={toggleMobileMenu}>
+              <button onClick={toggleMobileMenu} id={"mobile-menu-toggle"}>
                 <svg
                   className="feather feather-menu"
                   fill="none"
@@ -87,7 +87,7 @@ export default function Navigation() {
         })}
       >
         <div className={styles.mobileOverlayHeader}>
-          <button onClick={toggleMobileMenu}>
+          <button onClick={toggleMobileMenu} id={"close-mobile-menu"}>
             <svg
               fill="none"
               height="24"

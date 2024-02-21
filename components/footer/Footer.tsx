@@ -26,7 +26,8 @@ export default function Footer() {
             <div className={styles.footerLeft}>
               <p>Interested in working together?</p>
               <p>
-                Reach out <a href={"/contact"}>here</a> or stay in touch via{" "}
+                Reach out <a href={"/contact"}>via contact page</a> or stay in
+                touch via{" "}
                 <a
                   href={"https://www.linkedin.com/in/kieran-hurley-44919b5a/"}
                   target={"_blank"}
