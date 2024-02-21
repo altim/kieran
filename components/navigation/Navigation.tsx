@@ -27,8 +27,6 @@ export default function Navigation() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const pathname = usePathname();
 
-  console.log("pathname:", pathname);
-
   const toggleMobileMenu = () => {
     setShowMobileMenu(!showMobileMenu);
   };
@@ -107,11 +105,11 @@ export default function Navigation() {
           </button>
         </div>
         <div className={styles.mobileOverlayMain}>
-          <h3>
+          <p className={styles.title}>
             Kieran
             <br />
             Hurley
-          </h3>
+          </p>
           {menu.map((item) => (
             <a
               key={item.name}

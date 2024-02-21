@@ -96,7 +96,7 @@ export const projects: ProjectType[] = [
       text: "“They’re on a mission to make better camping products”. Having immersed themselves in the Van Life movement for years, the founders of Campo Libre grew increasingly dissatisfied with the offerings in the camping market. The challenge was to create a camping brand target to a young adult  market with the mindset more akin to that of a skate, surf brand.",
       image: {
         src: "/assets/portfolio/campo-libre/campo-libre-1.jpg",
-        alt: "Campo Libre",
+        alt: "Campo Libre Project",
         width: 448,
         height: 448,
       },
@@ -159,7 +159,7 @@ export const projects: ProjectType[] = [
       text: "Following the launch of the HERO12 camera. GoPro invited a select group of athletes, advocates, and leading content creators to Bled, Slovenia. The purpose of the summit was to give hands-on product training and take part in some extreme activities in one of the world’s most spectacular playgrounds.",
       image: {
         src: "/assets/portfolio/gp-slovenia/gp-slovenia-1.jpg",
-        alt: "GP Slovenia",
+        alt: "GP Slovenia Project",
         width: 448,
         height: 448,
       },
@@ -222,7 +222,7 @@ export const projects: ProjectType[] = [
       text: "SimScale, established in Munich in 2012, is a pioneering engineering software startup. Its cloud-based platform revolutionizes the capabilities of engineers and designers globally by enabling robust Computational Fluid Dynamics (CFD), Finite Element Analysis (FEA), and thermal analysis. This groundbreaking technology dismantles numerous barriers that engineering firms encounter in realising their projects.",
       image: {
         src: "/assets/portfolio/simscale/simscale-2.jpg",
-        alt: "SimScale",
+        alt: "SimScale Project",
         width: 448,
         height: 448,
       },
@@ -285,7 +285,7 @@ export const projects: ProjectType[] = [
       text: "Quince Café has opened its doors in two of Sydney's premier shopping destinations, Westfield Bondi Junction and Eastgardens. I was entrusted  to craft a brand that exudes simplicity and elegance, embodying the essence of superior quality produce and service within a relaxed and inviting atmosphere.",
       image: {
         src: "/assets/portfolio/quince/quince-2.jpg",
-        alt: "Quince",
+        alt: "Quince Project",
         width: 448,
         height: 448,
       },
@@ -348,7 +348,7 @@ export const projects: ProjectType[] = [
       text: "As a key member of a dynamic team, I contributed to introducing innovative advertising concepts and campaigns to a traditionally conservative market deeply rooted in product-based advertising traditions. Through strategic thinking and creative prowess, we challenged the status quo, injecting fresh perspectives and engaging narratives into the market landscape.",
       image: {
         src: "/assets/portfolio/bayer/bayer-2.jpg",
-        alt: "Bayer",
+        alt: "Bayer Project",
         width: 448,
         height: 448,
       },
@@ -411,7 +411,7 @@ export const projects: ProjectType[] = [
       text: "Drawing upon my extensive experience with the GoPro brand, I was entrusted with providing creative services to bolster the campaign for the HERO12 camera across the EMEA region. Tasked with leveraging various media opportunities and formats, I worked diligently to craft compelling narratives and visuals that showcased the camera's unparalleled capabilities.",
       image: {
         src: "/assets/portfolio/gopro-h12/gopro-h12-2.jpg",
-        alt: "GoPro HERO12",
+        alt: "GoPro HERO12 Project",
         width: 448,
         height: 448,
       },
@@ -474,7 +474,7 @@ export const projects: ProjectType[] = [
       text: "Founded in Israel, SolarEdge is a global leader in smart energy technology. The company specializes in the development and manufacturing of innovative solar inverters, power optimizers, and monitoring platforms for photovoltaic (PV) systems. As the person responsible for aligning local EMEA campaigns with SolarEdge's head office vision, I undertook the crucial task of bridging the gap between global strategy and regional implementation.",
       image: {
         src: "/assets/portfolio/solar-edge/solar-edge-2.jpg",
-        alt: "SolarEdge",
+        alt: "SolarEdge Project",
         width: 448,
         height: 448,
       },
@@ -537,7 +537,7 @@ export const projects: ProjectType[] = [
       text: "This form of advertising typically includes billboards, transit ads (such as bus or subway ads), street furniture (like benches or kiosks), and other public displays. OOH advertising aims to capture the attention of passersby in high-traffic areas or locations where people gather, such as shopping centers or sports stadiums. It offers brands a way to reach a broad audience and increase brand visibility through eye-catching visuals and concise messaging",
       image: {
         src: "/assets/portfolio/out-of-home/out-of-home-2.jpg",
-        alt: "Out Of Home Advertising",
+        alt: "Out Of Home Advertising Project",
         width: 448,
         height: 448,
       },
@@ -600,7 +600,7 @@ export const projects: ProjectType[] = [
       text: "Having spearheaded the creation of the Fire System Products brand and meticulously crafted its style guide, I was subsequently entrusted with the task of conceptualizing and executing their digital marketing communication strategy. This encompassed the design and development of an informative product website as well as the seamless execution of regular MailChimp campaigns aimed at engaging our target audience effectively.",
       image: {
         src: "/assets/portfolio/fsp/fsp-2.jpg",
-        alt: "Fire Systems Products",
+        alt: "Fire Systems Products Project",
         width: 448,
         height: 448,
       },
@@ -663,7 +663,7 @@ export const projects: ProjectType[] = [
       text: "The founders of OMNI Bar are resolute in their mission to challenge the status quo and revolutionise  the snacking habits of young people. With a commitment to offering organic, vegan, and low-sugar pocket food done right, they entrusted me with leveraging my expertise in health and lifestyle brands to enhance the OMNI Bar campaign. I diligently crafted compelling narratives and visuals that underscored OMNI Bar's profound connection with the lifestyles and values of their target demographic.",
       image: {
         src: "/assets/portfolio/omni-bar/omni-bar-2.jpg",
-        alt: "Fire Systems Products",
+        alt: "Fire Systems Products Project",
         width: 448,
         height: 448,
       },
@@ -726,7 +726,7 @@ export const projects: ProjectType[] = [
       text: "In addition to offering creative services across various channels, I was specifically assigned to develop social media content for Germany's inaugural world-class Rugby Tournament, OKTOBERFEST7s. From the months leading up to the event to the weeks preceding it, I meticulously crafted engaging posts, and provided live match day updates to captivate audiences and enhance the tournament experience.",
       image: {
         src: "/assets/portfolio/rugby/rugby-2.jpg",
-        alt: "OKTOBERFEST7s",
+        alt: "OKTOBERFEST7s Project",
         width: 448,
         height: 448,
       },
@@ -789,7 +789,7 @@ export const projects: ProjectType[] = [
       text: "Torvac Solutions is a boutique fire protection company dedicated to safeguarding some of Australia's most cherished assets with state-of-the-art protection systems. I have been entrusted with the responsibility of designing and maintaining their corporate website, as well as orchestrating regular MailChimp campaigns and crafting engaging social media posts.",
       image: {
         src: "/assets/portfolio/torvac/torvac-2.jpg",
-        alt: "Torvac Solutions",
+        alt: "Torvac Solutions Project",
         width: 448,
         height: 448,
       },
@@ -852,7 +852,7 @@ export const projects: ProjectType[] = [
       text: "Bolstered by visionary management and exceptional facilities, Flims Laax Falera has solidified its position as a premier destination for snowboarders and skiers across Europe. Suitably, GoPro has proudly served as Laax's official camera partner for over a decade. GoPro maintains a strong visual presence throughout the resort via Gondola wrapping, billboard advertising, large format displays, print ads, and digital advertising.",
       image: {
         src: "/assets/portfolio/laax/laax-2.jpg",
-        alt: "Flims Laax Falera Resort",
+        alt: "Flims Laax Falera Resort Project",
         width: 448,
         height: 448,
       },
@@ -915,7 +915,7 @@ export const projects: ProjectType[] = [
       text: "GoPro has forged a lasting partnership with Austria's premier sports hub, Saalfelden Leogang. This collaboration includes a permanent container display strategically positioned to bolster brand awareness and offer educational resources. Whether it's the adrenaline-pumping UCI mountain biking events in summer or the exhilarating skiing and snowboarding activities in winter, the GoPro brand shines prominently across the resort. From Gondolas to billboards and digital displays, visitors encounter the GoPro brand at every turn.",
       image: {
         src: "/assets/portfolio/leogang/leogang-2.jpg",
-        alt: "Saalfelden Leogang",
+        alt: "Saalfelden Leogang Project",
         width: 448,
         height: 448,
       },
@@ -978,7 +978,7 @@ export const projects: ProjectType[] = [
       text: 'GoPro was extended an exclusive opportunity to curate a captivating "shop in a shop" experience within Yamaha showrooms across Switzerland and select regions of Italy. The primary objective was to showcase GoPro\'s diverse camera range alongside specialized accessories tailored for motorcycle enthusiasts. The visual aesthetics of the displays were carefully crafted, featuring dynamic imagery of MotoGP legend Valentino Rossi, to underscore the synergy between the two iconic brands and resonate with the passionate motorcycle community.',
       image: {
         src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-2.jpg",
-        alt: "GoPro X YAMAHA",
+        alt: "GoPro X YAMAHA Project",
         width: 448,
         height: 448,
       },
@@ -1041,7 +1041,7 @@ export const projects: ProjectType[] = [
       text: "GoPro received the prestigious invitation to showcase California's essence through a display at Zurich Airport. As a lifestyle company rooted in California's vibrant culture, GoPro was uniquely positioned to undertake this endeavor. The exhibit featured captivating images of California's iconic beach culture, all captured on GoPro cameras, alongside the showcased cameras and accessories utilized to create these stunning visuals. This presentation effectively encapsulated the spirit of California and highlighted GoPro's role in capturing and celebrating life's exhilarating moments.",
       image: {
         src: "/assets/portfolio/zurich-airport/zurich-airport-2.jpg",
-        alt: "GoPro California Zurich Airport",
+        alt: "GoPro California Zurich Airport Project",
         width: 448,
         height: 448,
       },
@@ -1104,7 +1104,7 @@ export const projects: ProjectType[] = [
       text: "GoPro invented 6 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, 8-day race culminating in Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck, where participants and attendees celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.",
       image: {
         src: "/assets/portfolio/cre8tors/cre8tors-2.jpg",
-        alt: "GoPro CRE8ORS",
+        alt: "GoPro CRE8ORS Project",
         width: 448,
         height: 448,
       },
@@ -1167,7 +1167,7 @@ export const projects: ProjectType[] = [
       text: "As a partner of the MotoGP Championship, GoPro took pride in its role as the title sponsor of the British MotoGP event. This significant sponsorship ensured that GoPro's branding was prominently displayed both on the course and trackside, capturing the attention of enthusiasts and spectators alike. Furthermore, GoPro curated a luxurious VIP Lounge within the MotoGP Village, where I was entrusted with the responsibility of designing the visual assets for the space, including hospitality and activity branding.",
       image: {
         src: "/assets/portfolio/motogp/motogp-2.jpg",
-        alt: "GoPro British MotoGP",
+        alt: "GoPro British MotoGP Project",
         width: 448,
         height: 448,
       },
@@ -1230,7 +1230,7 @@ export const projects: ProjectType[] = [
       text: "The Annual Distributor Summit serves as a pivotal gathering, uniting GoPro's department heads and esteemed distribution partners from the EMEA region each year. Carefully selected destinations are chosen to accommodate not only GoPro's activities but also to offer significant cultural experiences. As part of my role, I am entrusted with branding the event, aligning activities, apparel, and providing captivating visual assets that seamlessly integrate with the venue, ensuring a memorable and cohesive experience for all attendees.",
       image: {
         src: "/assets/portfolio/gp-distributors-summit/gp-distributors-summit-2.jpg",
-        alt: "GoPro EMEA Distributors Summit",
+        alt: "GoPro EMEA Distributors Summit Project",
         width: 448,
         height: 448,
       },
@@ -1293,7 +1293,7 @@ export const projects: ProjectType[] = [
       text: "OKTOBERFEST7s marked Germany's inaugural world-class rugby tournament, setting a new standard in the sport. As a member of a dynamic team of marketing and media professionals, I played a pivotal role in providing essential marketing and media assets for the event. Staged in the iconic Olympiastadion, our team was further entrusted with the responsibility of branding the stadium and ensuring the prominent visibility of the OKTOBERFEST7s identity.",
       image: {
         src: "/assets/portfolio/oktoberfest7s/oktoberfest7s-2.jpg",
-        alt: "OKTOBERFEST7s",
+        alt: "OKTOBERFEST7s Project",
         width: 448,
         height: 448,
       },
@@ -1356,7 +1356,7 @@ export const projects: ProjectType[] = [
       text: "The challenge lay in crafting a memorable trophy to symbolize a prestigious award. After thorough research, the decision was made to immortalize the iconic GoPro Hero camera through a meticulously crafted metal 3D print. While this innovative and relatively new technology presented its obstacles, the team adeptly navigated through them, resulting in a stunning trophy that was enthusiastically received.",
       image: {
         src: "/assets/portfolio/gp-3d-trophy/gp-3d-trophy-2.jpg",
-        alt: "GoPro 3-D Printed Trophy",
+        alt: "GoPro 3-D Printed Trophy Project",
         width: 448,
         height: 448,
       },
@@ -1419,7 +1419,7 @@ export const projects: ProjectType[] = [
       text: "Delivering branded apparel solutions demands expertise in navigating the complexities of materials, suppliers, and budget constraints.",
       image: {
         src: "/assets/portfolio/apparel/apparel-2.jpg",
-        alt: "GoPro Apparel",
+        alt: "GoPro Apparel Project",
         width: 448,
         height: 448,
       },
@@ -1482,7 +1482,7 @@ export const projects: ProjectType[] = [
       text: "The GoPro Million Dollar Challenge draws participants from across the globe to submit their captivating videos or photos. Winners are rewarded with a portion of the Million Dollar Prize pool. Additionally, to honor their outstanding contributions, winners are presented with a trophy commemorating their achievement.",
       image: {
         src: "/assets/portfolio/mcd-award/mcd-award-2.jpg",
-        alt: "GoPro EMEA Distributors Summit",
+        alt: "GoPro EMEA Distributors Summit Project",
         width: 448,
         height: 448,
       },
@@ -1545,7 +1545,7 @@ export const projects: ProjectType[] = [
       text: "As the design lead for a comprehensive project, I spearheaded the rebranding of over 100 products for the Bayer Animal Health group across Australia and New Zealand. Throughout the project, I cultivated robust relationships with clients, production specialists, printers, and various vendors. These connections were instrumental in ensuring the successful execution of the project and maintaining the highest standards of quality and consistency across all branded materials.",
       image: {
         src: "/assets/portfolio/bayer-project/bayer-2.jpg",
-        alt: "Bayer Animal Health",
+        alt: "Bayer Animal Health Project",
         width: 448,
         height: 448,
       },

@@ -24,7 +24,6 @@ async function sendMail(subject: any, otpText: any) {
         console.log(error);
         reject(error);
       } else {
-        console.log("Server is ready to take our messages");
         resolve(success);
       }
     });
@@ -44,7 +43,6 @@ async function sendMail(subject: any, otpText: any) {
         console.error(err);
         reject(err);
       } else {
-        console.log(info);
         resolve(info);
       }
     });
