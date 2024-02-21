@@ -4,7 +4,7 @@ export const caseStudies: CaseStudyType[] = [
   {
     title: "GoPro British MotoGP",
     subtitle: "Silverstone",
-    category: "Branding",
+    category: "Events",
 
     slug: "motogp",
     featuredImage: {
@@ -144,7 +144,7 @@ export const caseStudies: CaseStudyType[] = [
   {
     title: "GoPro HERO8",
     subtitle: "Milan Italy",
-    category: "Branding",
+    category: "Advertising & Marketing",
 
     slug: "hero8",
     featuredImage: {
@@ -214,7 +214,7 @@ export const caseStudies: CaseStudyType[] = [
   {
     title: "GoPro Creator Summit",
     subtitle: "Interlaken Switzerland",
-    category: "Exhibition & Events",
+    category: "Branding",
 
     slug: "suiss-creator",
     featuredImage: {
