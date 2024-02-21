@@ -20,14 +20,14 @@ export default function Hero() {
           <br />
           Hurley
         </h1>
-        <p className={styles.description}>
+        <h2 className={styles.description}>
           I am an multi-disciplined art director and design project leader,
           based in Munich.
           <br />I have worked with a gamut of client from local technical
           start-ups to globally recognised brands throughout Europe,
           <br />
           UK and Australia.
-        </p>
+        </h2>
         <div className={styles.links}>
           <IconLink
             link={"tel:+4915227888481"}

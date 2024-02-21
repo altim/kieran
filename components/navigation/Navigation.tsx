@@ -87,7 +87,11 @@ export default function Navigation() {
         })}
       >
         <div className={styles.mobileOverlayHeader}>
-          <button onClick={toggleMobileMenu} id={"close-mobile-menu"}>
+          <button
+            onClick={toggleMobileMenu}
+            id={"close-mobile-menu"}
+            aria-label="close mobile menu"
+          >
             <svg
               fill="none"
               height="24"
