@@ -35,9 +35,11 @@ export default function Navigation() {
     <>
       <div className={styles.navigation}>
         <div className={styles.navigationInner}>
-          <a href={"/"}>
-            <h1>hurleydesign.me</h1>
-          </a>
+          <div>
+            <a href={"/"} className={styles.logo}>
+              <h1>hurleydesign.me</h1>
+            </a>
+          </div>
 
           <div className={styles.menu}>
             {menu.map((item) => (
