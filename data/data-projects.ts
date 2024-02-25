@@ -181,8 +181,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "SimScale, established in Munich in 2012, is a pioneering engineering software startup. Its cloud-based platform revolutionizes the capabilities of engineers and designers globally by enabling robust Computational Fluid Dynamics (CFD), Finite Element Analysis (FEA), and thermal analysis. This groundbreaking technology dismantles numerous barriers that engineering firms encounter in realising their projects.",
     details: {
-      date: "",
-      location: "Munich, Germany",
+      date: "2017",
+      location: "Germany",
       other: "",
     },
     images: [
@@ -215,7 +215,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: ["campo-libre", "gopro-creator-summit"],
+    relatedProjects: ["torvac", "solar-edge"],
     excerpt: {
       title: "SimScale",
       subtitle: "Munich, Germany",
@@ -307,7 +307,7 @@ export const projects: ProjectType[] = [
     paragraph:
       "As a key member of a dynamic team, I contributed to introducing innovative advertising concepts and campaigns to a traditionally conservative market deeply rooted in product-based advertising traditions. Through strategic thinking and creative prowess, we challenged the status quo, injecting fresh perspectives and engaging narratives into the market landscape.",
     details: {
-      date: "",
+      date: "2012",
       location: "Australia",
       other: "",
     },
@@ -341,7 +341,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["gopro-h12", "solar-edge"],
     excerpt: {
       title: "Bayer",
       subtitle: "Australia",
@@ -370,8 +370,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "Drawing upon my extensive experience with the GoPro brand, I was entrusted with providing creative services to bolster the campaign for the HERO12 camera across the EMEA region. Tasked with leveraging various media opportunities and formats, I worked diligently to craft compelling narratives and visuals that showcased the camera's unparalleled capabilities.",
     details: {
-      date: "",
-      location: "",
+      date: "2018",
+      location: "EMEA",
       other: "",
     },
     images: [
@@ -404,7 +404,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["bayer", "solar-edge"],
     excerpt: {
       title: "GoPro HERO12",
       subtitle: "",
@@ -433,8 +433,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "Founded in Israel, SolarEdge is a global leader in smart energy technology. The company specializes in the development and manufacturing of innovative solar inverters, power optimizers, and monitoring platforms for photovoltaic (PV) systems. As the person responsible for aligning local EMEA campaigns with SolarEdge's head office vision, I undertook the crucial task of bridging the gap between global strategy and regional implementation.",
     details: {
-      date: "",
-      location: "Munich, Germany",
+      date: "2018",
+      location: "EMEA",
       other: "",
     },
     images: [
@@ -467,7 +467,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["gopro-h12", "torvac"],
     excerpt: {
       title: "SolarEdge",
       subtitle: "",
@@ -497,7 +497,7 @@ export const projects: ProjectType[] = [
       "This form of advertising typically includes billboards, transit ads (such as bus or subway ads), street furniture (like benches or kiosks), and other public displays. OOH advertising aims to capture the attention of passersby in high-traffic areas or locations where people gather, such as shopping centers or sports stadiums. It offers brands a way to reach a broad audience and increase brand visibility through eye-catching visuals and concise messaging.",
     details: {
       date: "",
-      location: "",
+      location: "EMEA",
       other: "",
     },
     images: [
@@ -538,6 +538,132 @@ export const projects: ProjectType[] = [
       image: {
         src: "/assets/portfolio/out-of-home/out-of-home-2.jpg",
         alt: "Out Of Home Advertising Project",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "torvac",
+    featuredImage: {
+      src: "/assets/portfolio/torvac/torvac-1.jpg",
+      alt: "Torvac Solutions",
+      width: 920,
+      height: 448,
+    },
+
+    title: "Torvac Solutions",
+    subtitle: "Australia",
+    category: "digital",
+    paragraph:
+      "Torvac Solutions is a boutique fire protection company dedicated to safeguarding some of Australia's most cherished assets with state-of-the-art protection systems. I have been entrusted with the responsibility of designing and maintaining their corporate website, as well as orchestrating regular MailChimp campaigns and crafting engaging social media posts.",
+    details: {
+      date: "",
+      location: "Australia",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/torvac/torvac-3.jpg",
+        alt: "Torvac Solutions",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/torvac/torvac-4.jpg",
+        alt: "Torvac Solutions",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/torvac/torvac-5.jpg",
+        alt: "Torvac Solutions",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/torvac/torvac-6.jpg",
+        alt: "Torvac Solutions",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "Torvac Solutions",
+      subtitle: "Australia",
+      text: "Torvac Solutions is a boutique fire protection company dedicated to safeguarding some of Australia's most cherished assets with state-of-the-art protection systems. I have been entrusted with the responsibility of designing and maintaining their corporate website, as well as orchestrating regular MailChimp campaigns and crafting engaging social media posts.",
+      image: {
+        src: "/assets/portfolio/torvac/torvac-2.jpg",
+        alt: "Torvac Solutions Project",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
+    slug: "omni-bar",
+    featuredImage: {
+      src: "/assets/portfolio/omni-bar/omni-bar-1.jpg",
+      alt: "Omni Bar",
+      width: 920,
+      height: 448,
+    },
+
+    title: "OMNI BAR",
+    subtitle: "Hausham, Germany",
+    category: "digital",
+    paragraph:
+      "The founders of OMNI Bar are resolute in their mission to challenge the status quo and revolutionise  the snacking habits of young people. With a commitment to offering organic, vegan, and low-sugar pocket food done right, they entrusted me with leveraging my expertise in health and lifestyle brands to enhance the OMNI Bar campaign. I diligently crafted compelling narratives and visuals that underscored OMNI Bar's profound connection with the lifestyles and values of their target demographic.",
+    details: {
+      date: "",
+      location: "Hausham, Germany",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/omni-bar/omni-bar-3.jpg",
+        alt: "Omni bar",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/omni-bar/omni-bar-4.jpg",
+        alt: "Omni bar",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/omni-bar/omni-bar-5.jpg",
+        alt: "Omni bar",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/omni-bar/omni-bar-6.jpg",
+        alt: "Omni bar",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: [],
+    excerpt: {
+      title: "OMNI BAR",
+      subtitle: "Hausham, Germany",
+      text: "The founders of OMNI Bar are resolute in their mission to challenge the status quo and revolutionise  the snacking habits of young people. With a commitment to offering organic, vegan, and low-sugar pocket food done right, they entrusted me with leveraging my expertise in health and lifestyle brands to enhance the OMNI Bar campaign. I diligently crafted compelling narratives and visuals that underscored OMNI Bar's profound connection with the lifestyles and values of their target demographic.",
+      image: {
+        src: "/assets/portfolio/omni-bar/omni-bar-2.jpg",
+        alt: "Omni bar Project",
         width: 448,
         height: 448,
       },
@@ -608,69 +734,6 @@ export const projects: ProjectType[] = [
   },
 
   {
-    slug: "omni-bar",
-    featuredImage: {
-      src: "/assets/portfolio/omni-bar/omni-bar-1.jpg",
-      alt: "Omni Bar",
-      width: 920,
-      height: 448,
-    },
-
-    title: "OMNI BAR",
-    subtitle: "Hausham, Germany",
-    category: "digital",
-    paragraph:
-      "The founders of OMNI Bar are resolute in their mission to challenge the status quo and revolutionise  the snacking habits of young people. With a commitment to offering organic, vegan, and low-sugar pocket food done right, they entrusted me with leveraging my expertise in health and lifestyle brands to enhance the OMNI Bar campaign. I diligently crafted compelling narratives and visuals that underscored OMNI Bar's profound connection with the lifestyles and values of their target demographic.",
-    details: {
-      date: "",
-      location: "Hausham, Germany",
-      other: "",
-    },
-    images: [
-      {
-        src: "/assets/portfolio/omni-bar/omni-bar-3.jpg",
-        alt: "Fire Systems Products",
-        width: 448,
-        height: 448,
-        size: "double",
-      },
-      {
-        src: "/assets/portfolio/omni-bar/omni-bar-4.jpg",
-        alt: "Fire Systems Products",
-        width: 448,
-        height: 212,
-        size: "wide",
-      },
-      {
-        src: "/assets/portfolio/omni-bar/omni-bar-5.jpg",
-        alt: "Fire Systems Products",
-        width: 212,
-        height: 212,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/omni-bar/omni-bar-6.jpg",
-        alt: "Fire Systems Products",
-        width: 212,
-        height: 212,
-        size: "normal",
-      },
-    ],
-    relatedProjects: [],
-    excerpt: {
-      title: "OMNI BAR",
-      subtitle: "Hausham, Germany",
-      text: "The founders of OMNI Bar are resolute in their mission to challenge the status quo and revolutionise  the snacking habits of young people. With a commitment to offering organic, vegan, and low-sugar pocket food done right, they entrusted me with leveraging my expertise in health and lifestyle brands to enhance the OMNI Bar campaign. I diligently crafted compelling narratives and visuals that underscored OMNI Bar's profound connection with the lifestyles and values of their target demographic.",
-      image: {
-        src: "/assets/portfolio/omni-bar/omni-bar-2.jpg",
-        alt: "Fire Systems Products Project",
-        width: 448,
-        height: 448,
-      },
-    },
-  },
-
-  {
     slug: "rugby",
     featuredImage: {
       src: "/assets/portfolio/rugby/rugby-1.jpg",
@@ -727,69 +790,6 @@ export const projects: ProjectType[] = [
       image: {
         src: "/assets/portfolio/rugby/rugby-2.jpg",
         alt: "OKTOBERFEST7s Project",
-        width: 448,
-        height: 448,
-      },
-    },
-  },
-
-  {
-    slug: "torvac",
-    featuredImage: {
-      src: "/assets/portfolio/torvac/torvac-1.jpg",
-      alt: "Torvac Solutions",
-      width: 920,
-      height: 448,
-    },
-
-    title: "Torvac Solutions",
-    subtitle: "Australia",
-    category: "digital",
-    paragraph:
-      "Torvac Solutions is a boutique fire protection company dedicated to safeguarding some of Australia's most cherished assets with state-of-the-art protection systems. I have been entrusted with the responsibility of designing and maintaining their corporate website, as well as orchestrating regular MailChimp campaigns and crafting engaging social media posts.",
-    details: {
-      date: "",
-      location: "Australia",
-      other: "",
-    },
-    images: [
-      {
-        src: "/assets/portfolio/torvac/torvac-3.jpg",
-        alt: "Torvac Solutions",
-        width: 448,
-        height: 448,
-        size: "double",
-      },
-      {
-        src: "/assets/portfolio/torvac/torvac-4.jpg",
-        alt: "Torvac Solutions",
-        width: 448,
-        height: 212,
-        size: "wide",
-      },
-      {
-        src: "/assets/portfolio/torvac/torvac-5.jpg",
-        alt: "Torvac Solutions",
-        width: 212,
-        height: 212,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/torvac/torvac-6.jpg",
-        alt: "Torvac Solutions",
-        width: 212,
-        height: 212,
-        size: "normal",
-      },
-    ],
-    relatedProjects: [],
-    excerpt: {
-      title: "Torvac Solutions",
-      subtitle: "Australia",
-      text: "Torvac Solutions is a boutique fire protection company dedicated to safeguarding some of Australia's most cherished assets with state-of-the-art protection systems. I have been entrusted with the responsibility of designing and maintaining their corporate website, as well as orchestrating regular MailChimp campaigns and crafting engaging social media posts.",
-      image: {
-        src: "/assets/portfolio/torvac/torvac-2.jpg",
-        alt: "Torvac Solutions Project",
         width: 448,
         height: 448,
       },
