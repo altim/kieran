@@ -3,6 +3,7 @@ import Image from "next/image";
 import Button from "@/components/button/Button";
 import Link from "next/link";
 import Brands from "@/app/profile/components/brands/Brands.tsx";
+import { generalData } from "@/data/data-general.ts";
 
 export default function About() {
   return (
@@ -42,9 +43,10 @@ export default function About() {
             <Button
               name={"CV/Resume"}
               id={"cv-download"}
-              href={"/cv"}
+              href={generalData?.cvLink}
               className={styles.actionButton}
               ariaLabel={"Download resume"}
+              target={"_blank"}
             />
           </div>
         </div>

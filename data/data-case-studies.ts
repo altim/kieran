@@ -2,6 +2,76 @@ import { CaseStudyType } from "@/data/data.types.ts";
 
 export const caseStudies: CaseStudyType[] = [
   {
+    title: "GoPro Creator Summit",
+    subtitle: "Interlaken Switzerland",
+    category: "Branding",
+
+    slug: "suiss-creator",
+    featuredImage: {
+      src: "/assets/case-studies/suiss-creator/suiss-creator-5.jpg",
+      alt: "Suiss Creator",
+      width: 920,
+      height: 448,
+    },
+
+    paragraphs: [
+      {
+        title: "Brief",
+        text: "Every year, GoPro extends invitations to a select group of athletes and advocates from around the world to convene in a unique setting for a week of product training and adrenaline-pumping activities. The Interlaken summit was particularly significant as it coincided with the launch of the HERO11. My task was to create event branding and assets that not only captured the essence of the location but also remained true to the unmistakable GoPro style.",
+      },
+      {
+        title: "Solution",
+        text: "The event logo paid homage to vintage travel posters that once beckoned travelers to the Swiss Alps. Embracing the classic Swiss poster style, the event poster and banners featured typography reminiscent of this iconic aesthetic. Additionally, the typography served as a tribute to the late Adrien Frutiger, a renowned type designer with roots in Interlaken. The outcome was a cohesive and compelling event brand that participants proudly showcased across various social media channels as they shared their experiences and work.",
+      },
+      {
+        title: "My Role",
+        text: "Working exclusively solo on this project, I conceived and developed my design concept before presenting it to both the GoPro teams in EMEA and the US. Subsequently, I liaised with vendors to ensure seamless execution, providing finished artwork for production and installation at the event venues in Interlaken.",
+      },
+    ],
+    images: [
+      {
+        src: "/assets/case-studies/suiss-creator/suiss-creator-1.jpg",
+        alt: "Suiss Creator",
+        width: 920,
+        height: 448,
+        size: "wide",
+      },
+      {
+        src: "/assets/case-studies/suiss-creator/suiss-creator-2.jpg",
+        alt: "Suiss Creator",
+        width: 448,
+        height: 448,
+        size: "normal",
+      },
+      {
+        src: "/assets/case-studies/suiss-creator/suiss-creator-4.jpg",
+        alt: "Suiss Creator",
+        width: 448,
+        height: 448,
+        size: "normal",
+      },
+      {
+        src: "/assets/case-studies/suiss-creator/suiss-creator-3.jpg",
+        alt: "Suiss Creator",
+        width: 920,
+        height: 448,
+        size: "wide",
+      },
+    ],
+    relatedProjects: ["cre8tors", "hero8"],
+    excerpt: {
+      title: "GoPro Creator Summit",
+      text: "Every year, GoPro extends invitations to a select group of athletes and advocates from around the world to convene in a unique setting for a week of product training and adrenaline-pumping activities. The Interlaken summit was particularly significant as it coincided with the launch of the HERO11.",
+      image: {
+        src: "/assets/case-studies/suiss-creator/suiss-creator-2.jpg",
+        alt: "Suiss Creator",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
     title: "GoPro British MotoGP",
     subtitle: "Silverstone",
     category: "Events",
@@ -30,7 +100,7 @@ export const caseStudies: CaseStudyType[] = [
     ],
     images: [
       {
-        src: "/assets/case-studies/motogp/motogp-1.jpg",
+        src: "/assets/case-studies/motogp/motogp-5.jpg",
         alt: "MotoGP",
         width: 920,
         height: 448,
@@ -65,76 +135,6 @@ export const caseStudies: CaseStudyType[] = [
       image: {
         src: "/assets/case-studies/motogp/motogp-2.jpg",
         alt: "MotoGP",
-        width: 448,
-        height: 448,
-      },
-    },
-  },
-
-  {
-    title: "GoPro CRE8ORS",
-    subtitle: "Innsbruck Austria",
-    category: "Branding",
-
-    slug: "cre8tors",
-    featuredImage: {
-      src: "/assets/case-studies/cre8ors/cre8ors-1.jpg",
-      alt: "Portfolio Item Image",
-      width: 920,
-      height: 448,
-    },
-
-    paragraphs: [
-      {
-        title: "Brief",
-        text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day. Ensuring the success of the event required cohesive branding, with all associated assets and materials aligning seamlessly. One of the key challenges was integrating the new event logo with the established HERO8 brand assets. Additionally, the event space needed to be transformed to showcase GoPro CRE8ORS and HERO8 elements effectively. The chosen venue, an Upcycling Studio/Gallery, played a pivotal role in reinforcing the gala night's theme of recycling and waste reduction, providing a fitting backdrop for the occasion.",
-      },
-      {
-        title: "Solution",
-        text: "An event logo was meticulously crafted to serve as the focal point of all aspects, spanning from the initial invitation to all participant correspondence and event kits. Additionally, a secondary logo was exclusively reserved for the Gala night, reserved for invited GoPro guests and partners. This secondary emblem adorned posters and stainless steel event cups, which were distributed to all attendees of the gala to underscore our commitment to minimizing waste. Furthermore wheat-paste poster displays were printed on recycled paper and strategically placed throughout the venue, serving as both decor and a reminder of our sustainability efforts. These posters were promptly removed at the conclusion of the event.",
-      },
-      {
-        title: "My Role",
-        text: "In my role as the Art Director and Design Lead for the EMEA region, I bore the responsibility of ensuring the timely delivery of assets to the event team. Central to my duties was providing creative direction and vision, with a specific focus on logo creation and wheat-paste graphics. Furthermore, I oversaw the work of junior graphic designers, collaborated closely with vendors, and played an active role in the approval process. This multifaceted approach allowed for cohesive execution and successful realization of our design objectives.",
-      },
-    ],
-    images: [
-      {
-        src: "/assets/case-studies/cre8ors/cre8ors-1.jpg",
-        alt: "Portfolio Item Image",
-        width: 920,
-        height: 448,
-        size: "wide",
-      },
-      {
-        src: "/assets/case-studies/cre8ors/cre8ors-2.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/case-studies/cre8ors/cre8ors-4.jpg",
-        alt: "Portfolio Item Image",
-        width: 448,
-        height: 448,
-        size: "normal",
-      },
-      {
-        src: "/assets/case-studies/cre8ors/cre8ors-3.jpg",
-        alt: "Portfolio Item Image",
-        width: 920,
-        height: 448,
-        size: "wide",
-      },
-    ],
-    relatedProjects: ["motogp", "hero8"],
-    excerpt: {
-      title: "GoPro CRE8ORS",
-      text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day.",
-      image: {
-        src: "/assets/case-studies/cre8ors/cre8ors-2.jpg",
-        alt: "Portfolio Item Image",
         width: 448,
         height: 448,
       },
@@ -212,14 +212,14 @@ export const caseStudies: CaseStudyType[] = [
   },
 
   {
-    title: "GoPro Creator Summit",
-    subtitle: "Interlaken Switzerland",
+    title: "GoPro CRE8ORS",
+    subtitle: "Innsbruck Austria",
     category: "Branding",
 
-    slug: "suiss-creator",
+    slug: "cre8tors",
     featuredImage: {
-      src: "/assets/case-studies/suiss-creator/suiss-creator-1.jpg",
-      alt: "Suiss Creator",
+      src: "/assets/case-studies/cre8ors/cre8ors-1.jpg",
+      alt: "Portfolio Item Image",
       width: 920,
       height: 448,
     },
@@ -227,54 +227,54 @@ export const caseStudies: CaseStudyType[] = [
     paragraphs: [
       {
         title: "Brief",
-        text: "Every year, GoPro extends invitations to a select group of athletes and advocates from around the world to convene in a unique setting for a week of product training and adrenaline-pumping activities. The Interlaken summit was particularly significant as it coincided with the launch of the HERO11. My task was to create event branding and assets that not only captured the essence of the location but also remained true to the unmistakable GoPro style.",
+        text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day. Ensuring the success of the event required cohesive branding, with all associated assets and materials aligning seamlessly. One of the key challenges was integrating the new event logo with the established HERO8 brand assets. Additionally, the event space needed to be transformed to showcase GoPro CRE8ORS and HERO8 elements effectively. The chosen venue, an Upcycling Studio/Gallery, played a pivotal role in reinforcing the gala night's theme of recycling and waste reduction, providing a fitting backdrop for the occasion.",
       },
       {
         title: "Solution",
-        text: "The event logo paid homage to vintage travel posters that once beckoned travelers to the Swiss Alps. Embracing the classic Swiss poster style, the event poster and banners featured typography reminiscent of this iconic aesthetic. Additionally, the typography served as a tribute to the late Adrien Frutiger, a renowned type designer with roots in Interlaken. The outcome was a cohesive and compelling event brand that participants proudly showcased across various social media channels as they shared their experiences and work.",
+        text: "An event logo was meticulously crafted to serve as the focal point of all aspects, spanning from the initial invitation to all participant correspondence and event kits. Additionally, a secondary logo was exclusively reserved for the Gala night, reserved for invited GoPro guests and partners. This secondary emblem adorned posters and stainless steel event cups, which were distributed to all attendees of the gala to underscore our commitment to minimizing waste. Furthermore wheat-paste poster displays were printed on recycled paper and strategically placed throughout the venue, serving as both decor and a reminder of our sustainability efforts. These posters were promptly removed at the conclusion of the event.",
       },
       {
         title: "My Role",
-        text: "Working exclusively solo on this project, I conceived and developed my design concept before presenting it to both the GoPro teams in EMEA and the US. Subsequently, I liaised with vendors to ensure seamless execution, providing finished artwork for production and installation at the event venues in Interlaken.",
+        text: "In my role as the Art Director and Design Lead for the EMEA region, I bore the responsibility of ensuring the timely delivery of assets to the event team. Central to my duties was providing creative direction and vision, with a specific focus on logo creation and wheat-paste graphics. Furthermore, I oversaw the work of junior graphic designers, collaborated closely with vendors, and played an active role in the approval process. This multifaceted approach allowed for cohesive execution and successful realization of our design objectives.",
       },
     ],
     images: [
       {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-1.jpg",
-        alt: "Suiss Creator",
+        src: "/assets/case-studies/cre8ors/cre8ors-5.jpg",
+        alt: "Portfolio Item Image",
         width: 920,
         height: 448,
         size: "wide",
       },
       {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-2.jpg",
-        alt: "Suiss Creator",
+        src: "/assets/case-studies/cre8ors/cre8ors-6.jpg",
+        alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-4.jpg",
-        alt: "Suiss Creator",
+        src: "/assets/case-studies/cre8ors/cre8ors-4.jpg",
+        alt: "Portfolio Item Image",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-3.jpg",
-        alt: "Suiss Creator",
+        src: "/assets/case-studies/cre8ors/cre8ors-3.jpg",
+        alt: "Portfolio Item Image",
         width: 920,
         height: 448,
         size: "wide",
       },
     ],
-    relatedProjects: ["cre8tors", "hero8"],
+    relatedProjects: ["motogp", "hero8"],
     excerpt: {
-      title: "GoPro Creator Summit",
-      text: "Every year, GoPro extends invitations to a select group of athletes and advocates from around the world to convene in a unique setting for a week of product training and adrenaline-pumping activities. The Interlaken summit was particularly significant as it coincided with the launch of the HERO11.",
+      title: "GoPro CRE8ORS",
+      text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day.",
       image: {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-2.jpg",
-        alt: "Suiss Creator",
+        src: "/assets/case-studies/cre8ors/cre8ors-2.jpg",
+        alt: "Portfolio Item Image",
         width: 448,
         height: 448,
       },

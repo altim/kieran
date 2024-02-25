@@ -1,6 +1,7 @@
 import styles from "./Experience.module.scss";
 import { ReactNode } from "react";
 import Button from "@/components/button/Button";
+import { generalData } from "@/data/data-general.ts";
 
 type ExperienceProps = {
   children: ReactNode;
@@ -14,7 +15,7 @@ export default function Experience({ children }: ExperienceProps) {
         <div className={styles.actionButton}>
           <Button
             name={"CV/Resume"}
-            href={"google.com"}
+            href={generalData?.cvLink}
             target={"_blank"}
             id={"cv-download"}
           />
