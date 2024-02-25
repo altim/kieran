@@ -58,7 +58,7 @@ export const caseStudies: CaseStudyType[] = [
         size: "wide",
       },
     ],
-    relatedProjects: ["cre8tors", "hero8"],
+    relatedProjects: ["gopro-creator-summit", "cre8tors"],
     excerpt: {
       title: "GoPro Creator Summit",
       text: "Every year, GoPro extends invitations to a select group of athletes and advocates from around the world to convene in a unique setting for a week of product training and adrenaline-pumping activities. The Interlaken summit was particularly significant as it coincided with the launch of the HERO11.",
@@ -128,7 +128,7 @@ export const caseStudies: CaseStudyType[] = [
         size: "wide",
       },
     ],
-    relatedProjects: ["cre8tors", "hero8"],
+    relatedProjects: ["gopro-x-yamaha", "hero8"],
     excerpt: {
       title: "GoPro British MotoGP",
       text: "GoPro has enjoyed a longstanding partnership with the MotoGP circuit, culminating in its role as the Title Sponsor for the British MotoGP at Silverstone. This prestigious event not only showcased thrilling races but also served as a prime occasion for GoPro to engage with EMEA distribution partners, brand athletes, and advocates track-side.",
@@ -268,7 +268,7 @@ export const caseStudies: CaseStudyType[] = [
         size: "wide",
       },
     ],
-    relatedProjects: ["motogp", "hero8"],
+    relatedProjects: ["gopro-creator-summit", "cre8tors-project"],
     excerpt: {
       title: "GoPro CRE8ORS",
       text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day.",

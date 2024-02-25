@@ -1049,7 +1049,7 @@ export const projects: ProjectType[] = [
   },
 
   {
-    slug: "cre8tors",
+    slug: "cre8tors-project",
     featuredImage: {
       src: "/assets/portfolio/cre8tors/cre8tors-1.jpg",
       alt: "GoPro CRE8ORS",
@@ -1112,7 +1112,7 @@ export const projects: ProjectType[] = [
   },
 
   {
-    slug: "motogp",
+    slug: "motogp-project",
     featuredImage: {
       src: "/assets/portfolio/motogp/motogp-1.jpg",
       alt: "GoPro British MotoGP",
