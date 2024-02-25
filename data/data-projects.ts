@@ -559,7 +559,7 @@ export const projects: ProjectType[] = [
     paragraph:
       "Torvac Solutions is a boutique fire protection company dedicated to safeguarding some of Australia's most cherished assets with state-of-the-art protection systems. I have been entrusted with the responsibility of designing and maintaining their corporate website, as well as orchestrating regular MailChimp campaigns and crafting engaging social media posts.",
     details: {
-      date: "",
+      date: "2024",
       location: "Australia",
       other: "",
     },
@@ -593,7 +593,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["fsp", "solar-edge"],
     excerpt: {
       title: "Torvac Solutions",
       subtitle: "Australia",
@@ -622,8 +622,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "The founders of OMNI Bar are resolute in their mission to challenge the status quo and revolutionise  the snacking habits of young people. With a commitment to offering organic, vegan, and low-sugar pocket food done right, they entrusted me with leveraging my expertise in health and lifestyle brands to enhance the OMNI Bar campaign. I diligently crafted compelling narratives and visuals that underscored OMNI Bar's profound connection with the lifestyles and values of their target demographic.",
     details: {
-      date: "",
-      location: "Hausham, Germany",
+      date: "2021",
+      location: "Germany",
       other: "",
     },
     images: [
@@ -656,7 +656,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["gopro-h12", "rugby"],
     excerpt: {
       title: "OMNI BAR",
       subtitle: "Hausham, Germany",
@@ -673,7 +673,7 @@ export const projects: ProjectType[] = [
   {
     slug: "fsp",
     featuredImage: {
-      src: "/assets/portfolio/fsp/fsp-1.jpg",
+      src: "/assets/portfolio/fsp/fsp-7.jpg",
       alt: "Fire Systems Products",
       width: 920,
       height: 448,
@@ -685,7 +685,7 @@ export const projects: ProjectType[] = [
     paragraph:
       "Having spearheaded the creation of the Fire System Products brand and meticulously crafted its style guide, I was subsequently entrusted with the task of conceptualizing and executing their digital marketing communication strategy. This encompassed the design and development of an informative product website as well as the seamless execution of regular MailChimp campaigns aimed at engaging our target audience effectively.",
     details: {
-      date: "",
+      date: "2024",
       location: "Australia",
       other: "",
     },
@@ -719,7 +719,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["torvac", "solar-edge"],
     excerpt: {
       title: "Fire Systems Products",
       subtitle: "",
@@ -748,8 +748,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "In addition to offering creative services across various channels, I was specifically assigned to develop social media content for Germany's inaugural world-class Rugby Tournament, OKTOBERFEST7s. From the months leading up to the event to the weeks preceding it, I meticulously crafted engaging posts, and provided live match day updates to captivate audiences and enhance the tournament experience.",
     details: {
-      date: "",
-      location: "Munich, Germany",
+      date: "2017 & 2019",
+      location: "Germany",
       other: "",
     },
     images: [
@@ -782,7 +782,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["omni-bar", "gopro-h12"],
     excerpt: {
       title: "OKTOBERFEST7s",
       subtitle: "Munich, Germany",
