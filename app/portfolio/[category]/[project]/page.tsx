@@ -36,8 +36,6 @@ export default function PortfolioItem({
     },
   );
 
-  console.log("RELATED PROJECTS:", relatedProjects);
-
   if (!project) {
     notFound();
   }

@@ -320,7 +320,7 @@ export const projects: ProjectType[] = [
         size: "double",
       },
       {
-        src: "/assets/portfolio/bayer/bayer-4.jpg",
+        src: "/assets/portfolio/bayer/bayer-7.jpg",
         alt: "Bayer",
         width: 448,
         height: 212,
