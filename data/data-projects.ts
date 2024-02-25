@@ -811,7 +811,7 @@ export const projects: ProjectType[] = [
     paragraph:
       "Bolstered by visionary management and exceptional facilities, Flims Laax Falera has solidified its position as a premier destination for snowboarders and skiers across Europe. Suitably, GoPro has proudly served as Laax's official camera partner for over a decade. GoPro maintains a strong visual presence throughout the resort via Gondola wrapping, billboard advertising, large format displays, print ads, and digital advertising.",
     details: {
-      date: "",
+      date: "2024",
       location: "Switzerland",
       other: "",
     },
@@ -831,7 +831,7 @@ export const projects: ProjectType[] = [
         size: "wide",
       },
       {
-        src: "/assets/portfolio/laax/laax-5.jpg",
+        src: "/assets/portfolio/laax/laax-7.jpg",
         alt: "Flims Laax Falera Resort",
         width: 212,
         height: 212,
@@ -845,7 +845,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["leogang", "gopro-h12"],
     excerpt: {
       title: "Flims Laax Falera Resort",
       subtitle: "Switzerland",
@@ -874,7 +874,7 @@ export const projects: ProjectType[] = [
     paragraph:
       "GoPro has forged a lasting partnership with Austria's premier sports hub, Saalfelden Leogang. This collaboration includes a permanent container display strategically positioned to bolster brand awareness and offer educational resources. Whether it's the adrenaline-pumping UCI mountain biking events in summer or the exhilarating skiing and snowboarding activities in winter, the GoPro brand shines prominently across the resort. From Gondolas to billboards and digital displays, visitors encounter the GoPro brand at every turn.",
     details: {
-      date: "",
+      date: "2024",
       location: "Austria",
       other: "",
     },
@@ -908,7 +908,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["laax", "gopro-h12"],
     excerpt: {
       title: "Saalfelden Leogang",
       subtitle: "Austria",
@@ -937,8 +937,8 @@ export const projects: ProjectType[] = [
     paragraph:
       'GoPro was extended an exclusive opportunity to curate a captivating "shop in a shop" experience within Yamaha showrooms across Switzerland and select regions of Italy. The primary objective was to showcase GoPro\'s diverse camera range alongside specialized accessories tailored for motorcycle enthusiasts. The visual aesthetics of the displays were carefully crafted, featuring dynamic imagery of MotoGP legend Valentino Rossi, to underscore the synergy between the two iconic brands and resonate with the passionate motorcycle community.',
     details: {
-      date: "",
-      location: "Switzerland and Italy",
+      date: "2020",
+      location: "Switzerland, Italy",
       other: "",
     },
     images: [
@@ -971,7 +971,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["zurich-airport", "leogang"],
     excerpt: {
       title: "GoPro X YAMAHA",
       subtitle: "Switzerland and Italy",
@@ -1000,8 +1000,8 @@ export const projects: ProjectType[] = [
     paragraph:
       'GoPro was extended an exclusive opportunity to curate a captivating "shop in a shop" experience within Yamaha showrooms across Switzerland and select regions of Italy. The primary objective was to showcase GoPro\'s diverse camera range alongside specialized accessories tailored for motorcycle enthusiasts. The visual aesthetics of the displays were carefully crafted, featuring dynamic imagery of MotoGP legend Valentino Rossi, to underscore the synergy between the two iconic brands and resonate with the passionate motorcycle community.',
     details: {
-      date: "",
-      location: "Zurich, Switzerland",
+      date: "2020",
+      location: "Switzerland",
       other: "",
     },
     images: [
@@ -1034,7 +1034,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["leogang", "gopro-h12"],
     excerpt: {
       title: "GoPro California Zurich Airport",
       subtitle: "Zurich, Switzerland",
@@ -1063,8 +1063,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "GoPro invented 6 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, 8-day race culminating in Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck, where participants and attendees celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.",
     details: {
-      date: "",
-      location: "Innsbruck, Austria",
+      date: "2019",
+      location: "Austria",
       other: "",
     },
     images: [
@@ -1097,7 +1097,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["gopro-creator-summit", "gp-distributors-summit"],
     excerpt: {
       title: "GoPro CRE8ORS",
       subtitle: "Innsbruck, Austria",
@@ -1126,8 +1126,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "As a partner of the MotoGP Championship, GoPro took pride in its role as the title sponsor of the British MotoGP event. This significant sponsorship ensured that GoPro's branding was prominently displayed both on the course and trackside, capturing the attention of enthusiasts and spectators alike. Furthermore, GoPro curated a luxurious VIP Lounge within the MotoGP Village, where I was entrusted with the responsibility of designing the visual assets for the space, including hospitality and activity branding.",
     details: {
-      date: "",
-      location: "Silverstone, UK",
+      date: "2018 & 2019",
+      location: "England",
       other: "",
     },
     images: [
@@ -1160,7 +1160,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["gp-distributors-summit", "gopro-x-yamaha"],
     excerpt: {
       title: "GoPro British MotoGP",
       subtitle: "Silverstone, UK",
@@ -1189,8 +1189,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "The Annual Distributor Summit serves as a pivotal gathering, uniting GoPro's department heads and esteemed distribution partners from the EMEA region each year. Carefully selected destinations are chosen to accommodate not only GoPro's activities but also to offer significant cultural experiences. As part of my role, I am entrusted with branding the event, aligning activities, apparel, and providing captivating visual assets that seamlessly integrate with the venue, ensuring a memorable and cohesive experience for all attendees.",
     details: {
-      date: "",
-      location: "Dubrovnik, Croatia",
+      date: "2019",
+      location: "Croatia",
       other: "",
     },
     images: [
@@ -1223,7 +1223,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["motogp-project", "cre8tors-project"],
     excerpt: {
       title: "GoPro EMEA Distributors Summit",
       subtitle: "Dubrovnik, Croatia",
@@ -1252,8 +1252,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "OKTOBERFEST7s marked Germany's inaugural world-class rugby tournament, setting a new standard in the sport. As a member of a dynamic team of marketing and media professionals, I played a pivotal role in providing essential marketing and media assets for the event. Staged in the iconic Olympiastadion, our team was further entrusted with the responsibility of branding the stadium and ensuring the prominent visibility of the OKTOBERFEST7s identity.",
     details: {
-      date: "",
-      location: "Munich, Germany",
+      date: "2017, 2019",
+      location: "Germany",
       other: "",
     },
     images: [
@@ -1315,8 +1315,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "The challenge lay in crafting a memorable trophy to symbolize a prestigious award. After thorough research, the decision was made to immortalize the iconic GoPro Hero camera through a meticulously crafted metal 3D print. While this innovative and relatively new technology presented its obstacles, the team adeptly navigated through them, resulting in a stunning trophy that was enthusiastically received.",
     details: {
-      date: "",
-      location: "Munich, Germany",
+      date: "2019",
+      location: "Germany",
       other: "",
     },
     images: [
@@ -1349,7 +1349,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["gp-distributors-summit", "mcd-award"],
     excerpt: {
       title: "GoPro 3-D Printed Trophy",
       subtitle: "Munich, Germany",
@@ -1376,10 +1376,10 @@ export const projects: ProjectType[] = [
     subtitle: "Munich, Germany",
     category: "packaging-and-merchandise",
     paragraph:
-      "Delivering branded apparel solutions demands expertise in navigating the complexities of materials, suppliers, and budget constraints.",
+      "Delivering branded apparel solutions demands expertise in navigating the complexities of materials, suppliers, and budget constraints. I have been entrusted to develope a range of organic team apparel in sync with GoPro’s commitment to use more ethical and responsible materials across the business.",
     details: {
-      date: "",
-      location: "Munich, Germany",
+      date: "2024",
+      location: "Germany",
       other: "",
     },
     images: [
@@ -1412,7 +1412,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["gp-distributors-summit", "gopro-h12"],
     excerpt: {
       title: "GoPro Apparel",
       subtitle: "Munich, Germany",
@@ -1435,14 +1435,14 @@ export const projects: ProjectType[] = [
       height: 448,
     },
 
-    title: "GoPro EMEA Distributors Summit",
+    title: "GoPro Million Dollar Challenge",
     subtitle: "Dubrovnik, Croatia",
     category: "packaging-and-merchandise",
     paragraph:
       "The GoPro Million Dollar Challenge draws participants from across the globe to submit their captivating videos or photos. Winners are rewarded with a portion of the Million Dollar Prize pool. Additionally, to honor their outstanding contributions, winners are presented with a trophy commemorating their achievement.",
     details: {
-      date: "",
-      location: "Dubrovnik, Croatia",
+      date: "2020",
+      location: "Worldwide",
       other: "",
     },
     images: [
@@ -1475,7 +1475,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["gopro-3d-printed-trophy", "cre8tors-project"],
     excerpt: {
       title: "GoPro EMEA Distributors Summit",
       subtitle: "Dubrovnik, Croatia",
@@ -1504,8 +1504,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "As the design lead for a comprehensive project, I spearheaded the rebranding of over 100 products for the Bayer Animal Health group across Australia and New Zealand. Throughout the project, I cultivated robust relationships with clients, production specialists, printers, and various vendors. These connections were instrumental in ensuring the successful execution of the project and maintaining the highest standards of quality and consistency across all branded materials.",
     details: {
-      date: "",
-      location: "Sydney, Australia",
+      date: "2021",
+      location: "Australia",
       other: "",
     },
     images: [
@@ -1538,7 +1538,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: [],
+    relatedProjects: ["gopro-3d-printed-trophy", "apparel"],
     excerpt: {
       title: "Bayer Animal Health",
       subtitle: "Sydney, Australia",
