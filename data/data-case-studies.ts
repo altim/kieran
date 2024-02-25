@@ -148,7 +148,7 @@ export const caseStudies: CaseStudyType[] = [
 
     slug: "hero8",
     featuredImage: {
-      src: "/assets/case-studies/rossi-milan/rossi-milan-1.jpg",
+      src: "/assets/case-studies/rossi-milan/rossi-milan-5.jpg",
       alt: "Rossi Milan",
       width: 920,
       height: 448,
