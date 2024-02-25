@@ -54,19 +54,24 @@ export default function About() {
       <div className={styles.main}>
         <div className={styles.mainInner}>
           <p>
-            I am a multidisciplinary art director and creative services
-            professional based in Munich, Germany. I have worked with a range of
-            clients, from technical start-ups to globally recognised brands in
-            Australia, UK, and Europe.
+            As a multidisciplinary Art Director and Creative Services
+            Professional based in Munich, Germany, I bring a wealth of
+            experience collaborating with a diverse range of clients. From
+            innovative technical start-ups to esteemed global brands spanning
+            Australia, the UK, and Europe, I've consistently delivered
+            exceptional results.
           </p>
           <p>
-            With profound knowledge and experience in producing advertising and
-            marketing campaigns. My skillset is founded in graphic design,
-            photography, copywriting, and digital media. My expertise lies in
-            turning complex topics into simple visual language. I am committed
-            to creating nuanced and targeted ways of connecting people with
-            products and services through meaningful, strategic design and
-            experiences.
+            My expertise lies in crafting compelling advertising and marketing
+            campaigns, drawing upon a rich skill set encompassing graphic
+            design, photography, copywriting, and digital media. I excel at
+            translating intricate concepts into accessible visual language,
+            ensuring effective communication.
+          </p>
+          <p>
+            Dedicated to fostering meaningful connections between individuals
+            and products/services, I am committed to leveraging strategic design
+            and experiences to drive engagement and resonance.
           </p>
           <h3>Interests</h3>
           <p>

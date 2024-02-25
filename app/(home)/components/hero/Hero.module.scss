@@ -43,6 +43,7 @@
   line-height: 1.25;
   margin-top: 90px;
   text-align: center;
+  text-wrap: balance;
 
   @media (max-width: layout.$tabletWidth) {
     font-size: 26px;

@@ -86,10 +86,10 @@ const dataBrands = [
     image: "/assets/brands/laax.svg",
   },
   {
-    id: "cgb",
-    name: "CGB",
+    id: "cbu",
+    name: "cbu",
     link: "#",
-    image: "/assets/brands/laax.svg",
+    image: "/assets/brands/cbu.svg",
   },
   {
     id: "mediafusion",
