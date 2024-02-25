@@ -55,8 +55,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "“They’re on a mission to make better camping products”. Having immersed themselves in the Van Life movement for years, the founders of Campo Libre grew increasingly dissatisfied with the offerings in the camping market. The challenge was to create a camping brand target to a young adult  market with the mindset more akin to that of a skate, surf brand.",
     details: {
-      date: "",
-      location: "Munich, Germany",
+      date: "2021",
+      location: "Germany",
       other: "",
     },
     images: [
@@ -68,7 +68,7 @@ export const projects: ProjectType[] = [
         size: "double",
       },
       {
-        src: "/assets/portfolio/campo-libre/campo-libre-4.jpg",
+        src: "/assets/portfolio/campo-libre/campo-libre-7.jpg",
         alt: "Campo Libre",
         width: 448,
         height: 212,
@@ -89,7 +89,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: ["gopro-creator-summit", "simscale"],
+    relatedProjects: ["gopro-creator-summit", "quince"],
     excerpt: {
       title: "Campo Libre",
       subtitle: "Munich, Germany",
@@ -106,7 +106,7 @@ export const projects: ProjectType[] = [
   {
     slug: "gopro-creator-summit",
     featuredImage: {
-      src: "/assets/portfolio/gp-slovenia/gp-slovenia-4.jpg",
+      src: "/assets/portfolio/gp-slovenia/gp-slovenia-8.jpg",
       alt: "GP Slovenia",
       width: 920,
       height: 448,
@@ -118,8 +118,8 @@ export const projects: ProjectType[] = [
     paragraph:
       "Following the launch of the HERO12 camera. GoPro invited a select group of athletes, advocates, and leading content creators to Bled, Slovenia. The purpose of the summit was to give hands-on product training and take part in some extreme activities in one of the world’s most spectacular playgrounds.",
     details: {
-      date: "",
-      location: "Bled, Slovenia",
+      date: "2023",
+      location: "Slovenia",
       other: "",
     },
     images: [
@@ -131,7 +131,7 @@ export const projects: ProjectType[] = [
         size: "double",
       },
       {
-        src: "/assets/portfolio/gp-slovenia/gp-slovenia-2.jpg",
+        src: "/assets/portfolio/gp-slovenia/gp-slovenia-4.jpg",
         alt: "GP Slovenia",
         width: 448,
         height: 212,
@@ -152,7 +152,7 @@ export const projects: ProjectType[] = [
         size: "normal",
       },
     ],
-    relatedProjects: ["campo-libre", "simscale"],
+    relatedProjects: ["campo-libre", "suiss-creator"],
     excerpt: {
       title: "GoPro Creator Summit",
       subtitle: "Bled, Slovenia",
