@@ -116,7 +116,8 @@ export const projects: ProjectType[] = [
     subtitle: "Slovenia",
     category: "branding",
     paragraph:
-      "Following the launch of the HERO12 camera. GoPro invited a select group of athletes, advocates, and leading content creators to Bled, Slovenia. The purpose of the summit was to give hands-on product training and take part in some extreme activities in one of the world’s most spectacular playgrounds.",
+      "Following the launch of the HERO12 camera. GoPro invited a select group of athletes, advocates, and leading content creators to Bled, Slovenia. The purpose of the summit was to give hands-on product training and take part in some extreme activities in one of the world’s most spectacular playgrounds.\n Check out the " +
+      "<a target='_blank' href='https://youtu.be/gKZm-OWqclU?si=MKR5CCr5qczZc6ym'>recap video</a>",
     details: {
       date: "2023",
       location: "Slovenia",
@@ -1061,7 +1062,8 @@ export const projects: ProjectType[] = [
     subtitle: "Austria",
     category: "events",
     paragraph:
-      "GoPro invited 16 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, race to Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck. The participants screened their journey edits to panel of judges and celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.",
+      "GoPro invited 16 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, race to Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck. The participants screened their journey edits to panel of judges and celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.\n Watch the " +
+      "<a target='_blank' href='https://youtu.be/j7SgXD3XwbM?si=i2gaG3eHJ8veX_rm'>Winning Edit</a>",
     details: {
       date: "2019",
       location: "Austria",

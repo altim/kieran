@@ -80,7 +80,7 @@ export default function PortfolioItem({
           <div className={styles.content}>
             <div className={styles.column}>
               <h4>{project.title}</h4>
-              <p>{project.paragraph}</p>
+              <p dangerouslySetInnerHTML={{ __html: project.paragraph }} />
             </div>
             <div className={styles.column}>
               <h4>Details</h4>
