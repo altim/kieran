@@ -69,9 +69,8 @@ export default function About() {
             ensuring effective communication.
           </p>
           <p>
-            Dedicated to fostering meaningful connections between individuals
-            and products/services, I am committed to leveraging strategic design
-            and experiences to drive engagement and resonance.
+            I am committed to creating meaningful and targeted ways of
+            connecting people with products and services.
           </p>
           <h3>Interests</h3>
           <p>
