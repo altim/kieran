@@ -20,10 +20,10 @@ export const categories: Category[] = [
     featuredImageSmall: "/assets/categories/digital.jpg",
   },
   {
-    slug: "exhibition-spaces-and-display",
-    name: "Exhibition Spaces & Display",
-    featuredImage: "/assets/categories/exhibition-spaces-and-display-wide.jpg",
-    featuredImageSmall: "/assets/categories/exhibition-spaces-and-display.jpg",
+    slug: "exhibition-and-display",
+    name: "Exhibition & Display",
+    featuredImage: "/assets/categories/exhibition-and-display-wide.jpg",
+    featuredImageSmall: "/assets/categories/exhibition-and-display.jpg",
   },
   {
     slug: "events",
@@ -53,7 +53,7 @@ export const projects: ProjectType[] = [
     subtitle: "Germany",
     category: "branding",
     paragraph:
-      "“They’re on a mission to make better camping products”. Having immersed themselves in the Van Life movement for years, the founders of Campo Libre grew increasingly dissatisfied with the offerings in the camping market. The challenge was to create a camping brand target to a young adult  market with the mindset more akin to that of a skate, surf brand.",
+      "“They’re on a mission to make better camping products”. Having immersed themselves in the Van Life movement for years, the founders of Campo Libre grew increasingly dissatisfied with the offerings in the camping market. The challenge was to create logo and style for brand that would resonante with a young adult market with the mindset more akin to that of a skate, surf brand.",
     details: {
       date: "2021",
       location: "Germany",
@@ -93,7 +93,7 @@ export const projects: ProjectType[] = [
     excerpt: {
       title: "Campo Libre",
       subtitle: "Germany",
-      text: "“They’re on a mission to make better camping products”. Having immersed themselves in the Van Life movement for years, the founders of Campo Libre grew increasingly dissatisfied with the offerings in the camping market. The challenge was to create a camping brand target to a young adult  market with the mindset more akin to that of a skate, surf brand.",
+      text: "“They’re on a mission to make better camping products”. Having immersed themselves in the Van Life movement for years, the founders of Campo Libre grew increasingly dissatisfied with the offerings in the camping market. The challenge was to create logo and style for brand that would resonante with a young adult market with the mindset more akin to that of a skate, surf brand.",
       image: {
         src: "/assets/portfolio/campo-libre/campo-libre-1.jpg",
         alt: "Campo Libre Project",
@@ -293,69 +293,6 @@ export const projects: ProjectType[] = [
   },
 
   {
-    slug: "bayer",
-    featuredImage: {
-      src: "/assets/portfolio/bayer/bayer-1.jpg",
-      alt: "Bayer",
-      width: 920,
-      height: 448,
-    },
-
-    title: "Bayer Animal Health",
-    subtitle: "Australia",
-    category: "advertising-and-marketing",
-    paragraph:
-      "As a key member of a dynamic team, I contributed to introducing innovative advertising concepts and campaigns to a traditionally conservative market deeply rooted in product-based advertising traditions. Through strategic thinking and creative prowess, we challenged the status quo, injecting fresh perspectives and engaging narratives into the market landscape.",
-    details: {
-      date: "2012",
-      location: "Australia",
-      other: "",
-    },
-    images: [
-      {
-        src: "/assets/portfolio/bayer/bayer-3.jpg",
-        alt: "Bayer",
-        width: 448,
-        height: 448,
-        size: "double",
-      },
-      {
-        src: "/assets/portfolio/bayer/bayer-7.jpg",
-        alt: "Bayer",
-        width: 448,
-        height: 212,
-        size: "wide",
-      },
-      {
-        src: "/assets/portfolio/bayer/bayer-5.jpg",
-        alt: "Bayer",
-        width: 212,
-        height: 212,
-        size: "normal",
-      },
-      {
-        src: "/assets/portfolio/bayer/bayer-6.jpg",
-        alt: "Bayer",
-        width: 212,
-        height: 212,
-        size: "normal",
-      },
-    ],
-    relatedProjects: ["gopro-h12", "solar-edge"],
-    excerpt: {
-      title: "Bayer",
-      subtitle: "Australia",
-      text: "As a key member of a dynamic team, I contributed to introducing innovative advertising concepts and campaigns to a traditionally conservative market deeply rooted in product-based advertising traditions. Through strategic thinking and creative prowess, we challenged the status quo, injecting fresh perspectives and engaging narratives into the market landscape.",
-      image: {
-        src: "/assets/portfolio/bayer/bayer-2.jpg",
-        alt: "Bayer Project",
-        width: 448,
-        height: 448,
-      },
-    },
-  },
-
-  {
     slug: "gopro-h12",
     featuredImage: {
       src: "/assets/portfolio/gopro-h12/gopro-h12-1.jpg",
@@ -482,6 +419,69 @@ export const projects: ProjectType[] = [
   },
 
   {
+    slug: "bayer",
+    featuredImage: {
+      src: "/assets/portfolio/bayer/bayer-1.jpg",
+      alt: "Bayer",
+      width: 920,
+      height: 448,
+    },
+
+    title: "Bayer Animal Health",
+    subtitle: "Australia",
+    category: "advertising-and-marketing",
+    paragraph:
+      "As a key member of a dynamic team, I contributed to introducing innovative advertising concepts and campaigns to a traditionally conservative market deeply rooted in product-based advertising traditions. Through strategic thinking and creative prowess, we challenged the status quo, injecting fresh perspectives and engaging narratives into the market landscape.",
+    details: {
+      date: "2012",
+      location: "Australia",
+      other: "",
+    },
+    images: [
+      {
+        src: "/assets/portfolio/bayer/bayer-3.jpg",
+        alt: "Bayer",
+        width: 448,
+        height: 448,
+        size: "double",
+      },
+      {
+        src: "/assets/portfolio/bayer/bayer-7.jpg",
+        alt: "Bayer",
+        width: 448,
+        height: 212,
+        size: "wide",
+      },
+      {
+        src: "/assets/portfolio/bayer/bayer-5.jpg",
+        alt: "Bayer",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+      {
+        src: "/assets/portfolio/bayer/bayer-6.jpg",
+        alt: "Bayer",
+        width: 212,
+        height: 212,
+        size: "normal",
+      },
+    ],
+    relatedProjects: ["gopro-h12", "solar-edge"],
+    excerpt: {
+      title: "Bayer",
+      subtitle: "Australia",
+      text: "As a key member of a dynamic team, I contributed to introducing innovative advertising concepts and campaigns to a traditionally conservative market deeply rooted in product-based advertising traditions. Through strategic thinking and creative prowess, we challenged the status quo, injecting fresh perspectives and engaging narratives into the market landscape.",
+      image: {
+        src: "/assets/portfolio/bayer/bayer-2.jpg",
+        alt: "Bayer Project",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
     slug: "out-of-home",
     featuredImage: {
       src: "/assets/portfolio/out-of-home/out-of-home-1.jpg",
@@ -490,11 +490,11 @@ export const projects: ProjectType[] = [
       height: 448,
     },
 
-    title: "Out Of Home Advertising (OOH)",
+    title: "Out Of Home Advertising",
     subtitle: "EMEA",
     category: "advertising-and-marketing",
     paragraph:
-      "This form of advertising typically includes billboards, transit ads (such as bus or subway ads), street furniture (like benches or kiosks), and other public displays. OOH advertising aims to capture the attention of passersby in high-traffic areas or locations where people gather, such as shopping centers or sports stadiums. It offers brands a way to reach a broad audience and increase brand visibility through eye-catching visuals and concise messaging.",
+      "OOH typically includes billboards, transit ads (such as bus or subway ads), street furniture (like benches or kiosks), and other public displays. I have produced advertisements to drive brand awareness in high-traffic areas or locations, such as airports, ski resorts, sports stadiums and transport networks through out the EMEA region.",
     details: {
       date: "",
       location: "EMEA",
@@ -534,7 +534,7 @@ export const projects: ProjectType[] = [
     excerpt: {
       title: "Out Of Home Advertising",
       subtitle: "EMEA",
-      text: "This form of advertising typically includes billboards, transit ads (such as bus or subway ads), street furniture (like benches or kiosks), and other public displays. OOH advertising aims to capture the attention of passersby in high-traffic areas or locations where people gather, such as shopping centers or sports stadiums. It offers brands a way to reach a broad audience and increase brand visibility through eye-catching visuals and concise messaging",
+      text: "OOH typically includes billboards, transit ads (such as bus or subway ads), street furniture (like benches or kiosks), and other public displays. I have produced advertisements to drive brand awareness in high-traffic areas or locations, such as airports, ski resorts, sports stadiums and transport networks through out the EMEA region.",
       image: {
         src: "/assets/portfolio/out-of-home/out-of-home-2.jpg",
         alt: "Out Of Home Advertising Project",
@@ -807,7 +807,7 @@ export const projects: ProjectType[] = [
 
     title: "Flims Laax Falera Resort",
     subtitle: "Switzerland",
-    category: "exhibition-spaces-and-display",
+    category: "exhibition-and-display",
     paragraph:
       "Bolstered by visionary management and exceptional facilities, Flims Laax Falera has solidified its position as a premier destination for snowboarders and skiers across Europe. Suitably, GoPro has proudly served as Laax's official camera partner for over a decade. GoPro maintains a strong visual presence throughout the resort via Gondola wrapping, billboard advertising, large format displays, print ads, and digital advertising.",
     details: {
@@ -870,7 +870,7 @@ export const projects: ProjectType[] = [
 
     title: "Saalfelden Leogang",
     subtitle: "Austria",
-    category: "exhibition-spaces-and-display",
+    category: "exhibition-and-display",
     paragraph:
       "GoPro has forged a lasting partnership with Austria's premier sports hub, Saalfelden Leogang. This collaboration includes a permanent container display strategically positioned to bolster brand awareness and offer educational resources. Whether it's the adrenaline-pumping UCI mountain biking events in summer or the exhilarating skiing and snowboarding activities in winter, the GoPro brand shines prominently across the resort. From Gondolas to billboards and digital displays, visitors encounter the GoPro brand at every turn.",
     details: {
@@ -926,14 +926,14 @@ export const projects: ProjectType[] = [
     slug: "gopro-x-yamaha",
     featuredImage: {
       src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-1.jpg",
-      alt: "GoPro X YAMAHA",
+      alt: "GoPro X Yamaha",
       width: 920,
       height: 448,
     },
 
-    title: "GoPro X YAMAHA",
+    title: "GoPro X Yamaha",
     subtitle: "Switzerland and Italy",
-    category: "exhibition-spaces-and-display",
+    category: "exhibition-and-display",
     paragraph:
       'GoPro was extended an exclusive opportunity to curate a captivating "shop in a shop" experience within Yamaha showrooms across Switzerland and select regions of Italy. The primary objective was to showcase GoPro\'s diverse camera range alongside specialized accessories tailored for motorcycle enthusiasts. The visual aesthetics of the displays were carefully crafted, featuring dynamic imagery of MotoGP legend Valentino Rossi, to underscore the synergy between the two iconic brands and resonate with the passionate motorcycle community.',
     details: {
@@ -944,28 +944,28 @@ export const projects: ProjectType[] = [
     images: [
       {
         src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-3.jpg",
-        alt: "GoPro X YAMAHA",
+        alt: "GoPro X Yamaha",
         width: 448,
         height: 448,
         size: "double",
       },
       {
         src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-4.jpg",
-        alt: "GoPro X YAMAHA",
+        alt: "GoPro X Yamaha",
         width: 448,
         height: 212,
         size: "wide",
       },
       {
         src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-5.jpg",
-        alt: "GoPro X YAMAHA",
+        alt: "GoPro X Yamaha",
         width: 212,
         height: 212,
         size: "normal",
       },
       {
         src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-6.jpg",
-        alt: "GoPro X YAMAHA",
+        alt: "GoPro X Yamaha",
         width: 212,
         height: 212,
         size: "normal",
@@ -973,12 +973,12 @@ export const projects: ProjectType[] = [
     ],
     relatedProjects: ["zurich-airport", "leogang"],
     excerpt: {
-      title: "GoPro X YAMAHA",
+      title: "GoPro X Yamaha",
       subtitle: "Switzerland and Italy",
       text: 'GoPro was extended an exclusive opportunity to curate a captivating "shop in a shop" experience within Yamaha showrooms across Switzerland and select regions of Italy. The primary objective was to showcase GoPro\'s diverse camera range alongside specialized accessories tailored for motorcycle enthusiasts. The visual aesthetics of the displays were carefully crafted, featuring dynamic imagery of MotoGP legend Valentino Rossi, to underscore the synergy between the two iconic brands and resonate with the passionate motorcycle community.',
       image: {
         src: "/assets/portfolio/gopro-yamaha/gopro-yamaha-2.jpg",
-        alt: "GoPro X YAMAHA Project",
+        alt: "GoPro X Yamaha Project",
         width: 448,
         height: 448,
       },
@@ -996,9 +996,9 @@ export const projects: ProjectType[] = [
 
     title: "GoPro California Zurich Airport",
     subtitle: "Switzerland",
-    category: "exhibition-spaces-and-display",
+    category: "exhibition-and-display",
     paragraph:
-      'GoPro was extended an exclusive opportunity to curate a captivating "shop in a shop" experience within Yamaha showrooms across Switzerland and select regions of Italy. The primary objective was to showcase GoPro\'s diverse camera range alongside specialized accessories tailored for motorcycle enthusiasts. The visual aesthetics of the displays were carefully crafted, featuring dynamic imagery of MotoGP legend Valentino Rossi, to underscore the synergy between the two iconic brands and resonate with the passionate motorcycle community.',
+      "GoPro received the prestigious invitation to showcase California's essence through a display at Zurich Airport. As a lifestyle company rooted in California's vibrant culture, GoPro was uniquely positioned to undertake this endeavor. The exhibit featured captivating images of California's iconic beach culture, all captured on GoPro cameras, alongside the showcased cameras and accessories utilized to create these stunning visuals. This presentation effectively encapsulated the spirit of California and highlighted GoPro's role in capturing and celebrating life's exhilarating moments.",
     details: {
       date: "2020",
       location: "Switzerland",
@@ -1061,7 +1061,7 @@ export const projects: ProjectType[] = [
     subtitle: "Austria",
     category: "events",
     paragraph:
-      "GoPro invented 6 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, 8-day race culminating in Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck, where participants and attendees celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.",
+      "GoPro invited 16 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, race to Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck. The participants screened their journey edits to panel of judges and celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.",
     details: {
       date: "2019",
       location: "Austria",
@@ -1101,7 +1101,7 @@ export const projects: ProjectType[] = [
     excerpt: {
       title: "GoPro CRE8ORS",
       subtitle: "Austria",
-      text: "GoPro invented 6 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, 8-day race culminating in Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck, where participants and attendees celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.",
+      text: "GoPro invited 16 prominent advocates from the EMEA region to participate in an exhilarating 800-mile, race to Innsbruck, Austria, to commemorate the launch of the HERO8 camera. The event showcased the camera's capabilities through the thrilling journey of the participants. The culmination of the race was marked by a gala event held in an innovative Upcycling studio in Innsbruck. The participants screened their journey edits to panel of judges and celebrated the successful launch amidst a vibrant atmosphere of creativity and camaraderie.",
       image: {
         src: "/assets/portfolio/cre8tors/cre8tors-2.jpg",
         alt: "GoPro CRE8ORS Project",
@@ -1416,7 +1416,7 @@ export const projects: ProjectType[] = [
     excerpt: {
       title: "GoPro Apparel",
       subtitle: "EMEA",
-      text: "Delivering branded apparel solutions demands expertise in navigating the complexities of materials, suppliers, and budget constraints.",
+      text: "Delivering branded apparel solutions demands expertise in navigating the complexities of materials, suppliers, and budget constraints. I have been entrusted to develope a range of organic team apparel in sync with GoPro’s commitment to use more ethical and responsible materials across the business.",
       image: {
         src: "/assets/portfolio/apparel/apparel-2.jpg",
         alt: "GoPro Apparel Project",
@@ -1430,13 +1430,13 @@ export const projects: ProjectType[] = [
     slug: "mcd-award",
     featuredImage: {
       src: "/assets/portfolio/mcd-award/mcd-award-1.jpg",
-      alt: "GoPro EMEA Distributors Summit",
+      alt: "GoPro Million Dollar Challenge",
       width: 920,
       height: 448,
     },
 
     title: "GoPro Million Dollar Challenge",
-    subtitle: "Global",
+    subtitle: "Worldwide",
     category: "packaging-and-merchandise",
     paragraph:
       "The GoPro Million Dollar Challenge draws participants from across the globe to submit their captivating videos or photos. Winners are rewarded with a portion of the Million Dollar Prize pool. Additionally, to honor their outstanding contributions, winners are presented with a trophy commemorating their achievement.",
@@ -1477,8 +1477,8 @@ export const projects: ProjectType[] = [
     ],
     relatedProjects: ["gopro-3d-printed-trophy", "cre8tors-project"],
     excerpt: {
-      title: "GoPro EMEA Distributors Summit",
-      subtitle: "Global",
+      title: "GoPro Million Dollar Challenge",
+      subtitle: "Worldwide",
       text: "The GoPro Million Dollar Challenge draws participants from across the globe to submit their captivating videos or photos. Winners are rewarded with a portion of the Million Dollar Prize pool. Additionally, to honor their outstanding contributions, winners are presented with a trophy commemorating their achievement.",
       image: {
         src: "/assets/portfolio/mcd-award/mcd-award-2.jpg",

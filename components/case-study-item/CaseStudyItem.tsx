@@ -35,7 +35,7 @@ export default function CaseStudyItem({
           </div>
           <div className={styles.leftSide}>
             <p className={styles.category}>{category}</p>
-            <h2 className={styles.caseStudyTitle}>A Case Study</h2>
+            <h2 className={styles.caseStudyTitle}>Case Study</h2>
             <h2 className={styles.title}>{title}</h2>
           </div>
           <div className={styles.rightSide}>

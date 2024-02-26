@@ -3,7 +3,7 @@ import { CaseStudyType } from "@/data/data.types.ts";
 export const caseStudies: CaseStudyType[] = [
   {
     title: "GoPro Creator Summit",
-    subtitle: "Interlaken Switzerland",
+    subtitle: "Interlaken, Switzerland",
     category: "Branding",
 
     slug: "suiss-creator",
@@ -73,7 +73,7 @@ export const caseStudies: CaseStudyType[] = [
 
   {
     title: "GoPro British MotoGP",
-    subtitle: "Silverstone",
+    subtitle: "Silverstone, England",
     category: "Events",
 
     slug: "motogp",
@@ -142,8 +142,8 @@ export const caseStudies: CaseStudyType[] = [
   },
 
   {
-    title: "GoPro HERO8",
-    subtitle: "Milan Italy",
+    title: "GoPro HERO8 OOH Advertising",
+    subtitle: "Milan, Italy",
     category: "Advertising & Marketing",
 
     slug: "hero8",
@@ -200,7 +200,7 @@ export const caseStudies: CaseStudyType[] = [
     ],
     relatedProjects: ["motogp", "cre8tors"],
     excerpt: {
-      title: "GoPro HERO8",
+      title: "GoPro HERO8 OOH Advertising",
       text: "I was given opportunity to provide a public transport vehicle wrap in Milan promoting the GoPro HERO8 camera featuring Hypersmooth.",
       image: {
         src: "/assets/case-studies/rossi-milan/rossi-milan-2.jpg",
@@ -213,7 +213,7 @@ export const caseStudies: CaseStudyType[] = [
 
   {
     title: "GoPro CRE8ORS",
-    subtitle: "Innsbruck Austria",
+    subtitle: "Innsbruck, Austria",
     category: "Branding",
 
     slug: "cre8tors",
@@ -227,7 +227,7 @@ export const caseStudies: CaseStudyType[] = [
     paragraphs: [
       {
         title: "Brief",
-        text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on an 8-day, 800-mile race to Innsbruck. Throughout the expedition, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day. Ensuring the success of the event required cohesive branding, with all associated assets and materials aligning seamlessly. One of the key challenges was integrating the new event logo with the established HERO8 brand assets. Additionally, the event space needed to be transformed to showcase GoPro CRE8ORS and HERO8 elements effectively. The chosen venue, an Upcycling Studio/Gallery, played a pivotal role in reinforcing the gala night's theme of recycling and waste reduction, providing a fitting backdrop for the occasion.",
+        text: "As part of the HERO8 camera launch, GoPro orchestrated an extraordinary journey: inviting 16 prominent athletes and advocates to embark on a 800-mile race to Innsbruck. Throughout the journey, participants captured compelling content documenting their adventure, to be evaluated and celebrated during the gala event on the final day. Ensuring the success of the event required cohesive branding, with all associated assets and materials aligning seamlessly. One of the key challenges was integrating the new event logo with the established HERO8 brand assets. Additionally, the event space needed to be transformed to showcase GoPro CRE8ORS and HERO8 elements effectively. The chosen venue, an Upcycling Studio/Gallery, played a pivotal role in reinforcing the gala night's theme of recycling and waste reduction, providing a fitting backdrop for the occasion.",
       },
       {
         title: "Solution",
