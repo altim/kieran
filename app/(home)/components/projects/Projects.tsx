@@ -3,8 +3,14 @@ import ProjectItem from "@/app/(home)/components/projects/components/project-ite
 import Button from "@/components/button/Button";
 import { projects } from "@/data/data-projects.ts";
 import { notFound } from "next/navigation";
-export default function Projects() {
-  const recentProjects = projects.slice(0, 4);
+
+type ProjectsPros = {
+  slugs: string[];
+};
+export default function Projects({ slugs }: ProjectsPros) {
+  const recentProjects = slugs.map((projectSlug) =>
+    projects.find((project) => project.slug === projectSlug),
+  );
 
   if (!recentProjects) {
     notFound();
@@ -19,12 +25,12 @@ export default function Projects() {
           {recentProjects.map((item, index) => (
             <ProjectItem
               key={`related-project-${index}`}
-              title={item.title}
-              imageSrc={item.excerpt.image.src}
-              imageAlt={item.excerpt.image.alt}
-              imageWidth={item.excerpt.image.width}
-              imageHeight={item.excerpt.image.height}
-              link={`/portfolio/${item.category}/${item.slug}`}
+              title={item?.title ?? ""}
+              imageSrc={item?.excerpt?.image?.src ?? ""}
+              imageAlt={item?.excerpt?.image?.alt ?? ""}
+              imageWidth={item?.excerpt?.image?.width ?? 0}
+              imageHeight={item?.excerpt?.image?.height ?? 0}
+              link={`/portfolio/${item?.category}/${item?.slug}`}
             />
           ))}
         </div>

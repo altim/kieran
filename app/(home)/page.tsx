@@ -45,7 +45,9 @@ export default function Home() {
           <p>2017 – 2020</p>
         </div>
       </Experience>
-      <Projects />
+      <Projects
+        slugs={["gopro-h12", "torvac", "gopro-creator-summit", "campo-libre"]}
+      />
     </main>
   );
 }
