@@ -21,10 +21,8 @@ export default function Hero() {
           Hurley
         </h1>
         <h2 className={styles.description}>
-          I am a versatile Art Director and Design Project Leader based in
-          Munich. With extensive experience, I've collaborated with a diverse
-          range of clients, spanning from local technical start-ups to globally
-          renowned brands across Europe, the UK, and Australia.
+          I am committed to creating meaningful and targeted ways of connecting
+          people with products and services.
         </h2>
         <div className={styles.links}>
           <IconLink

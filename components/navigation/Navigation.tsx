@@ -37,7 +37,7 @@ export default function Navigation() {
         <div className={styles.navigationInner}>
           <div>
             <a href={"/"} className={styles.logo}>
-              <h1>hurleydesign.me</h1>
+              <h1>kieranhurley.work</h1>
             </a>
           </div>
 
