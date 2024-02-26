@@ -179,7 +179,7 @@ export const projects: ProjectType[] = [
     subtitle: "Germany",
     category: "branding",
     paragraph:
-      "SimScale, established in Munich in 2012, is a pioneering engineering software startup. Its cloud-based platform revolutionizes the capabilities of engineers and designers globally by enabling robust Computational Fluid Dynamics (CFD), Finite Element Analysis (FEA), and thermal analysis. This groundbreaking technology dismantles numerous barriers that engineering firms encounter in realising their projects.",
+      'SimScale, established in Munich in 2012, is a pioneering engineering software startup. Its cloud-based platform revolutionizes the capabilities of engineers and designers globally by enabling robust Computational Fluid Dynamics (CFD), Finite Element Analysis (FEA), and thermal analysis. This groundbreaking technology dismantles numerous barriers that engineering firms encounter in realising their projects. I was engaged to create a SimScale visual language and "way of doing things" across all channels of communication for a global audience.',
     details: {
       date: "2017",
       location: "Germany",
@@ -219,7 +219,7 @@ export const projects: ProjectType[] = [
     excerpt: {
       title: "SimScale",
       subtitle: "Germany",
-      text: "SimScale, established in Munich in 2012, is a pioneering engineering software startup. Its cloud-based platform revolutionizes the capabilities of engineers and designers globally by enabling robust Computational Fluid Dynamics (CFD), Finite Element Analysis (FEA), and thermal analysis. This groundbreaking technology dismantles numerous barriers that engineering firms encounter in realising their projects.",
+      text: 'SimScale, established in Munich in 2012, is a pioneering engineering software startup. Its cloud-based platform revolutionizes the capabilities of engineers and designers globally by enabling robust Computational Fluid Dynamics (CFD), Finite Element Analysis (FEA), and thermal analysis. This groundbreaking technology dismantles numerous barriers that engineering firms encounter in realising their projects. I was engaged to create a SimScale visual language and "way of doing things" across all channels of communication for a global audience.',
       image: {
         src: "/assets/portfolio/simscale/simscale-2.jpg",
         alt: "SimScale Project",
