@@ -1,8 +1,8 @@
 import styles from "./page.module.scss";
-import Hero from "@/app/(home)/components/hero/Hero";
-import Skills from "@/app/(home)/components/skills/Skills";
-import Experience from "@/app/(home)/components/experience/Experience";
-import Projects from "@/app/(home)/components/projects/Projects";
+import Hero from "@/app/(protected)/(home)/components/hero/Hero";
+import Skills from "@/app/(protected)/(home)/components/skills/Skills";
+import Experience from "@/app/(protected)/(home)/components/experience/Experience";
+import Projects from "@/app/(protected)/(home)/components/projects/Projects";
 
 export default function Home() {
   return (

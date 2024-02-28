@@ -1,5 +1,5 @@
 import styles from "./Projects.module.scss";
-import ProjectItem from "@/app/(home)/components/projects/components/project-item/ProjectItem";
+import ProjectItem from "@/app/(protected)/(home)/components/projects/components/project-item/ProjectItem";
 import Button from "@/components/button/Button";
 import { projects } from "@/data/data-projects.ts";
 import { notFound } from "next/navigation";

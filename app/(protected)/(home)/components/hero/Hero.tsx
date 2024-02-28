@@ -1,6 +1,6 @@
 import styles from "./Hero.module.scss";
 import Image from "next/image";
-import IconLink from "@/app/(home)/components/icon-link/IconLink";
+import IconLink from "@/app/(protected)/(home)/components/icon-link/IconLink";
 
 export default function Hero() {
   return (

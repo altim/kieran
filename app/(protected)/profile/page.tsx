@@ -2,7 +2,7 @@ import styles from "./page.module.scss";
 import Image from "next/image";
 import Button from "@/components/button/Button";
 import Link from "next/link";
-import Brands from "@/app/profile/components/brands/Brands.tsx";
+import Brands from "@/app/(protected)/profile/components/brands/Brands.tsx";
 import { generalData } from "@/data/data-general.ts";
 
 export default function About() {

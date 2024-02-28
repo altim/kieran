@@ -1,11 +1,12 @@
 import HeaderImage from "@/components/header-image/HeaderImage";
 import styles from "./page.module.scss";
 import { projects } from "@/data/data-projects.ts";
-import { CaseStudyType } from "@/data/data.types.ts";
+import { ProjectType } from "@/data/data.types.ts";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import classNames from "classnames";
-import ProjectItem from "@/app/(home)/components/projects/components/project-item/ProjectItem.tsx";
+import ProjectItem from "@/app/(protected)/(home)/components/projects/components/project-item/ProjectItem.tsx";
+import { getCategoryBySlug } from "@/helpers/categoryHelpers.ts";
 import { caseStudies } from "@/data/data-case-studies.ts";
 import { isPortfolioItem } from "@/helpers/postHelper.ts";
 
@@ -20,8 +21,8 @@ export default function PortfolioItem({
 }: {
   params: { project: string };
 }) {
-  const project = caseStudies.find(
-    (item: CaseStudyType) => item.slug === params.project,
+  const project = projects.find(
+    (item: ProjectType) => item.slug === params.project,
   );
 
   const relatedProjects = project?.relatedProjects?.map(
@@ -46,26 +47,17 @@ export default function PortfolioItem({
         alt={project.featuredImage.alt}
         width={project.featuredImage.width}
         height={project.featuredImage.height}
-        backgroundColor={"white"}
+        backgroundColor={"gray"}
       />
+
       <div className={styles.projectTitle}>
         <div className={styles.projectTitleInner}>
           <h1>{project.title}</h1>
-          <h2>{project.subtitle}</h2>
         </div>
       </div>
 
       <div className={styles.main}>
         <div className={styles.mainInner}>
-          <div className={styles.paragraphsList}>
-            {project.paragraphs.map((item, index) => (
-              <div className={styles.paragraph} key={`paragraph-${index}`}>
-                <h4>{item.title}</h4>
-                <p>{item.text}</p>
-              </div>
-            ))}
-          </div>
-
           <div className={styles.imageList}>
             {project.images.map((item, index) => (
               <div
@@ -83,6 +75,25 @@ export default function PortfolioItem({
                 />
               </div>
             ))}
+          </div>
+
+          <div className={styles.content}>
+            <div className={styles.column}>
+              <h4>{project.title}</h4>
+              <p dangerouslySetInnerHTML={{ __html: project.paragraph }} />
+            </div>
+            <div className={styles.column}>
+              <h4>Details</h4>
+              {project.details?.date && <p>Date: {project.details?.date}</p>}
+              {project.details?.location && (
+                <p>Location: {project.details?.location}</p>
+              )}
+              {project.details?.other && <p>Other: {project.details?.other}</p>}
+            </div>
+            <div className={styles.column}>
+              <h4>Category</h4>
+              <p>{getCategoryBySlug(project.category)?.name}</p>
+            </div>
           </div>
 
           {relatedProjects && relatedProjects.length > 0 && (

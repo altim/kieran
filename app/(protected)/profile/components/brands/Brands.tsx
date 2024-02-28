@@ -1,5 +1,5 @@
 "use client";
-import dataBrands, { BrandType } from "../../../../data/data-brands.ts";
+import dataBrands, { BrandType } from "../../../../../data/data-brands.ts";
 import styles from "./Brands.module.scss";
 import Image from "next/image";
 import Button from "@/components/button/Button.tsx";
