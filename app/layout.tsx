@@ -3,6 +3,8 @@ import { Montserrat } from "next/font/google";
 import "./globals.scss";
 import Navigation from "@/components/navigation/Navigation";
 import Footer from "@/components/footer/Footer";
+import { usePathname } from "next/navigation";
+import IsNotLogin from "@/components/is-not-login/isNotLogin.tsx";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -20,9 +22,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
-        <Navigation />
+        <IsNotLogin>
+          {" "}
+          <Navigation />
+        </IsNotLogin>
         {children}
-        <Footer />
+        <IsNotLogin>
+          <Footer />
+        </IsNotLogin>
       </body>
     </html>
   );
