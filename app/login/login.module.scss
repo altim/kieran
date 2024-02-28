@@ -1,0 +1,50 @@
+@use "/css/layout";
+
+.loginPage {
+  @extend %grid;
+  height: 100vh;
+}
+
+.loginPageInner {
+  grid-column: content;
+  display: grid;
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+}
+
+.loginFormWrapper {
+  background: var(--blue);
+  padding: 40px;
+  width: 100%;
+  max-width: 540px;
+  margin: 20px;
+  box-sizing: border-box;
+
+  h1 {
+    color: #fff;
+    margin-bottom: 0.3em;
+    font-size: 40px;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 30px;
+    }
+  }
+
+  h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-size: 20px;
+
+    @media (max-width: layout.$tabletWidth) {
+      font-size: 16px;
+    }
+  }
+}
+
+.loginForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+}

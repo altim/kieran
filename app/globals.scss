@@ -27,7 +27,8 @@
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="password"] {
   @extend %input;
   height: 60px;
 }
