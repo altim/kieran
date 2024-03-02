@@ -1,4 +1,4 @@
 export const generalData = {
   cvLink:
-    "https://www.dropbox.com/scl/fi/ausfsv4fjdw9no5nd3rlh/Kieran_Hurley_CV.docx?rlkey=15b2k1rfttday7im5waffu0qx&dl=0",
+    "https://www.dropbox.com/scl/fo/4rnpwdyxdvlp1jgscyalm/h?rlkey=coircrkza6vncpfr7ah97m0px&dl=0",
 };

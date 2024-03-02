@@ -43,7 +43,7 @@ export default function Footer() {
         )}
       </div>
       <div className={styles.copyright}>
-        <p>© All rights reserved. Kieran Hurley 2023</p>
+        <p>© All rights reserved. Kieran Hurley 2024</p>
       </div>
     </div>
   );
