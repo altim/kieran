@@ -10,11 +10,11 @@ import { getCategoryBySlug } from "@/helpers/categoryHelpers.ts";
 import { caseStudies } from "@/data/data-case-studies.ts";
 import { isPortfolioItem } from "@/helpers/postHelper.ts";
 
-export async function generateStaticParams() {
-  return projects.map((item) => ({
-    slug: item.slug,
-  }));
-}
+// export async function generateStaticParams() {
+//   return projects.map((item) => ({
+//     slug: item.slug,
+//   }));
+// }
 
 export default function PortfolioItem({
   params,
