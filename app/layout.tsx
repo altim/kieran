@@ -4,6 +4,7 @@ import "./globals.scss";
 import Navigation from "@/components/navigation/Navigation";
 import Footer from "@/components/footer/Footer";
 import IsNotLogin from "@/components/is-not-login/isNotLogin.tsx";
+import React from "react";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
