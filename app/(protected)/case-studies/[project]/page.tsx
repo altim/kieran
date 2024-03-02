@@ -9,11 +9,11 @@ import { caseStudies } from "@/data/data-case-studies.ts";
 import { isPortfolioItem } from "@/helpers/postHelper.ts";
 import ProjectItem from "@/app/(protected)/(home)/components/projects/components/project-item/ProjectItem.tsx";
 
-export async function generateStaticParams() {
-  return projects.map((item) => ({
-    slug: item.slug,
-  }));
-}
+// export async function generateStaticParams() {
+//   return projects.map((item) => ({
+//     slug: item.slug,
+//   }));
+// }
 
 export default function PortfolioItem({
   params,
