@@ -2,13 +2,83 @@ import { CaseStudyType } from "@/data/data.types.ts";
 
 export const caseStudies: CaseStudyType[] = [
   {
+    title: "GoPro Merchandise",
+    subtitle: "EMEA",
+    category: "Branding",
+
+    slug: "gopro-merchandise",
+    featuredImage: {
+      src: "/assets/case-studies/gopro-merch/gopro-merch-1.jpg",
+      alt: "GoPro Merchandise",
+      width: 920,
+      height: 448,
+    },
+
+    paragraphs: [
+      {
+        title: "Problem",
+        text: "In the spring of 2024, GoPro announced a shift from its iconic four-color logo to a sleek, single-color design, in three colorways: GoPro Black, GoPro White, and GoPro Surf Blue. To align with this branding update, the GoPro EMEA Marketing team needed new merchandise for teamwear, activations, and giveaways. I had the opportunity to design and develop apparel that showcased the new logo colorways, ensuring the collection embodied the brand’s fresh aesthetic.",
+      },
+      {
+        title: "Solution",
+        text: "The GoPro teamwear and swag collection includes ski jackets and pants, fleece jackets, hoodies, sweatshirts, t-shirts, caps, neck gaiters, sports towels, gym bags, and beanies. Historically, GoPro has prioritized using organic clothing whenever possible. This initiative also presented an opportunity to introduce more contemporary styles to the teamwear apparel lineup, blending functionality with modern design.",
+      },
+      {
+        title: "My Role",
+        text: "Once the designs were approved, I conducted thorough research and sourced samples from manufacturers and vendors. Additionally, I was responsible for creating comprehensive guidelines for producing the apparel. These guidelines were later adopted by GoPro Headquarters in the USA for international distribution.",
+      },
+    ],
+    images: [
+      {
+        src: "/assets/case-studies/gopro-merch/gopro-merch-2.jpg",
+        alt: "Suiss Creator",
+        width: 920,
+        height: 448,
+        size: "wide",
+      },
+      {
+        src: "/assets/case-studies/gopro-merch/gopro-merch-3.jpg",
+        alt: "Suiss Creator",
+        width: 448,
+        height: 448,
+        size: "normal",
+      },
+      {
+        src: "/assets/case-studies/gopro-merch/gopro-merch-4.jpg",
+        alt: "Suiss Creator",
+        width: 448,
+        height: 448,
+        size: "normal",
+      },
+      {
+        src: "/assets/case-studies/gopro-merch/gopro-merch-5.jpg",
+        alt: "Suiss Creator",
+        width: 920,
+        height: 448,
+        size: "wide",
+      },
+    ],
+    relatedProjects: ["gopro-creator-summit", "cre8tors"],
+    excerpt: {
+      title: "GoPro Merchandise",
+      text: "In the spring of 2024, GoPro announced a shift from its iconic four-color logo to a sleek, single-color design, in three colorways: GoPro Black, GoPro White, and GoPro Surf Blue. To align with this branding update, the GoPro EMEA Marketing team needed new merchandise for teamwear, activations, and giveaways.",
+      image: {
+        src: "/assets/case-studies/gopro-merch/gopro-merch-2.jpg",
+        alt: "GoPro Merchandise",
+        width: 448,
+        height: 448,
+      },
+    },
+  },
+
+  {
     title: "GoPro Creator Summit",
     subtitle: "Interlaken, Switzerland",
     category: "Branding",
 
     slug: "suiss-creator",
     featuredImage: {
-      src: "/assets/case-studies/suiss-creator/suiss-creator-5.jpg",
+      src: "/assets/case-studies/gopro-merch/gopro-merch-5.jpg",
       alt: "Suiss Creator",
       width: 920,
       height: 448,
@@ -30,28 +100,28 @@ export const caseStudies: CaseStudyType[] = [
     ],
     images: [
       {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-1.jpg",
+        src: "/assets/case-studies/gopro-merch/gopro-merch-1.jpg",
         alt: "Suiss Creator",
         width: 920,
         height: 448,
         size: "wide",
       },
       {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-2.jpg",
+        src: "/assets/case-studies/gopro-merch/gopro-merch-2.jpg",
         alt: "Suiss Creator",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-4.jpg",
+        src: "/assets/case-studies/gopro-merch/gopro-merch-4.jpg",
         alt: "Suiss Creator",
         width: 448,
         height: 448,
         size: "normal",
       },
       {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-3.jpg",
+        src: "/assets/case-studies/gopro-merch/gopro-merch-3.jpg",
         alt: "Suiss Creator",
         width: 920,
         height: 448,
@@ -63,7 +133,7 @@ export const caseStudies: CaseStudyType[] = [
       title: "GoPro Creator Summit",
       text: "Every year, GoPro extends invitations to a select group of athletes and advocates from around the world to convene in a unique setting for a week of product training and adrenaline-pumping activities. The Interlaken summit was particularly significant as it coincided with the launch of the HERO11.",
       image: {
-        src: "/assets/case-studies/suiss-creator/suiss-creator-2.jpg",
+        src: "/assets/case-studies/gopro-merch/gopro-merch-2.jpg",
         alt: "Suiss Creator",
         width: 448,
         height: 448,
