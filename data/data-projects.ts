@@ -51,7 +51,7 @@ export const projects: ProjectType[] = [
 
     title: "MotoGP Aragon",
     subtitle: "Spain",
-    category: "branding",
+    category: "events",
     paragraph:
       "GoPro is the official camera partner of the MotoGP Championship and served as the title sponsor for the Aragon race at the historic MotorLand Circuit. This three-day event brought together key GoPro personnel, distributors, and business partners from the EMEA region. The project involved updating and realigning GoPro's MotoGP branding materials and collaborating with DORNA to create the GoPro VIP Lounge and an exclusive viewing experience. Additional elements included designing the event's welcome packs and daily menus. The GoPro Event Truck was also on-site, showcasing the brand and engaging directly with attendees.",
     details: {
