@@ -180,7 +180,7 @@ export const projects: ProjectType[] = [
     category: "branding",
     paragraph:
       "Following the launch of the HERO12 camera. GoPro invited a select group of athletes, advocates, and leading content creators to Bled, Slovenia. The purpose of the summit was to give hands-on product training and take part in some extreme activities in one of the world’s most spectacular playgrounds.\n Check out the " +
-      "<a target='_blank' href='https://youtu.be/gKZm-OWqclU?si=MKR5CCr5qczZc6ym'>recap video</a>",
+      "<a target='_blank' href='https://www.instagram.com/gopronordics/reel/CzLz319Cm7K/'>recap video</a>",
     details: {
       date: "2023",
       location: "Slovenia",
