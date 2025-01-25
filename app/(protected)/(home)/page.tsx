@@ -31,13 +31,18 @@ export default function Home() {
         <div>
           <h4>Founder / Art Director</h4>
           <p>Evoke Creative Agency UG, Munich Germany</p>
-          <p>2020 – Present</p>
+          <p>2023 - Present</p>
+        </div>
+
+        <div>
+          <h4>Freelance Art Director</h4>
+          <p>2020 - 2023</p>
         </div>
 
         <div>
           <h4>Art Director EMEA Creative Services</h4>
           <p>GoPro Inc.</p>
-          <p>2017 – 2020</p>
+          <p>2017 - 2020</p>
         </div>
       </Experience>
       <Projects
