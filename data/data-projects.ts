@@ -2,16 +2,16 @@ import { Category, ProjectType } from "@/data/data.types.ts";
 
 export const categories: Category[] = [
   {
-    slug: "branding",
-    name: "Branding",
-    featuredImage: "/assets/categories/branding-wide.jpg",
-    featuredImageSmall: "/assets/categories/branding.jpg",
-  },
-  {
     slug: "advertising-and-marketing",
     name: "Advertising & Marketing",
     featuredImage: "/assets/categories/advertising-and-marketing-wide.jpg",
     featuredImageSmall: "/assets/categories/advertising-and-marketing.jpg",
+  },
+  {
+    slug: "branding",
+    name: "Branding",
+    featuredImage: "/assets/categories/branding-wide.jpg",
+    featuredImageSmall: "/assets/categories/branding.jpg",
   },
   {
     slug: "digital",
