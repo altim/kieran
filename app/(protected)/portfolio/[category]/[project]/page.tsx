@@ -10,13 +10,14 @@ import { getCategoryBySlug } from "@/helpers/categoryHelpers.ts";
 import { caseStudies } from "@/data/data-case-studies.ts";
 import { isPortfolioItem } from "@/helpers/postHelper.ts";
 
-export default function PortfolioItem({
+export default async function PortfolioItem({
   params,
 }: {
-  params: { project: string };
+  params: Promise<{ project: string }>;
 }) {
+  const { project: projectSlug } = await params;
   const project = projects.find(
-    (item: ProjectType) => item.slug === params.project,
+    (item: ProjectType) => item.slug === projectSlug,
   );
 
   const relatedProjects = project?.relatedProjects?.map(

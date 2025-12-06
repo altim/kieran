@@ -5,16 +5,17 @@ import Link from "next/link";
 import { getCategoryBySlug } from "@/helpers/categoryHelpers.ts";
 import CategoryItem from "@/components/category-item/CategoryItem.tsx";
 
-export default function PortfolioCategory({
+export default async function PortfolioCategory({
   params,
 }: {
-  params: { category: string };
+  params: Promise<{ category: string }>;
 }) {
+  const { category } = await params;
   const categoryProjects = projects.filter(
-    (item) => item.category === params.category,
+    (item) => item.category === category
   );
 
-  const currentCategory = getCategoryBySlug(params.category);
+  const currentCategory = getCategoryBySlug(category);
 
   if (!categoryProjects.length || !currentCategory) {
     return (

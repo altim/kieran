@@ -9,13 +9,14 @@ import { caseStudies } from "@/data/data-case-studies.ts";
 import { isPortfolioItem } from "@/helpers/postHelper.ts";
 import ProjectItem from "@/app/(protected)/(home)/components/projects/components/project-item/ProjectItem.tsx";
 
-export default function PortfolioItem({
+export default async function PortfolioItem({
   params,
 }: {
-  params: { project: string };
+  params: Promise<{ project: string }>;
 }) {
+  const { project: projectSlug } = await params;
   const project = caseStudies.find(
-    (item: CaseStudyType) => item.slug === params.project,
+    (item: CaseStudyType) => item.slug === projectSlug,
   );
 
   const relatedProjects = project?.relatedProjects?.map(
