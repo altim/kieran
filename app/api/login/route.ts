@@ -1,6 +1,6 @@
 import { serialize } from "cookie";
 
-export async function POST(request: Request, params: { slug: string }) {
+export async function POST(request: Request) {
   const data: { password: string } = await request.json();
   const password = data.password;
   const cookie = serialize("kieranhurleyauth", "true", {
